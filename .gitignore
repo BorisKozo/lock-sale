@@ -1,0 +1,23 @@
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies (any level: root, app/, app/server, app/client)
+node_modules/
+
+# Build output
+dist/
+
+# Generated / derived artifacts (regenerate from catalog.ts + catalog.json)
+catalog.html
+catalog.json.bak
+
+# Lock photos: ~200 MB of binaries, kept in Google Drive rather than git.
+# Remove this line (and `git add Images`) if you want them versioned.
+Images/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,440 @@
+[
+  {
+    "id": "IMG_7799",
+    "box": 2,
+    "stickerNumber": "08",
+    "stickerShape": "rhombus",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7799.JPG",
+      "Images\\Box 2\\IMG_7800.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7802",
+    "box": 2,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7802.JPG",
+      "Images\\Box 2\\IMG_7803.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7805",
+    "box": 2,
+    "stickerNumber": "13",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7805.JPG",
+      "Images\\Box 2\\IMG_7806.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7807",
+    "box": 2,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7807.JPG",
+      "Images\\Box 2\\IMG_7808.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7809",
+    "box": 2,
+    "stickerNumber": "18",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7809.JPG",
+      "Images\\Box 2\\IMG_7810.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7811",
+    "box": 2,
+    "stickerNumber": "22",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7811.JPG",
+      "Images\\Box 2\\IMG_7812.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7813",
+    "box": 2,
+    "stickerNumber": "30",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7813.JPG",
+      "Images\\Box 2\\IMG_7814.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7815",
+    "box": 2,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7815.JPG",
+      "Images\\Box 2\\IMG_7817.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7818",
+    "box": 2,
+    "stickerNumber": "19",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7818.JPG",
+      "Images\\Box 2\\IMG_7819.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7820",
+    "box": 2,
+    "stickerNumber": "12",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7820.JPG",
+      "Images\\Box 2\\IMG_7821.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7822",
+    "box": 2,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7822.JPG",
+      "Images\\Box 2\\IMG_7823.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7824-2",
+    "box": 2,
+    "stickerNumber": "23",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7824-2.JPG",
+      "Images\\Box 2\\IMG_7824.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7825",
+    "box": 2,
+    "stickerNumber": "25",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7825.JPG",
+      "Images\\Box 2\\IMG_7826.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7827",
+    "box": 2,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7827.JPG",
+      "Images\\Box 2\\IMG_7828.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7829",
+    "box": 2,
+    "stickerNumber": "15",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7829.JPG",
+      "Images\\Box 2\\IMG_7830.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7831",
+    "box": 2,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7831.JPG",
+      "Images\\Box 2\\IMG_7832.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7833",
+    "box": 2,
+    "stickerNumber": "04",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7833.JPG",
+      "Images\\Box 2\\IMG_7834.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7835",
+    "box": 2,
+    "stickerNumber": "02",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7835.JPG",
+      "Images\\Box 2\\IMG_7836.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7837",
+    "box": 2,
+    "stickerNumber": "11",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7837.JPG",
+      "Images\\Box 2\\IMG_7839.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7840",
+    "box": 2,
+    "stickerNumber": "05",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7840.JPG",
+      "Images\\Box 2\\IMG_7841.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7842-2",
+    "box": 2,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7842-2.JPG",
+      "Images\\Box 2\\IMG_7842.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7843",
+    "box": 2,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7843.JPG",
+      "Images\\Box 2\\IMG_7844.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7845",
+    "box": 2,
+    "stickerNumber": "14",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7845.JPG",
+      "Images\\Box 2\\IMG_7846.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7847",
+    "box": 2,
+    "stickerNumber": "17",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7847.JPG",
+      "Images\\Box 2\\IMG_7848.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7849",
+    "box": 2,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7849.JPG",
+      "Images\\Box 2\\IMG_7850.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7851",
+    "box": 2,
+    "stickerNumber": "24",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7851.JPG",
+      "Images\\Box 2\\IMG_7852.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7853",
+    "box": 2,
+    "stickerNumber": "21",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7853.JPG",
+      "Images\\Box 2\\IMG_7854.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7855",
+    "box": 2,
+    "stickerNumber": "26",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7855.JPG",
+      "Images\\Box 2\\IMG_7856.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7857",
+    "box": 2,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7857.JPG",
+      "Images\\Box 2\\IMG_7858.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7859",
+    "box": 2,
+    "stickerNumber": "28",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7859.JPG",
+      "Images\\Box 2\\IMG_7860.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7861",
+    "box": 2,
+    "stickerNumber": "29",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7861.JPG",
+      "Images\\Box 2\\IMG_7862.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7863",
+    "box": 2,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7863.JPG",
+      "Images\\Box 2\\IMG_7864.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7865",
+    "box": 2,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7865.JPG",
+      "Images\\Box 2\\IMG_7866.JPG"
+    ],
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_7867",
+    "box": 2,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7867.JPG",
+      "Images\\Box 2\\IMG_7868.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7869",
+    "box": 2,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7869.JPG",
+      "Images\\Box 2\\IMG_7870.JPG"
+    ]
+  },
+  {
+    "id": "IMG_7871",
+    "box": 2,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7871.JPG",
+      "Images\\Box 2\\IMG_7872.JPG"
+    ]
+  }
+]
