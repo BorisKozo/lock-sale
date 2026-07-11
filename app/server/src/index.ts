@@ -6,7 +6,10 @@ import * as path from "path";
 // This file lives at app/server/src/index.ts, so go up three levels.
 const ROOT = path.resolve(__dirname, "../../..");
 const CATALOG = path.join(ROOT, "catalog.json");
-const IMAGES = path.join(ROOT, "Images");
+// Prefer the web-optimized photos (see optimize-images.ts); fall back to the
+// full-size originals if that folder hasn't been generated yet.
+const OPTIMIZED = path.join(ROOT, "images-optimized");
+const IMAGES = fs.existsSync(OPTIMIZED) ? OPTIMIZED : path.join(ROOT, "Images");
 const PORT = Number(process.env.PORT) || 3001;
 
 const app = express();
