@@ -87,12 +87,18 @@ function matchesQuery(lock: Lock, query: string): boolean {
   return haystack.includes(query);
 }
 
+// Where to fetch the catalog from: the Express API in dev (proxied), or a
+// static JSON snapshot baked into the build for the read-only public site
+// (see deploy-public.ts). READ_ONLY hides editing when there's no API to save to.
+const DATA_URL = import.meta.env.VITE_DATA_URL ?? "/api/locks";
+const READ_ONLY = import.meta.env.VITE_READ_ONLY === "true";
+
 // catalog.json stores Windows-style paths like "Images\\Box 2\\IMG_7799.JPG".
-// The server exposes the Images/ folder at /images, so drop the leading
-// "Images" segment and normalise slashes.
+// Images are served at "<base>/images/..." — BASE_URL is "/" in dev (proxied
+// to the Express server) and "./" in the static public build.
 function imageUrl(photoPath: string): string {
   const rel = photoPath.replace(/\\/g, "/").replace(/^Images\//, "");
-  return "/images/" + encodeURI(rel);
+  return import.meta.env.BASE_URL + "images/" + encodeURI(rel);
 }
 
 // Shared styling for the lightbox controls: absolutely positioned on the image,
@@ -118,7 +124,7 @@ export default function App() {
   const [saveError, setSaveError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/api/locks")
+    fetch(DATA_URL)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
@@ -247,7 +253,7 @@ export default function App() {
                     <TableCell align="right">Keys</TableCell>
                     <TableCell>Comments</TableCell>
                     <TableCell>Photos</TableCell>
-                    <TableCell align="right">Edit</TableCell>
+                    {!READ_ONLY && <TableCell align="right">Edit</TableCell>}
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -288,11 +294,13 @@ export default function App() {
                           ))}
                         </Box>
                       </TableCell>
-                      <TableCell align="right">
-                        <IconButton aria-label="edit" size="small" onClick={() => openEdit(lock)}>
-                          <EditIcon fontSize="small" />
-                        </IconButton>
-                      </TableCell>
+                      {!READ_ONLY && (
+                        <TableCell align="right">
+                          <IconButton aria-label="edit" size="small" onClick={() => openEdit(lock)}>
+                            <EditIcon fontSize="small" />
+                          </IconButton>
+                        </TableCell>
+                      )}
                     </TableRow>
                   ))}
                 </TableBody>
