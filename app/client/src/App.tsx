@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   Alert,
   AppBar,
@@ -13,6 +13,7 @@ import {
   DialogContent,
   DialogTitle,
   IconButton,
+  InputAdornment,
   Modal,
   Paper,
   Table,
@@ -29,6 +30,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import EditIcon from "@mui/icons-material/Edit";
+import SearchIcon from "@mui/icons-material/Search";
 
 // The only format value in use so far; add more here as they come up.
 const FORMAT_OPTIONS = ["Euro", "Swiss"];
@@ -67,6 +69,24 @@ function toEdits(lock: Lock): LockEdits {
   };
 }
 
+// The fields shown in the table, concatenated for a simple substring search.
+const SEARCH_FIELDS: (keyof Lock)[] = [
+  "id",
+  "box",
+  "stickerNumber",
+  "stickerShape",
+  "format",
+  "brand",
+  "model",
+  "keys",
+  "comments",
+];
+
+function matchesQuery(lock: Lock, query: string): boolean {
+  const haystack = SEARCH_FIELDS.map((f) => String(lock[f] ?? "")).join(" ").toLowerCase();
+  return haystack.includes(query);
+}
+
 // catalog.json stores Windows-style paths like "Images\\Box 2\\IMG_7799.JPG".
 // The server exposes the Images/ folder at /images, so drop the leading
 // "Images" segment and normalise slashes.
@@ -88,6 +108,7 @@ const ctrlSx = {
 export default function App() {
   const [locks, setLocks] = useState<Lock[] | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
   // The open lightbox: the current row's photo URLs plus which one is showing.
   const [preview, setPreview] = useState<{ urls: string[]; index: number } | null>(null);
   // The lock currently being edited, plus its in-progress form values.
@@ -105,6 +126,12 @@ export default function App() {
       .then((data: Lock[]) => setLocks(data))
       .catch((err) => setError(String(err)));
   }, []);
+
+  const filteredLocks = useMemo(() => {
+    if (!locks) return locks;
+    const q = query.trim().toLowerCase();
+    return q === "" ? locks : locks.filter((l) => matchesQuery(l, q));
+  }, [locks, query]);
 
   const closePreview = () => setPreview(null);
   // Move between the row's photos, wrapping around.
@@ -186,8 +213,25 @@ export default function App() {
 
         {locks && (
           <>
+            <TextField
+              placeholder="Search all fields…"
+              size="small"
+              fullWidth
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              sx={{ mb: 2 }}
+              slotProps={{
+                input: {
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <SearchIcon fontSize="small" />
+                    </InputAdornment>
+                  ),
+                },
+              }}
+            />
             <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-              {locks.length} locks
+              {filteredLocks!.length} of {locks.length} locks
             </Typography>
             <TableContainer component={Paper}>
               <Table size="small" aria-label="lock catalog">
@@ -207,7 +251,7 @@ export default function App() {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {locks.map((lock, i) => (
+                  {filteredLocks!.map((lock, i) => (
                     <TableRow key={lock.id} hover>
                       <TableCell>{i + 1}</TableCell>
                       <TableCell>{lock.box}</TableCell>
