@@ -2,9 +2,16 @@ import { useEffect, useState } from "react";
 import {
   Alert,
   AppBar,
+  Autocomplete,
   Box,
+  Button,
+  Chip,
   CircularProgress,
   Container,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
   IconButton,
   Modal,
   Paper,
@@ -14,12 +21,17 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  TextField,
   Toolbar,
   Typography,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import EditIcon from "@mui/icons-material/Edit";
+
+// The only format value in use so far; add more here as they come up.
+const FORMAT_OPTIONS = ["Euro", "Swiss"];
 
 interface Lock {
   id: string;
@@ -28,7 +40,31 @@ interface Lock {
   stickerShape: "rhombus" | "circle" | null;
   photos: string[];
   needsReview?: boolean;
+  format?: string | null; // single-select, one of FORMAT_OPTIONS
+  brand?: string;
+  model?: string;
+  keys?: number | null;
+  comments?: string;
   [k: string]: unknown;
+}
+
+// The subset of Lock fields editable via the modal.
+interface LockEdits {
+  format: string | null;
+  brand: string;
+  model: string;
+  keys: string; // kept as string while editing, parsed to number|null on save
+  comments: string;
+}
+
+function toEdits(lock: Lock): LockEdits {
+  return {
+    format: lock.format ?? null,
+    brand: lock.brand ?? "",
+    model: lock.model ?? "",
+    keys: lock.keys != null ? String(lock.keys) : "",
+    comments: lock.comments ?? "",
+  };
 }
 
 // catalog.json stores Windows-style paths like "Images\\Box 2\\IMG_7799.JPG".
@@ -54,6 +90,11 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   // The open lightbox: the current row's photo URLs plus which one is showing.
   const [preview, setPreview] = useState<{ urls: string[]; index: number } | null>(null);
+  // The lock currently being edited, plus its in-progress form values.
+  const [editing, setEditing] = useState<Lock | null>(null);
+  const [edits, setEdits] = useState<LockEdits | null>(null);
+  const [saving, setSaving] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/locks")
@@ -82,6 +123,47 @@ export default function App() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [preview !== null]);
+
+  const openEdit = (lock: Lock) => {
+    setEditing(lock);
+    setEdits(toEdits(lock));
+    setSaveError(null);
+  };
+  const closeEdit = () => {
+    if (saving) return;
+    setEditing(null);
+    setEdits(null);
+    setSaveError(null);
+  };
+
+  const saveEdit = async () => {
+    if (!editing || !edits) return;
+    setSaving(true);
+    setSaveError(null);
+    const body = {
+      format: edits.format,
+      brand: edits.brand,
+      model: edits.model,
+      keys: edits.keys.trim() === "" ? null : Number(edits.keys),
+      comments: edits.comments,
+    };
+    try {
+      const res = await fetch(`/api/locks/${encodeURIComponent(editing.id)}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const updated: Lock = await res.json();
+      setLocks((prev) => prev && prev.map((l) => (l.id === updated.id ? updated : l)));
+      setEditing(null);
+      setEdits(null);
+    } catch (err) {
+      setSaveError(String(err));
+    } finally {
+      setSaving(false);
+    }
+  };
 
   return (
     <>
@@ -114,7 +196,14 @@ export default function App() {
                     <TableCell>ID</TableCell>
                     <TableCell>Box</TableCell>
                     <TableCell>Sticker #</TableCell>
+                    <TableCell>Shape</TableCell>
+                    <TableCell>Format</TableCell>
+                    <TableCell>Brand</TableCell>
+                    <TableCell>Model</TableCell>
+                    <TableCell align="right">Keys</TableCell>
+                    <TableCell>Comments</TableCell>
                     <TableCell>Photos</TableCell>
+                    <TableCell align="right">Edit</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -123,6 +212,14 @@ export default function App() {
                       <TableCell>{i + 1}</TableCell>
                       <TableCell>{lock.box}</TableCell>
                       <TableCell>{lock.stickerNumber ?? "—"}</TableCell>
+                      <TableCell>{lock.stickerShape ?? "—"}</TableCell>
+                      <TableCell>
+                        {lock.format ? <Chip label={lock.format} size="small" /> : "—"}
+                      </TableCell>
+                      <TableCell>{lock.brand || "—"}</TableCell>
+                      <TableCell>{lock.model || "—"}</TableCell>
+                      <TableCell align="right">{lock.keys ?? "—"}</TableCell>
+                      <TableCell>{lock.comments || "—"}</TableCell>
                       <TableCell>
                         <Box sx={{ display: "flex", gap: 1 }}>
                           {lock.photos.map((p, idx) => (
@@ -146,6 +243,11 @@ export default function App() {
                             />
                           ))}
                         </Box>
+                      </TableCell>
+                      <TableCell align="right">
+                        <IconButton aria-label="edit" size="small" onClick={() => openEdit(lock)}>
+                          <EditIcon fontSize="small" />
+                        </IconButton>
                       </TableCell>
                     </TableRow>
                   ))}
@@ -225,6 +327,64 @@ export default function App() {
           )}
         </Box>
       </Modal>
+
+      <Dialog open={!!editing} onClose={closeEdit} fullWidth maxWidth="sm">
+        <DialogTitle>
+          Edit lock {editing?.stickerNumber ? `#${editing.stickerNumber}` : editing?.id}
+        </DialogTitle>
+        <DialogContent>
+          {saveError && (
+            <Alert severity="error" sx={{ mb: 2 }}>
+              Failed to save: {saveError}
+            </Alert>
+          )}
+          {edits && (
+            <Box sx={{ display: "flex", flexDirection: "column", gap: 2, pt: 1 }}>
+              <Autocomplete
+                options={FORMAT_OPTIONS}
+                value={edits.format}
+                onChange={(_e, value) => setEdits({ ...edits, format: value })}
+                renderInput={(params) => <TextField {...params} label="Format" />}
+              />
+              <TextField
+                label="Brand"
+                value={edits.brand}
+                onChange={(e) => setEdits({ ...edits, brand: e.target.value })}
+                fullWidth
+              />
+              <TextField
+                label="Model"
+                value={edits.model}
+                onChange={(e) => setEdits({ ...edits, model: e.target.value })}
+                fullWidth
+              />
+              <TextField
+                label="Keys"
+                type="number"
+                value={edits.keys}
+                onChange={(e) => setEdits({ ...edits, keys: e.target.value })}
+                fullWidth
+              />
+              <TextField
+                label="Comments"
+                value={edits.comments}
+                onChange={(e) => setEdits({ ...edits, comments: e.target.value })}
+                multiline
+                minRows={2}
+                fullWidth
+              />
+            </Box>
+          )}
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={closeEdit} disabled={saving}>
+            Cancel
+          </Button>
+          <Button onClick={saveEdit} variant="contained" disabled={saving}>
+            {saving ? "Saving…" : "Save"}
+          </Button>
+        </DialogActions>
+      </Dialog>
     </>
   );
 }

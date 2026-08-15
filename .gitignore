@@ -13,6 +13,9 @@ dist/
 catalog.html
 catalog.json.bak
 
+# Rolling backups of catalog.json, written by the server before each edit.
+data/backups/
+
 # Lock photos: ~200 MB of binaries, kept in Google Drive rather than git.
 # Remove this line (and `git add Images`) if you want them versioned.
 Images/
@@ -24,3 +27,4 @@ images-optimized/
 .DS_Store
 Thumbs.db
 *.log
+.idea/

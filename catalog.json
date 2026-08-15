@@ -9,7 +9,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7799.JPG",
       "Images\\Box 2\\IMG_7800.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "MCS",
+    "keys": 1,
+    "comments": "Key is damaged but working"
   },
   {
     "id": "IMG_7802",
@@ -21,7 +26,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7802.JPG",
       "Images\\Box 2\\IMG_7803.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "7x7",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7805",
@@ -33,7 +43,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7805.JPG",
       "Images\\Box 2\\IMG_7806.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mottura",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7807",
@@ -45,7 +60,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7807.JPG",
       "Images\\Box 2\\IMG_7808.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Nabob",
+    "model": "Generic",
+    "keys": 0,
+    "comments": ""
   },
   {
     "id": "IMG_7809",
@@ -57,7 +77,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7809.JPG",
       "Images\\Box 2\\IMG_7810.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Stealth Key",
+    "model": "SK1030 (probably)",
+    "keys": 1,
+    "comments": "Not sure about the model"
   },
   {
     "id": "IMG_7811",
@@ -69,7 +94,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7811.JPG",
       "Images\\Box 2\\IMG_7812.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Interactive",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7813",
@@ -81,7 +111,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7813.JPG",
       "Images\\Box 2\\IMG_7814.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Vega",
+    "model": "VP7",
+    "keys": 5,
+    "comments": "With card, brand new"
   },
   {
     "id": "IMG_7815",
@@ -93,7 +128,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7815.JPG",
       "Images\\Box 2\\IMG_7817.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7818",
@@ -105,7 +145,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7818.JPG",
       "Images\\Box 2\\IMG_7819.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Unknown",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": ""
   },
   {
     "id": "IMG_7820",
@@ -117,7 +162,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7820.JPG",
       "Images\\Box 2\\IMG_7821.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "DPI",
+    "keys": 5,
+    "comments": "Looks unused"
   },
   {
     "id": "IMG_7822",
@@ -129,7 +179,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7822.JPG",
       "Images\\Box 2\\IMG_7823.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Abus",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7824-2",
@@ -141,7 +196,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7824-2.JPG",
       "Images\\Box 2\\IMG_7824.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "Probably Interactive or Classic"
   },
   {
     "id": "IMG_7825",
@@ -153,7 +213,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7825.JPG",
       "Images\\Box 2\\IMG_7826.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Romlock",
+    "model": "Generic",
+    "keys": 2,
+    "comments": ""
   },
   {
     "id": "IMG_7827",
@@ -165,7 +230,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7827.JPG",
       "Images\\Box 2\\IMG_7828.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "3Locx",
+    "keys": 3,
+    "comments": "With card, brand new"
   },
   {
     "id": "IMG_7829",
@@ -177,7 +247,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7829.JPG",
       "Images\\Box 2\\IMG_7830.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Abloy",
+    "model": "Disklock Pro",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7831",
@@ -189,7 +264,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7831.JPG",
       "Images\\Box 2\\IMG_7832.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "3ks",
+    "keys": 5,
+    "comments": "Brand new with card"
   },
   {
     "id": "IMG_7833",
@@ -201,7 +281,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7833.JPG",
       "Images\\Box 2\\IMG_7834.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Not sure",
+    "keys": 5,
+    "comments": "Brand new, never used"
   },
   {
     "id": "IMG_7835",
@@ -213,7 +298,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7835.JPG",
       "Images\\Box 2\\IMG_7836.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Fichet",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7837",
@@ -225,7 +315,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7837.JPG",
       "Images\\Box 2\\IMG_7839.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "7x7",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7840",
@@ -238,7 +333,12 @@
       "Images\\Box 2\\IMG_7840.JPG",
       "Images\\Box 2\\IMG_7841.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "CEI",
+    "model": "Unknown",
+    "keys": 4,
+    "comments": "Brand new, never used"
   },
   {
     "id": "IMG_7842-2",
@@ -251,7 +351,12 @@
       "Images\\Box 2\\IMG_7842-2.JPG",
       "Images\\Box 2\\IMG_7842.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "EPS",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7843",
@@ -263,7 +368,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7843.JPG",
       "Images\\Box 2\\IMG_7844.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7845",
@@ -275,7 +385,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7845.JPG",
       "Images\\Box 2\\IMG_7846.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Tokoz",
+    "model": "Unknown",
+    "keys": 5,
+    "comments": "Brand new, never used"
   },
   {
     "id": "IMG_7847",
@@ -287,7 +402,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7847.JPG",
       "Images\\Box 2\\IMG_7848.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Not sure",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "I think its a 6 pin Nabob generic lock..."
   },
   {
     "id": "IMG_7849",
@@ -300,7 +420,12 @@
       "Images\\Box 2\\IMG_7849.JPG",
       "Images\\Box 2\\IMG_7850.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Generic",
+    "keys": 3,
+    "comments": ""
   },
   {
     "id": "IMG_7851",
@@ -312,7 +437,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7851.JPG",
       "Images\\Box 2\\IMG_7852.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "This is the 7x7 counterpart"
   },
   {
     "id": "IMG_7853",
@@ -325,7 +455,12 @@
       "Images\\Box 2\\IMG_7853.JPG",
       "Images\\Box 2\\IMG_7854.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "SuperLock",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "These usually have 5 pins and 3 sliders, good for practice sliders with pins."
   },
   {
     "id": "IMG_7855",
@@ -337,7 +472,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7855.JPG",
       "Images\\Box 2\\IMG_7856.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Unknown",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "2 rows of pins"
   },
   {
     "id": "IMG_7857",
@@ -349,7 +489,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7857.JPG",
       "Images\\Box 2\\IMG_7858.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "ICS",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7859",
@@ -361,7 +506,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7859.JPG",
       "Images\\Box 2\\IMG_7860.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Keylox",
+    "keys": 3,
+    "comments": "Brand new, never used, with card"
   },
   {
     "id": "IMG_7861",
@@ -373,7 +523,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7861.JPG",
       "Images\\Box 2\\IMG_7862.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Locxis",
+    "keys": 2,
+    "comments": ""
   },
   {
     "id": "IMG_7863",
@@ -386,7 +541,12 @@
       "Images\\Box 2\\IMG_7863.JPG",
       "Images\\Box 2\\IMG_7864.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "Has 2 rows of pins"
   },
   {
     "id": "IMG_7865",
@@ -399,7 +559,12 @@
       "Images\\Box 2\\IMG_7865.JPG",
       "Images\\Box 2\\IMG_7866.JPG"
     ],
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Alba",
+    "model": "Generic",
+    "keys": 1,
+    "comments": ""
   },
   {
     "id": "IMG_7867",
@@ -411,7 +576,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7867.JPG",
       "Images\\Box 2\\IMG_7868.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Magnum",
+    "model": "Generic",
+    "keys": 1,
+    "comments": "Generic 6 pin lock comparable to Yale"
   },
   {
     "id": "IMG_7869",
@@ -423,7 +593,12 @@
     "photos": [
       "Images\\Box 2\\IMG_7869.JPG",
       "Images\\Box 2\\IMG_7870.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Nabob",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": ""
   },
   {
     "id": "IMG_7871",
@@ -435,6 +610,729 @@
     "photos": [
       "Images\\Box 2\\IMG_7871.JPG",
       "Images\\Box 2\\IMG_7872.JPG"
-    ]
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "MT5+",
+    "keys": 1,
+    "comments": "This is the ENTR format lock that connects to the motor."
+  },
+  {
+    "id": "IMG_7992",
+    "box": 3,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7992.JPG",
+      "Images\\Box 3\\IMG_7993.JPG"
+    ],
+    "format": "Euro",
+    "brand": "DOM",
+    "model": "Not sure",
+    "keys": 3,
+    "comments": "Its the one where you can open with the outside key even if the inside key is inserted and turned"
+  },
+  {
+    "id": "IMG_7994",
+    "box": 3,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7994.JPG",
+      "Images\\Box 3\\IMG_7995.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Ruko",
+    "model": "Not sure",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_7996",
+    "box": 3,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7996.JPG",
+      "Images\\Box 3\\IMG_7997.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Don't know",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_7998",
+    "box": 3,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7998.JPG",
+      "Images\\Box 3\\IMG_7999.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Swiss",
+    "brand": "Kaba",
+    "model": "Maybe Kesso",
+    "keys": 0,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8001",
+    "box": 3,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8001.JPG",
+      "Images\\Box 3\\IMG_8002.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Tesa",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8003",
+    "box": 3,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8003.JPG",
+      "Images\\Box 3\\IMG_8004.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CEI",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8005",
+    "box": 3,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8005.JPG",
+      "Images\\Box 3\\IMG_8006.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mauer",
+    "model": "Redline (or similar)",
+    "keys": 5,
+    "comments": "Its the one where the external key is different from the internal key because the external key needs to go all the way through the lock to open the internal part."
+  },
+  {
+    "id": "IMG_8007",
+    "box": 3,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8007.JPG",
+      "Images\\Box 3\\IMG_8008.JPG"
+    ],
+    "format": "Euro",
+    "brand": "GEGE",
+    "model": "Don't know",
+    "keys": 3,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8009",
+    "box": 3,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8009.JPG",
+      "Images\\Box 3\\IMG_8010.JPG"
+    ],
+    "format": "Euro",
+    "brand": "DOM",
+    "model": "Don't Know",
+    "keys": 3,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8011",
+    "box": 3,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8011.JPG",
+      "Images\\Box 3\\IMG_8012.JPG"
+    ],
+    "format": "Swiss",
+    "brand": "Kaba",
+    "model": "Keso (probably)",
+    "keys": 0,
+    "comments": "Looks used and a little dirty"
+  },
+  {
+    "id": "IMG_8013",
+    "box": 3,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8013.JPG",
+      "Images\\Box 3\\IMG_8014.JPG"
+    ],
+    "format": "Euro",
+    "brand": "I forgot what brand this is",
+    "model": "Generic",
+    "keys": 3,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8015",
+    "box": 3,
+    "stickerNumber": "08",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8015.JPG",
+      "Images\\Box 3\\IMG_8016.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "Wink-Haus",
+    "model": "Generic",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8017",
+    "box": 3,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8017.JPG",
+      "Images\\Box 3\\IMG_8018.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABS",
+    "model": "General/Diamond",
+    "keys": 2,
+    "comments": "Has keycard"
+  },
+  {
+    "id": "IMG_8019",
+    "box": 3,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8019.JPG",
+      "Images\\Box 3\\IMG_8020.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Ultion",
+    "model": "Generic",
+    "keys": 0,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8021",
+    "box": 3,
+    "stickerNumber": "09",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8021.JPG",
+      "Images\\Box 3\\IMG_8022.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yale",
+    "model": "Generic",
+    "keys": 1,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8027",
+    "box": 3,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8027.JPG",
+      "Images\\Box 3\\IMG_8028.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ASSA",
+    "model": "Don't remember",
+    "keys": 2,
+    "comments": "Its the one with the finger side pins"
+  },
+  {
+    "id": "IMG_8031",
+    "box": 3,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8031.JPG",
+      "Images\\Box 3\\IMG_8032.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "Don't know",
+    "keys": 3,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8033",
+    "box": 3,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8033.JPG",
+      "Images\\Box 3\\IMG_8034.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Not sure",
+    "model": "Don't know",
+    "keys": 0,
+    "comments": "Don't know anything about this one"
+  },
+  {
+    "id": "IMG_8035",
+    "box": 3,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8035.JPG",
+      "Images\\Box 3\\IMG_8036.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 2,
+    "comments": "Strangely unbranded MTL, I can tell only by the keys."
+  },
+  {
+    "id": "IMG_8037",
+    "box": 3,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8037.JPG",
+      "Images\\Box 3\\IMG_8038.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ASSA",
+    "model": "Not sure",
+    "keys": 2,
+    "comments": "Its again the one with the finger pins"
+  },
+  {
+    "id": "IMG_8039",
+    "box": 3,
+    "stickerNumber": "27",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8039.JPG",
+      "Images\\Box 3\\IMG_8040.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Don't know",
+    "model": "Don't know",
+    "keys": 0,
+    "comments": "Don't know anything about this one"
+  },
+  {
+    "id": "IMG_8041",
+    "box": 3,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8041.JPG",
+      "Images\\Box 3\\IMG_8043.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Vachette",
+    "model": "Generic",
+    "keys": 0,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8046",
+    "box": 3,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8046.JPG",
+      "Images\\Box 3\\IMG_8047.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mauer",
+    "model": "Redline",
+    "keys": 6,
+    "comments": "Its the one with the different external and internal keys, there are 4 external, 1 internal, and 1 external key I made that opens just the external part which is not connected to the cam."
+  },
+  {
+    "id": "IMG_8048",
+    "box": 3,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8048.JPG",
+      "Images\\Box 3\\IMG_8049.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8050",
+    "box": 3,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8050.JPG",
+      "Images\\Box 3\\IMG_8051.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8052",
+    "box": 3,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8052.JPG",
+      "Images\\Box 3\\IMG_8053.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8058",
+    "box": 3,
+    "stickerNumber": "02",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8058.JPG",
+      "Images\\Box 3\\IMG_8059.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8060",
+    "box": 3,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8060.JPG",
+      "Images\\Box 3\\IMG_8061.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8064",
+    "box": 3,
+    "stickerNumber": "05",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8064.JPG",
+      "Images\\Box 3\\IMG_8065.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8068",
+    "box": 3,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8068.JPG",
+      "Images\\Box 3\\IMG_8069.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8075",
+    "box": 3,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8075.JPG",
+      "Images\\Box 3\\IMG_8076.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8077",
+    "box": 3,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8077.JPG",
+      "Images\\Box 3\\IMG_8078.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8079",
+    "box": 3,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8079.JPG",
+      "Images\\Box 3\\IMG_8080.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8081",
+    "box": 3,
+    "stickerNumber": "01",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8081.JPG",
+      "Images\\Box 3\\IMG_8082.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8083",
+    "box": 3,
+    "stickerNumber": "04",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8083.JPG",
+      "Images\\Box 3\\IMG_8084.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8085",
+    "box": 3,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8085.JPG",
+      "Images\\Box 3\\IMG_8086.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8087",
+    "box": 3,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8087.JPG",
+      "Images\\Box 3\\IMG_8088.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8089",
+    "box": 3,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8089.JPG",
+      "Images\\Box 3\\IMG_8090.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8091",
+    "box": 3,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8091.JPG",
+      "Images\\Box 3\\IMG_8092.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8093",
+    "box": 3,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8093.JPG",
+      "Images\\Box 3\\IMG_8094.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8095",
+    "box": 3,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8095.JPG",
+      "Images\\Box 3\\IMG_8096.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8097",
+    "box": 3,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8097.JPG",
+      "Images\\Box 3\\IMG_8098.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
   }
 ]
