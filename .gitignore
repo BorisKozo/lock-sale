@@ -9,6 +9,7 @@ node_modules/
 # Build output
 dist/
 dist-public/
+.gh-pages-worktree/
 
 # Generated / derived artifacts (regenerate from catalog.ts + catalog.json)
 catalog.html
