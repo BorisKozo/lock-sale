@@ -16,7 +16,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import * as fs from "fs";
 import * as path from "path";
 
-type Shape = "rhombus" | "circle" | null;
+type Shape = "rhombus" | "circle" | "banner" | null;
 interface Lock {
   id: string;                 // stable identity = stem of the first photo
   box: number;
@@ -45,8 +45,9 @@ async function readSticker(client: Anthropic, file: string): Promise<Pick<Lock, 
   const prompt =
     "This photo shows a lock with a small numbered sticker on it. " +
     "Read ONLY the sticker. Return strict JSON, no prose, no code fences: " +
-    '{"number": <string or null>, "shape": <"rhombus" | "circle" | null>, "confidence": <0..1>}. ' +
-    "shape must be exactly rhombus or circle. If you cannot read a value with confidence, use null. Never guess.";
+    '{"number": <string or null>, "shape": <"rhombus" | "circle" | "banner" | null>, "confidence": <0..1>}. ' +
+    "shape must be exactly rhombus (diamond), circle, or banner (a rectangle with a small notch/wave cut into one side). " +
+    "If you cannot read a value with confidence, use null. Never guess.";
   const msg = await client.messages.create({
     model: "claude-sonnet-5", // swap to "claude-haiku-4-5-20251001" for cheaper/faster bulk runs
     max_tokens: 200,
@@ -58,7 +59,8 @@ async function readSticker(client: Anthropic, file: string): Promise<Pick<Lock, 
   const text = msg.content.filter((b): b is Anthropic.TextBlock => b.type === "text").map(b => b.text).join("");
   try {
     const j = JSON.parse(text.replace(/```json|```/g, "").trim());
-    const shape: Shape = j.shape === "rhombus" || j.shape === "circle" ? j.shape : null;
+    const shape: Shape =
+      j.shape === "rhombus" || j.shape === "circle" || j.shape === "banner" ? j.shape : null;
     return {
       stickerNumber: j.number != null ? String(j.number) : null,
       stickerShape: shape,

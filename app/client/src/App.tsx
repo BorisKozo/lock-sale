@@ -39,7 +39,7 @@ interface Lock {
   id: string;
   box: number;
   stickerNumber: string | null;
-  stickerShape: "rhombus" | "circle" | null;
+  stickerShape: "rhombus" | "circle" | "banner" | null;
   photos: string[];
   needsReview?: boolean;
   format?: string | null; // single-select, one of FORMAT_OPTIONS

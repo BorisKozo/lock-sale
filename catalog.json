@@ -2376,12 +2376,986 @@
     "id": "IMG_8241",
     "box": 4,
     "stickerNumber": "01",
-    "stickerShape": "rhombus",
+    "stickerShape": "banner",
     "confidence": 0.9,
     "needsReview": false,
     "photos": [
       "Images\\Box 4\\IMG_8241.JPG",
       "Images\\Box 4\\IMG_8242.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_8254",
+    "box": 5,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8254.JPG",
+      "Images\\Box 5\\IMG_8255.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8256",
+    "box": 5,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8256.JPG",
+      "Images\\Box 5\\IMG_8257.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8258",
+    "box": 5,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8258.JPG",
+      "Images\\Box 5\\IMG_8259.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8260",
+    "box": 5,
+    "stickerNumber": "09",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8260.JPG",
+      "Images\\Box 5\\IMG_8261.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8262",
+    "box": 5,
+    "stickerNumber": "18",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8262.JPG",
+      "Images\\Box 5\\IMG_8263.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8264",
+    "box": 5,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8264.JPG",
+      "Images\\Box 5\\IMG_8265.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8266",
+    "box": 5,
+    "stickerNumber": "14",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8266.JPG",
+      "Images\\Box 5\\IMG_8267.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8268",
+    "box": 5,
+    "stickerNumber": "11",
+    "stickerShape": "rhombus",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8268.JPG",
+      "Images\\Box 5\\IMG_8269.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8270",
+    "box": 5,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8270.JPG",
+      "Images\\Box 5\\IMG_8271.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8272",
+    "box": 5,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8272.JPG",
+      "Images\\Box 5\\IMG_8273.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8274",
+    "box": 5,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8274.JPG",
+      "Images\\Box 5\\IMG_8276.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8278",
+    "box": 5,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8278.JPG",
+      "Images\\Box 5\\IMG_8279.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8280",
+    "box": 5,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8280.JPG",
+      "Images\\Box 5\\IMG_8281.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8282",
+    "box": 5,
+    "stickerNumber": "29",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8282.JPG",
+      "Images\\Box 5\\IMG_8283.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8285",
+    "box": 5,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8285.JPG",
+      "Images\\Box 5\\IMG_8286.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8287",
+    "box": 5,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8287.JPG",
+      "Images\\Box 5\\IMG_8288.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8291",
+    "box": 5,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8291.JPG",
+      "Images\\Box 5\\IMG_8292.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8293",
+    "box": 5,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8293.JPG",
+      "Images\\Box 5\\IMG_8294.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8297",
+    "box": 5,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8297.JPG",
+      "Images\\Box 5\\IMG_8298.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8301",
+    "box": 5,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8301.JPG",
+      "Images\\Box 5\\IMG_8302.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8303",
+    "box": 5,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8303.JPG",
+      "Images\\Box 5\\IMG_8304.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8306",
+    "box": 5,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8306.JPG",
+      "Images\\Box 5\\IMG_8307.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8308",
+    "box": 5,
+    "stickerNumber": "30",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8308.JPG",
+      "Images\\Box 5\\IMG_8311.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8312",
+    "box": 5,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8312.JPG",
+      "Images\\Box 5\\IMG_8313.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8314",
+    "box": 5,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8314.JPG",
+      "Images\\Box 5\\IMG_8315.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8316",
+    "box": 5,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8316.JPG",
+      "Images\\Box 5\\IMG_8317.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8318",
+    "box": 5,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8318.JPG",
+      "Images\\Box 5\\IMG_8319.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8320",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8320.JPG",
+      "Images\\Box 5\\IMG_8321.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8322",
+    "box": 5,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8322.JPG",
+      "Images\\Box 5\\IMG_8323.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8324",
+    "box": 5,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8324.JPG",
+      "Images\\Box 5\\IMG_8325.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8326",
+    "box": 5,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8326.JPG",
+      "Images\\Box 5\\IMG_8327.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8328",
+    "box": 5,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8328.JPG",
+      "Images\\Box 5\\IMG_8329.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8330",
+    "box": 5,
+    "stickerNumber": "24",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8330.JPG",
+      "Images\\Box 5\\IMG_8331.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8332",
+    "box": 5,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8332.JPG",
+      "Images\\Box 5\\IMG_8333.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8334",
+    "box": 5,
+    "stickerNumber": "15",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8334.JPG",
+      "Images\\Box 5\\IMG_8336.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8337",
+    "box": 5,
+    "stickerNumber": "26",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8337.JPG",
+      "Images\\Box 5\\IMG_8338.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8340",
+    "box": 5,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8340.JPG",
+      "Images\\Box 5\\IMG_8341.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8342",
+    "box": 5,
+    "stickerNumber": "01",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8342.JPG",
+      "Images\\Box 5\\IMG_8343.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8344",
+    "box": 5,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8344.JPG",
+      "Images\\Box 5\\IMG_8345.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8346",
+    "box": 5,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8346.JPG",
+      "Images\\Box 5\\IMG_8347.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8348",
+    "box": 5,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8348.JPG",
+      "Images\\Box 5\\IMG_8349.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8350",
+    "box": 5,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8350.JPG",
+      "Images\\Box 5\\IMG_8351.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8352",
+    "box": 5,
+    "stickerNumber": "08",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8352.JPG",
+      "Images\\Box 5\\IMG_8353.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8354",
+    "box": 5,
+    "stickerNumber": "13",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8354.JPG",
+      "Images\\Box 5\\IMG_8355.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8356",
+    "box": 5,
+    "stickerNumber": "17",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8356.JPG",
+      "Images\\Box 5\\IMG_8357.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8360",
+    "box": 5,
+    "stickerNumber": "12",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8360.JPG",
+      "Images\\Box 5\\IMG_8361.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8362",
+    "box": 5,
+    "stickerNumber": "23",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8362.JPG",
+      "Images\\Box 5\\IMG_8363.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8364",
+    "box": 5,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 0.6,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8364.JPG",
+      "Images\\Box 5\\IMG_8365.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_8366",
+    "box": 5,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8366.JPG",
+      "Images\\Box 5\\IMG_8367.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8368",
+    "box": 5,
+    "stickerNumber": "05",
+    "stickerShape": "banner",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8368.JPG",
+      "Images\\Box 5\\IMG_8369.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-photo1"
+  },
+  {
+    "id": "IMG_8370",
+    "box": 5,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8370.JPG",
+      "Images\\Box 5\\IMG_8371.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8372",
+    "box": 5,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8372.JPG",
+      "Images\\Box 5\\IMG_8373.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8374",
+    "box": 5,
+    "stickerNumber": "08",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8374.JPG",
+      "Images\\Box 5\\IMG_8375.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8378",
+    "box": 5,
+    "stickerNumber": "04",
+    "stickerShape": "banner",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8378.JPG",
+      "Images\\Box 5\\IMG_8379.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-photo1"
+  },
+  {
+    "id": "IMG_8380",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.6,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8380.JPG",
+      "Images\\Box 5\\IMG_8381.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8382",
+    "box": 5,
+    "stickerNumber": "22",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8382.JPG",
+      "Images\\Box 5\\IMG_8383.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8384",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8384.JPG",
+      "Images\\Box 5\\IMG_8385.JPG"
     ],
     "format": null,
     "brand": "",
