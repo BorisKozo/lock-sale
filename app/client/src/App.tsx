@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Alert,
   AppBar,
@@ -32,6 +32,9 @@ import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+import ZoomInIcon from "@mui/icons-material/ZoomIn";
+import ZoomOutIcon from "@mui/icons-material/ZoomOut";
+import RestartAltIcon from "@mui/icons-material/RestartAlt";
 
 // The only format value in use so far; add more here as they come up.
 const FORMAT_OPTIONS = ["Euro", "Swiss"];
@@ -103,22 +106,42 @@ function imageUrl(photoPath: string): string {
   return import.meta.env.BASE_URL + "images/" + encodeURI(rel);
 }
 
-// Shared styling for the lightbox controls: absolutely positioned on the image,
-// white on a translucent dark background so they stay legible over any photo,
-// and fading in/out (opacity is set per-control from state).
-const ctrlSx = {
-  position: "absolute",
+// Full-resolution original, served only by the local dev server (see
+// app/server/src/index.ts) — never available on the published static site,
+// so this is only ever called when !READ_ONLY.
+function originalImageUrl(photoPath: string): string {
+  const rel = photoPath.replace(/\\/g, "/").replace(/^Images\//, "");
+  return import.meta.env.BASE_URL + "images-original/" + encodeURI(rel);
+}
+
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 6;
+
+// Shared coloring for the lightbox controls: white on a translucent dark
+// background so they stay legible over any photo.
+const ctrlColorSx = {
   color: "common.white",
   bgcolor: "rgba(0, 0, 0, 0.5)",
   "&:hover": { bgcolor: "rgba(0, 0, 0, 0.7)" },
 };
+// Same, plus absolute positioning — for a single control placed directly on
+// the image rather than grouped in an already-positioned Stack (stacking
+// this with the Stack's own absolute positioning would collapse every
+// button in the group onto the same point instead of laying them out).
+const ctrlSx = { ...ctrlColorSx, position: "absolute" as const };
 
 export default function App() {
   const [locks, setLocks] = useState<Lock[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  // The open lightbox: the current row's photo URLs plus which one is showing.
-  const [preview, setPreview] = useState<{ urls: string[]; index: number } | null>(null);
+  // The open lightbox: the current row's photo paths plus which one is showing.
+  const [preview, setPreview] = useState<{ photos: string[]; index: number } | null>(null);
+  // Dev-only original-image zoom/pan state; null means "not zoomed" (showing
+  // the normal fit-to-screen optimized image). Reset whenever the lightbox
+  // closes or moves to a different photo.
+  const [zoom, setZoom] = useState<{ scale: number; x: number; y: number } | null>(null);
+  const [isPanning, setIsPanning] = useState(false);
+  const zoomDrag = useRef<{ startX: number; startY: number; originX: number; originY: number } | null>(null);
   // The lock currently being edited, plus its in-progress form values.
   const [editing, setEditing] = useState<Lock | null>(null);
   const [edits, setEdits] = useState<LockEdits | null>(null);
@@ -149,12 +172,43 @@ export default function App() {
     return q === "" ? numberedLocks : numberedLocks.filter(({ lock }) => matchesQuery(lock, q));
   }, [numberedLocks, query]);
 
-  const closePreview = () => setPreview(null);
-  // Move between the row's photos, wrapping around.
-  const step = (delta: number) =>
+  const closePreview = () => {
+    setPreview(null);
+    setZoom(null);
+    setIsPanning(false);
+  };
+  // Move between the row's photos, wrapping around; leaving zoom mode since
+  // it applies to a specific photo.
+  const step = (delta: number) => {
+    setZoom(null);
+    setIsPanning(false);
     setPreview((p) =>
-      p ? { ...p, index: (p.index + delta + p.urls.length) % p.urls.length } : p,
+      p ? { ...p, index: (p.index + delta + p.photos.length) % p.photos.length } : p,
     );
+  };
+
+  const startZoom = () => setZoom({ scale: 1, x: 0, y: 0 });
+  const zoomBy = (factor: number) =>
+    setZoom((z) => (z ? { ...z, scale: Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z.scale * factor)) } : z));
+  const onZoomWheel = (e: React.WheelEvent) => {
+    if (!zoom) return;
+    e.preventDefault();
+    zoomBy(e.deltaY < 0 ? 1.15 : 1 / 1.15);
+  };
+  const onZoomMouseDown = (e: React.MouseEvent) => {
+    if (!zoom) return;
+    zoomDrag.current = { startX: e.clientX, startY: e.clientY, originX: zoom.x, originY: zoom.y };
+    setIsPanning(true);
+  };
+  const onZoomMouseMove = (e: React.MouseEvent) => {
+    if (!zoom || !zoomDrag.current) return;
+    const d = zoomDrag.current;
+    setZoom({ ...zoom, x: d.originX + (e.clientX - d.startX), y: d.originY + (e.clientY - d.startY) });
+  };
+  const endZoomDrag = () => {
+    zoomDrag.current = null;
+    setIsPanning(false);
+  };
 
   // Left/right arrow keys navigate while the lightbox is open (Esc closes via MUI).
   useEffect(() => {
@@ -277,7 +331,7 @@ export default function App() {
                         loading="lazy"
                         onClick={() =>
                           setPreview({
-                            urls: lock.photos.map(imageUrl),
+                            photos: lock.photos,
                             index: lock.photos.indexOf(thumb),
                           })
                         }
@@ -405,12 +459,80 @@ export default function App() {
               onClick={(e) => e.stopPropagation()}
               sx={{ position: "relative", display: "inline-flex" }}
             >
-              <Box
-                component="img"
-                src={preview.urls[preview.index]}
-                alt=""
-                sx={{ maxWidth: "80vw", maxHeight: "80vh", display: "block" }}
-              />
+              {zoom ? (
+                <Box
+                  onWheel={onZoomWheel}
+                  onMouseDown={onZoomMouseDown}
+                  onMouseMove={onZoomMouseMove}
+                  onMouseUp={endZoomDrag}
+                  onMouseLeave={endZoomDrag}
+                  sx={{
+                    width: "90vw",
+                    height: "85vh",
+                    overflow: "hidden",
+                    cursor: isPanning ? "grabbing" : "grab",
+                    bgcolor: "rgba(0,0,0,0.3)",
+                  }}
+                >
+                  <Box
+                    component="img"
+                    src={originalImageUrl(preview.photos[preview.index])}
+                    alt=""
+                    draggable={false}
+                    sx={{
+                      display: "block",
+                      maxWidth: "none",
+                      width: "90vw",
+                      height: "85vh",
+                      objectFit: "contain",
+                      transform: `translate(${zoom.x}px, ${zoom.y}px) scale(${zoom.scale})`,
+                      transformOrigin: "center center",
+                      userSelect: "none",
+                    }}
+                  />
+                </Box>
+              ) : (
+                <Box
+                  component="img"
+                  src={imageUrl(preview.photos[preview.index])}
+                  alt=""
+                  sx={{ maxWidth: "80vw", maxHeight: "80vh", display: "block" }}
+                />
+              )}
+
+              {!READ_ONLY && (
+                <Stack
+                  direction="row"
+                  spacing={0.5}
+                  sx={{ position: "absolute", top: 8, left: 8 }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {zoom ? (
+                    <>
+                      <IconButton aria-label="zoom in" onClick={() => zoomBy(1.4)} sx={ctrlColorSx}>
+                        <ZoomInIcon />
+                      </IconButton>
+                      <IconButton aria-label="zoom out" onClick={() => zoomBy(1 / 1.4)} sx={ctrlColorSx}>
+                        <ZoomOutIcon />
+                      </IconButton>
+                      <IconButton aria-label="reset zoom" onClick={startZoom} sx={ctrlColorSx}>
+                        <RestartAltIcon />
+                      </IconButton>
+                      <Tooltip title="Back to normal view">
+                        <IconButton aria-label="exit zoom" onClick={() => setZoom(null)} sx={ctrlColorSx}>
+                          <CloseIcon fontSize="small" />
+                        </IconButton>
+                      </Tooltip>
+                    </>
+                  ) : (
+                    <Tooltip title="Open original image to zoom &amp; pan">
+                      <IconButton aria-label="zoom original image" onClick={startZoom} sx={ctrlColorSx}>
+                        <ZoomInIcon />
+                      </IconButton>
+                    </Tooltip>
+                  )}
+                </Stack>
+              )}
 
               <IconButton
                 aria-label="close"
@@ -420,7 +542,7 @@ export default function App() {
                 <CloseIcon />
               </IconButton>
 
-              {preview.urls.length > 1 && (
+              {preview.photos.length > 1 && (
                 <>
                   <IconButton
                     aria-label="previous"

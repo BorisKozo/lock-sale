@@ -78,6 +78,10 @@ app.patch("/api/locks/:id", (req, res) => {
 // Serve the lock photos so the client can show thumbnails.
 app.use("/images", express.static(IMAGES));
 
+// Full-resolution originals, for the dev-only zoom view (App.tsx gates this
+// behind !READ_ONLY, so it's never referenced by the published static site).
+app.use("/images-original", express.static(path.join(ROOT, "Images")));
+
 app.listen(PORT, () => {
   console.log(`Lock catalog server listening on http://localhost:${PORT}`);
   console.log(`  catalog: ${CATALOG}`);
