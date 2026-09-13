@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Alert,
   AppBar,
@@ -142,6 +142,136 @@ const ctrlColorSx = {
 // button in the group onto the same point instead of laying them out).
 const ctrlSx = { ...ctrlColorSx, position: "absolute" as const };
 
+interface LockCardProps {
+  lock: Lock;
+  no: number;
+  onPreview: (photos: string[], index: number) => void;
+  onOpenEdit: (lock: Lock) => void;
+  onCopyCode: (code: string) => void;
+}
+
+// Memoized so typing in the edit dialog (which lives in App's state) doesn't
+// re-render all ~300 cards on every keystroke — only cards whose own props
+// actually changed (e.g. after a save) re-render.
+const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCopyCode }: LockCardProps) {
+  const thumb = lock.photos[1] ?? lock.photos[0];
+  const code = lockCode(lock, no);
+  return (
+    <Card sx={{ display: "flex", flexDirection: "column" }}>
+      <Box sx={{ position: "relative" }}>
+        <Box
+          component="img"
+          src={imageUrl(thumb)}
+          alt=""
+          loading="lazy"
+          onClick={() => onPreview(lock.photos, lock.photos.indexOf(thumb))}
+          sx={{
+            width: "100%",
+            aspectRatio: "4 / 3",
+            objectFit: "cover",
+            display: "block",
+            cursor: "pointer",
+          }}
+        />
+        {lock.photos.length > 1 && (
+          <Chip
+            icon={<PhotoLibraryIcon sx={{ fontSize: 14 }} />}
+            label={lock.photos.length}
+            size="small"
+            sx={{
+              position: "absolute",
+              bottom: 8,
+              right: 8,
+              bgcolor: "rgba(0,0,0,0.55)",
+              color: "common.white",
+              "& .MuiChip-icon": { color: "common.white" },
+            }}
+          />
+        )}
+        {!READ_ONLY && (
+          <IconButton
+            aria-label="edit"
+            size="small"
+            onClick={() => onOpenEdit(lock)}
+            sx={{
+              position: "absolute",
+              top: 6,
+              right: 6,
+              bgcolor: "rgba(255,255,255,0.9)",
+              "&:hover": { bgcolor: "common.white" },
+            }}
+          >
+            <EditIcon fontSize="small" />
+          </IconButton>
+        )}
+      </Box>
+
+      <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
+        <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.5 }}>
+          <Typography variant="body2" sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5 }}>
+            {code}
+          </Typography>
+          <Tooltip title="Copy code">
+            <IconButton aria-label="copy lock code" size="small" onClick={() => onCopyCode(code)}>
+              <ContentCopyIcon sx={{ fontSize: 15 }} />
+            </IconButton>
+          </Tooltip>
+        </Stack>
+
+        <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 1 }}>
+          <Typography variant="caption" color="text.disabled">
+            No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
+            {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
+          </Typography>
+          {lock.needsReview && <Chip label="Needs review" size="small" color="warning" variant="outlined" />}
+        </Stack>
+
+        <Typography variant="h6" sx={{ mb: 0.25 }}>
+          {lock.brand || "Unknown brand"}
+          {lock.brand && lock.brandSource === "ai-guess" && (
+            <Tooltip title="Brand guessed by AI, unverified">
+              <AutoAwesomeIcon sx={{ fontSize: 14, ml: 0.5, verticalAlign: "middle", color: "text.secondary" }} />
+            </Tooltip>
+          )}
+        </Typography>
+        {lock.model && (
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
+            {lock.model}
+          </Typography>
+        )}
+
+        {lock.format && <Chip label={lock.format} size="small" color="secondary" variant="outlined" />}
+
+        <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 1.25 }}>
+          <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
+          <Typography variant="body2" color="text.secondary">
+            {lock.keys == null ? "Keys unknown" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
+          </Typography>
+        </Stack>
+
+        {lock.comments && (
+          <Tooltip title={lock.comments}>
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{
+                mt: 1,
+                fontStyle: "italic",
+                display: "-webkit-box",
+                WebkitLineClamp: 2,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+              }}
+            >
+              {lock.comments}
+            </Typography>
+          </Tooltip>
+        )}
+      </CardContent>
+    </Card>
+  );
+});
+
 export default function App() {
   const [locks, setLocks] = useState<Lock[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -223,15 +353,6 @@ export default function App() {
     setIsPanning(false);
   };
 
-  const copyCode = async (code: string) => {
-    try {
-      await navigator.clipboard.writeText(code);
-      setCopiedCode(code);
-    } catch (err) {
-      console.error("Failed to copy code:", err);
-    }
-  };
-
   // Left/right arrow keys navigate while the lightbox is open (Esc closes via MUI).
   useEffect(() => {
     if (!preview) return;
@@ -243,11 +364,22 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, [preview !== null]);
 
-  const openEdit = (lock: Lock) => {
+  const openEdit = useCallback((lock: Lock) => {
     setEditing(lock);
     setEdits(toEdits(lock));
     setSaveError(null);
-  };
+  }, []);
+  const openPreview = useCallback((photos: string[], index: number) => {
+    setPreview({ photos, index });
+  }, []);
+  const copyCode = useCallback(async (code: string) => {
+    try {
+      await navigator.clipboard.writeText(code);
+      setCopiedCode(code);
+    } catch (err) {
+      console.error("Failed to copy code:", err);
+    }
+  }, []);
   const closeEdit = () => {
     if (saving) return;
     setEditing(null);
@@ -341,140 +473,16 @@ export default function App() {
                 gap: 2.5,
               }}
             >
-              {filteredLocks!.map(({ lock, no }) => {
-                const thumb = lock.photos[1] ?? lock.photos[0];
-                const code = lockCode(lock, no);
-                return (
-                  <Card key={lock.id} sx={{ display: "flex", flexDirection: "column" }}>
-                    <Box sx={{ position: "relative" }}>
-                      <Box
-                        component="img"
-                        src={imageUrl(thumb)}
-                        alt=""
-                        loading="lazy"
-                        onClick={() =>
-                          setPreview({
-                            photos: lock.photos,
-                            index: lock.photos.indexOf(thumb),
-                          })
-                        }
-                        sx={{
-                          width: "100%",
-                          aspectRatio: "4 / 3",
-                          objectFit: "cover",
-                          display: "block",
-                          cursor: "pointer",
-                        }}
-                      />
-                      {lock.photos.length > 1 && (
-                        <Chip
-                          icon={<PhotoLibraryIcon sx={{ fontSize: 14 }} />}
-                          label={lock.photos.length}
-                          size="small"
-                          sx={{
-                            position: "absolute",
-                            bottom: 8,
-                            right: 8,
-                            bgcolor: "rgba(0,0,0,0.55)",
-                            color: "common.white",
-                            "& .MuiChip-icon": { color: "common.white" },
-                          }}
-                        />
-                      )}
-                      {!READ_ONLY && (
-                        <IconButton
-                          aria-label="edit"
-                          size="small"
-                          onClick={() => openEdit(lock)}
-                          sx={{
-                            position: "absolute",
-                            top: 6,
-                            right: 6,
-                            bgcolor: "rgba(255,255,255,0.9)",
-                            "&:hover": { bgcolor: "common.white" },
-                          }}
-                        >
-                          <EditIcon fontSize="small" />
-                        </IconButton>
-                      )}
-                    </Box>
-
-                    <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
-                      <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.5 }}>
-                        <Typography
-                          variant="body2"
-                          sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5 }}
-                        >
-                          {code}
-                        </Typography>
-                        <Tooltip title="Copy code">
-                          <IconButton aria-label="copy lock code" size="small" onClick={() => copyCode(code)}>
-                            <ContentCopyIcon sx={{ fontSize: 15 }} />
-                          </IconButton>
-                        </Tooltip>
-                      </Stack>
-
-                      <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 1 }}>
-                        <Typography variant="caption" color="text.disabled">
-                          No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
-                          {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
-                        </Typography>
-                        {lock.needsReview && (
-                          <Chip label="Needs review" size="small" color="warning" variant="outlined" />
-                        )}
-                      </Stack>
-
-                      <Typography variant="h6" sx={{ mb: 0.25 }}>
-                        {lock.brand || "Unknown brand"}
-                        {lock.brand && lock.brandSource === "ai-guess" && (
-                          <Tooltip title="Brand guessed by AI, unverified">
-                            <AutoAwesomeIcon
-                              sx={{ fontSize: 14, ml: 0.5, verticalAlign: "middle", color: "text.secondary" }}
-                            />
-                          </Tooltip>
-                        )}
-                      </Typography>
-                      {lock.model && (
-                        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-                          {lock.model}
-                        </Typography>
-                      )}
-
-                      {lock.format && (
-                        <Chip label={lock.format} size="small" color="secondary" variant="outlined" />
-                      )}
-
-                      <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 1.25 }}>
-                        <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
-                        <Typography variant="body2" color="text.secondary">
-                          {lock.keys == null
-                            ? "Keys unknown"
-                            : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
-                        </Typography>
-                      </Stack>
-
-                      {lock.comments && (
-                        <Tooltip title={lock.comments}>
-                          <Typography
-                            variant="body2"
-                            color="text.secondary"
-                            sx={{
-                              mt: 1,
-                              fontStyle: "italic",
-                              display: "-webkit-box",
-                              WebkitLineClamp: 2,
-                              WebkitBoxOrient: "vertical",
-                              overflow: "hidden",
-                            }}
-                          >
-                            {lock.comments}
-                          </Typography>
-                        </Tooltip>
-                      )}
-                    </CardContent>
-                  </Card>
-                );
-              })}
+              {filteredLocks!.map(({ lock, no }) => (
+                <LockCard
+                  key={lock.id}
+                  lock={lock}
+                  no={no}
+                  onPreview={openPreview}
+                  onOpenEdit={openEdit}
+                  onCopyCode={copyCode}
+                />
+              ))}
             </Box>
           </>
         )}
