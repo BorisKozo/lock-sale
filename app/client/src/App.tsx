@@ -38,8 +38,8 @@ import ZoomOutIcon from "@mui/icons-material/ZoomOut";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
-// The only format value in use so far; add more here as they come up.
-const FORMAT_OPTIONS = ["Euro", "Swiss"];
+// Keep alphabetically sorted — this list drives the editing dropdown as-is.
+const FORMAT_OPTIONS = ["Camlock", "Core", "Euro", "Mortise Round", "Oval", "Padlock", "Swiss"];
 
 interface Lock {
   id: string;
