@@ -14,7 +14,8 @@
     "brand": "Evva",
     "model": "MCS",
     "keys": 1,
-    "comments": "Key is damaged but working"
+    "comments": "Key is damaged but working",
+    "readyForSale": true
   },
   {
     "id": "IMG_7802",
@@ -31,7 +32,8 @@
     "brand": "Mul-T-Lock",
     "model": "7x7",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7805",
@@ -48,7 +50,8 @@
     "brand": "Mottura",
     "model": "Don't know",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7807",
@@ -65,7 +68,8 @@
     "brand": "Nabob",
     "model": "Generic",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7809",
@@ -82,7 +86,8 @@
     "brand": "Stealth Key",
     "model": "SK1030 (probably)",
     "keys": 1,
-    "comments": "Not sure about the model"
+    "comments": "Not sure about the model",
+    "readyForSale": true
   },
   {
     "id": "IMG_7811",
@@ -99,7 +104,8 @@
     "brand": "Mul-T-Lock",
     "model": "Interactive",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7813",
@@ -116,7 +122,8 @@
     "brand": "Vega",
     "model": "VP7",
     "keys": 5,
-    "comments": "With card, brand new"
+    "comments": "With card, brand new",
+    "readyForSale": true
   },
   {
     "id": "IMG_7815",
@@ -133,7 +140,8 @@
     "brand": "Mul-T-Lock",
     "model": "Classic",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7818",
@@ -150,7 +158,8 @@
     "brand": "Unknown",
     "model": "Unknown",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7820",
@@ -167,7 +176,8 @@
     "brand": "Evva",
     "model": "DPI",
     "keys": 5,
-    "comments": "Looks unused"
+    "comments": "Looks unused",
+    "readyForSale": true
   },
   {
     "id": "IMG_7822",
@@ -184,7 +194,8 @@
     "brand": "Abus",
     "model": "Unknown",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7824-2",
@@ -201,7 +212,8 @@
     "brand": "Mul-T-Lock",
     "model": "Unknown",
     "keys": 0,
-    "comments": "Probably Interactive or Classic"
+    "comments": "Probably Interactive or Classic",
+    "readyForSale": true
   },
   {
     "id": "IMG_7825",
@@ -218,7 +230,8 @@
     "brand": "Romlock",
     "model": "Generic",
     "keys": 2,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7827",
@@ -235,7 +248,8 @@
     "brand": "Rav Bariah",
     "model": "3Locx",
     "keys": 3,
-    "comments": "With card, brand new"
+    "comments": "With card, brand new",
+    "readyForSale": true
   },
   {
     "id": "IMG_7829",
@@ -252,7 +266,8 @@
     "brand": "Abloy",
     "model": "Disklock Pro",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7831",
@@ -269,7 +284,8 @@
     "brand": "Evva",
     "model": "3ks",
     "keys": 5,
-    "comments": "Brand new with card"
+    "comments": "Brand new with card",
+    "readyForSale": true
   },
   {
     "id": "IMG_7833",
@@ -286,7 +302,8 @@
     "brand": "Yardeni",
     "model": "Not sure",
     "keys": 5,
-    "comments": "Brand new, never used"
+    "comments": "Brand new, never used",
+    "readyForSale": true
   },
   {
     "id": "IMG_7835",
@@ -303,7 +320,8 @@
     "brand": "Fichet",
     "model": "Unknown",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7837",
@@ -320,7 +338,8 @@
     "brand": "Mul-T-Lock",
     "model": "7x7",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7840",
@@ -338,7 +357,8 @@
     "brand": "CEI",
     "model": "Unknown",
     "keys": 4,
-    "comments": "Brand new, never used"
+    "comments": "Brand new, never used",
+    "readyForSale": true
   },
   {
     "id": "IMG_7842-2",
@@ -356,7 +376,8 @@
     "brand": "Evva",
     "model": "EPS",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7843",
@@ -373,7 +394,8 @@
     "brand": "Mul-T-Lock",
     "model": "Classic",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7845",
@@ -390,7 +412,8 @@
     "brand": "Tokoz",
     "model": "Unknown",
     "keys": 5,
-    "comments": "Brand new, never used"
+    "comments": "Brand new, never used",
+    "readyForSale": true
   },
   {
     "id": "IMG_7847",
@@ -407,7 +430,8 @@
     "brand": "Not sure",
     "model": "Unknown",
     "keys": 1,
-    "comments": "I think its a 6 pin Nabob generic lock..."
+    "comments": "I think its a 6 pin Nabob generic lock...",
+    "readyForSale": true
   },
   {
     "id": "IMG_7849",
@@ -425,7 +449,8 @@
     "brand": "Yardeni",
     "model": "Generic",
     "keys": 3,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7851",
@@ -442,7 +467,8 @@
     "brand": "Rav Bariah",
     "model": "Unknown",
     "keys": 1,
-    "comments": "This is the 7x7 counterpart"
+    "comments": "This is the 7x7 counterpart",
+    "readyForSale": true
   },
   {
     "id": "IMG_7853",
@@ -460,7 +486,8 @@
     "brand": "SuperLock",
     "model": "Unknown",
     "keys": 0,
-    "comments": "These usually have 5 pins and 3 sliders, good for practice sliders with pins."
+    "comments": "These usually have 5 pins and 3 sliders, good for practice sliders with pins.",
+    "readyForSale": true
   },
   {
     "id": "IMG_7855",
@@ -477,7 +504,8 @@
     "brand": "Unknown",
     "model": "Unknown",
     "keys": 1,
-    "comments": "2 rows of pins"
+    "comments": "2 rows of pins",
+    "readyForSale": true
   },
   {
     "id": "IMG_7857",
@@ -494,7 +522,8 @@
     "brand": "Evva",
     "model": "ICS",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7859",
@@ -511,7 +540,8 @@
     "brand": "Rav Bariah",
     "model": "Keylox",
     "keys": 3,
-    "comments": "Brand new, never used, with card"
+    "comments": "Brand new, never used, with card",
+    "readyForSale": true
   },
   {
     "id": "IMG_7861",
@@ -528,7 +558,8 @@
     "brand": "Rav Bariah",
     "model": "Locxis",
     "keys": 2,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7863",
@@ -546,7 +577,8 @@
     "brand": "Yardeni",
     "model": "Unknown",
     "keys": 1,
-    "comments": "Has 2 rows of pins"
+    "comments": "Has 2 rows of pins",
+    "readyForSale": true
   },
   {
     "id": "IMG_7865",
@@ -564,7 +596,8 @@
     "brand": "Alba",
     "model": "Generic",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7867",
@@ -581,7 +614,8 @@
     "brand": "Magnum",
     "model": "Generic",
     "keys": 1,
-    "comments": "Generic 6 pin lock comparable to Yale"
+    "comments": "Generic 6 pin lock comparable to Yale",
+    "readyForSale": true
   },
   {
     "id": "IMG_7869",
@@ -598,7 +632,8 @@
     "brand": "Nabob",
     "model": "Unknown",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7871",
@@ -615,7 +650,8 @@
     "brand": "Mul-T-Lock",
     "model": "MT5+",
     "keys": 1,
-    "comments": "This is the ENTR format lock that connects to the motor."
+    "comments": "This is the ENTR format lock that connects to the motor.",
+    "readyForSale": true
   },
   {
     "id": "IMG_7992",
@@ -632,7 +668,8 @@
     "brand": "DOM",
     "model": "Not sure",
     "keys": 3,
-    "comments": "Its the one where you can open with the outside key even if the inside key is inserted and turned"
+    "comments": "Its the one where you can open with the outside key even if the inside key is inserted and turned",
+    "readyForSale": true
   },
   {
     "id": "IMG_7994",
@@ -649,7 +686,8 @@
     "brand": "Ruko",
     "model": "Not sure",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7996",
@@ -666,7 +704,8 @@
     "brand": "Don't know",
     "model": "Don't know",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_7998",
@@ -684,7 +723,8 @@
     "brand": "Kaba",
     "model": "Maybe Kesso",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8001",
@@ -701,7 +741,8 @@
     "brand": "Tesa",
     "model": "Don't know",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8003",
@@ -718,7 +759,8 @@
     "brand": "CEI",
     "model": "Don't know",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8005",
@@ -735,7 +777,8 @@
     "brand": "Mauer",
     "model": "Redline (or similar)",
     "keys": 5,
-    "comments": "Its the one where the external key is different from the internal key because the external key needs to go all the way through the lock to open the internal part."
+    "comments": "Its the one where the external key is different from the internal key because the external key needs to go all the way through the lock to open the internal part.",
+    "readyForSale": true
   },
   {
     "id": "IMG_8007",
@@ -752,7 +795,8 @@
     "brand": "GEGE",
     "model": "Don't know",
     "keys": 3,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8009",
@@ -769,7 +813,8 @@
     "brand": "DOM",
     "model": "Don't Know",
     "keys": 3,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8011",
@@ -786,7 +831,8 @@
     "brand": "Kaba",
     "model": "Keso (probably)",
     "keys": 0,
-    "comments": "Looks used and a little dirty"
+    "comments": "Looks used and a little dirty",
+    "readyForSale": true
   },
   {
     "id": "IMG_8013",
@@ -803,7 +849,8 @@
     "brand": "I forgot what brand this is",
     "model": "Generic",
     "keys": 3,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8015",
@@ -821,7 +868,8 @@
     "brand": "Wink-Haus",
     "model": "Generic",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8017",
@@ -838,7 +886,8 @@
     "brand": "ABS",
     "model": "General/Diamond",
     "keys": 2,
-    "comments": "Has keycard"
+    "comments": "Has keycard",
+    "readyForSale": true
   },
   {
     "id": "IMG_8019",
@@ -855,7 +904,8 @@
     "brand": "Ultion",
     "model": "Generic",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8021",
@@ -872,7 +922,8 @@
     "brand": "Yale",
     "model": "Generic",
     "keys": 1,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8027",
@@ -889,7 +940,8 @@
     "brand": "ASSA",
     "model": "Don't remember",
     "keys": 2,
-    "comments": "Its the one with the finger side pins"
+    "comments": "Its the one with the finger side pins",
+    "readyForSale": true
   },
   {
     "id": "IMG_8031",
@@ -906,7 +958,8 @@
     "brand": "ABUS",
     "model": "Don't know",
     "keys": 3,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8033",
@@ -923,7 +976,8 @@
     "brand": "Not sure",
     "model": "Don't know",
     "keys": 0,
-    "comments": "Don't know anything about this one"
+    "comments": "Don't know anything about this one",
+    "readyForSale": true
   },
   {
     "id": "IMG_8035",
@@ -940,7 +994,8 @@
     "brand": "Mul-T-Lock",
     "model": "Classic",
     "keys": 2,
-    "comments": "Strangely unbranded MTL, I can tell only by the keys."
+    "comments": "Strangely unbranded MTL, I can tell only by the keys.",
+    "readyForSale": true
   },
   {
     "id": "IMG_8037",
@@ -957,7 +1012,8 @@
     "brand": "ASSA",
     "model": "Not sure",
     "keys": 2,
-    "comments": "Its again the one with the finger pins"
+    "comments": "Its again the one with the finger pins",
+    "readyForSale": true
   },
   {
     "id": "IMG_8039",
@@ -974,7 +1030,8 @@
     "brand": "Don't know",
     "model": "Don't know",
     "keys": 0,
-    "comments": "Don't know anything about this one"
+    "comments": "Don't know anything about this one",
+    "readyForSale": true
   },
   {
     "id": "IMG_8041",
@@ -991,7 +1048,8 @@
     "brand": "Vachette",
     "model": "Generic",
     "keys": 0,
-    "comments": ""
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8046",
@@ -1008,7 +1066,8 @@
     "brand": "Mauer",
     "model": "Redline",
     "keys": 6,
-    "comments": "Its the one with the different external and internal keys, there are 4 external, 1 internal, and 1 external key I made that opens just the external part which is not connected to the cam."
+    "comments": "Its the one with the different external and internal keys, there are 4 external, 1 internal, and 1 external key I made that opens just the external part which is not connected to the cam.",
+    "readyForSale": true
   },
   {
     "id": "IMG_8048",
@@ -4901,12 +4960,13 @@
       "Images\\Box 8\\IMG_8562.JPG",
       "Images\\Box 8\\IMG_8564.JPG"
     ],
-    "format": null,
+    "format": "Camlock",
     "brand": "MIWA",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 3,
+    "comments": "Its a vending machine lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8565",
@@ -4943,6 +5003,7 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": null
+    "brandSource": null,
+    "readyForSale": true
   }
 ]
