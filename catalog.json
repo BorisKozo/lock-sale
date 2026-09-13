@@ -4865,12 +4865,12 @@
       "Images\\Box 8\\IMG_8558.JPG",
       "Images\\Box 8\\IMG_8559.JPG"
     ],
-    "format": null,
+    "format": "Padlock",
     "brand": "Lockwood",
     "model": "234/45",
     "keys": 1,
     "comments": "There is an issue where the key cannot be taken out of the lock but it works completely as you can see in the pictures.",
-    "brandSource": "ai-guess"
+    "brandSource": null
   },
   {
     "id": "IMG_8560",
@@ -4886,9 +4886,9 @@
     "format": null,
     "brand": "Yale",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Padlock with variable size shackle ",
+    "brandSource": null
   },
   {
     "id": "IMG_8562",
@@ -4943,6 +4943,6 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null
   }
 ]
