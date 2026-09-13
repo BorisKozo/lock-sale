@@ -47,7 +47,7 @@ app.get("/api/locks", (_req, res) => {
 
 // Fields the client is allowed to edit. Everything else (id, box, stickerNumber,
 // photos, ...) is derived from the source photos and stays read-only here.
-const EDITABLE_FIELDS = ["format", "brand", "model", "keys", "comments", "brandSource"] as const;
+const EDITABLE_FIELDS = ["format", "brand", "model", "keys", "comments", "brandSource", "readyForSale"] as const;
 
 // Update one lock's editable fields. No create/delete — the set of locks and
 // their identifying data come only from catalog.ts.

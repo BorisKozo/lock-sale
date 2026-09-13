@@ -7,6 +7,7 @@ import {
   Button,
   Card,
   CardContent,
+  Checkbox,
   Chip,
   CircularProgress,
   Container,
@@ -14,6 +15,7 @@ import {
   DialogActions,
   DialogContent,
   DialogTitle,
+  FormControlLabel,
   IconButton,
   InputAdornment,
   Modal,
@@ -54,6 +56,9 @@ interface Lock {
   brandSource?: string;
   keys?: number | null;
   comments?: string;
+  // Internal tracking only — never shown or sent on the published static
+  // site (see READ_ONLY below). Defaults to false until marked done.
+  readyForSale?: boolean;
   [k: string]: unknown;
 }
 
@@ -65,6 +70,7 @@ interface LockEdits {
   keys: string; // kept as string while editing, parsed to number|null on save
   comments: string;
   brandSource: string | null;
+  readyForSale: boolean;
 }
 
 function toEdits(lock: Lock): LockEdits {
@@ -75,6 +81,7 @@ function toEdits(lock: Lock): LockEdits {
     keys: lock.keys != null ? String(lock.keys) : "",
     comments: lock.comments ?? "",
     brandSource: lock.brandSource ?? null,
+    readyForSale: lock.readyForSale === true,
   };
 }
 
@@ -158,8 +165,10 @@ interface LockCardProps {
 const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCopyCode }: LockCardProps) {
   const thumb = lock.photos[1] ?? lock.photos[0];
   const code = lockCode(lock, no);
+  // Internal-only status, never relevant on the published site — see READ_ONLY.
+  const showReady = !READ_ONLY && lock.readyForSale === true;
   return (
-    <Card sx={{ display: "flex", flexDirection: "column" }}>
+    <Card sx={{ display: "flex", flexDirection: "column", ...(showReady && { outline: "2px solid", outlineColor: "success.main" }) }}>
       <Box sx={{ position: "relative" }}>
         <Box
           component="img"
@@ -175,6 +184,14 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
             cursor: "pointer",
           }}
         />
+        {showReady && (
+          <Chip
+            label="Ready for sale"
+            size="small"
+            color="success"
+            sx={{ position: "absolute", top: 6, left: 6, fontWeight: 600 }}
+          />
+        )}
         {lock.photos.length > 1 && (
           <Chip
             icon={<PhotoLibraryIcon sx={{ fontSize: 14 }} />}
@@ -400,6 +417,7 @@ export default function App() {
       keys: edits.keys.trim() === "" ? null : Number(edits.keys),
       comments: edits.comments,
       brandSource: edits.brandSource,
+      readyForSale: edits.readyForSale,
     };
     try {
       const res = await fetch(`/api/locks/${encodeURIComponent(editing.id)}`, {
@@ -684,6 +702,15 @@ export default function App() {
                 multiline
                 minRows={2}
                 fullWidth
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={edits.readyForSale}
+                    onChange={(e) => setEdits({ ...edits, readyForSale: e.target.checked })}
+                  />
+                }
+                label="Ready for sale (done editing this lock)"
               />
             </Box>
           )}
