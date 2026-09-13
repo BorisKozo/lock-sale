@@ -1022,10 +1022,11 @@
       "Images\\Box 3\\IMG_8049.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8050",
@@ -1039,10 +1040,11 @@
       "Images\\Box 3\\IMG_8051.JPG"
     ],
     "format": null,
-    "brand": "",
-    "model": "",
+    "brand": "KESO",
+    "model": "2000",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8052",
@@ -1057,10 +1059,11 @@
     ],
     "readSource": "human-photo1",
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8058",
@@ -1074,10 +1077,11 @@
       "Images\\Box 3\\IMG_8059.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Federal Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8060",
@@ -1091,10 +1095,11 @@
       "Images\\Box 3\\IMG_8061.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ERA (Rockdoor)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8064",
@@ -1108,10 +1113,11 @@
       "Images\\Box 3\\IMG_8065.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8068",
@@ -1125,10 +1131,11 @@
       "Images\\Box 3\\IMG_8069.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8075",
@@ -1143,10 +1150,11 @@
     ],
     "readSource": "human-photo1",
     "format": null,
-    "brand": "",
+    "brand": "ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8077",
@@ -1160,10 +1168,11 @@
       "Images\\Box 3\\IMG_8078.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8079",
@@ -1177,10 +1186,11 @@
       "Images\\Box 3\\IMG_8080.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8081",
@@ -1194,10 +1204,11 @@
       "Images\\Box 3\\IMG_8082.JPG"
     ],
     "format": null,
-    "brand": "",
-    "model": "",
+    "brand": "IKON",
+    "model": "735HL60",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8083",
@@ -1211,10 +1222,11 @@
       "Images\\Box 3\\IMG_8084.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Lince",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8085",
@@ -1228,10 +1240,11 @@
       "Images\\Box 3\\IMG_8086.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yard",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8087",
@@ -1245,10 +1258,11 @@
       "Images\\Box 3\\IMG_8088.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8089",
@@ -1262,10 +1276,11 @@
       "Images\\Box 3\\IMG_8090.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Silca",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8091",
@@ -1279,10 +1294,11 @@
       "Images\\Box 3\\IMG_8092.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Medeco",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8093",
@@ -1296,10 +1312,11 @@
       "Images\\Box 3\\IMG_8094.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8095",
@@ -1313,10 +1330,11 @@
       "Images\\Box 3\\IMG_8096.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8097",
@@ -1330,10 +1348,11 @@
       "Images\\Box 3\\IMG_8098.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8119",
@@ -1347,10 +1366,11 @@
       "Images\\Box 4\\IMG_8120.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Mila",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8121",
@@ -1364,10 +1384,11 @@
       "Images\\Box 4\\IMG_8122.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Herman",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8123",
@@ -1381,10 +1402,11 @@
       "Images\\Box 4\\IMG_8124.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kwikset",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8125",
@@ -1398,10 +1420,11 @@
       "Images\\Box 4\\IMG_8126.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Apache Locksport",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8127",
@@ -1415,10 +1438,11 @@
       "Images\\Box 4\\IMG_8128.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8129",
@@ -1432,10 +1456,11 @@
       "Images\\Box 4\\IMG_8130.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8131",
@@ -1449,10 +1474,11 @@
       "Images\\Box 4\\IMG_8132.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8133",
@@ -1466,10 +1492,11 @@
       "Images\\Box 4\\IMG_8134.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8135",
@@ -1483,10 +1510,11 @@
       "Images\\Box 4\\IMG_8136.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8137",
@@ -1500,10 +1528,11 @@
       "Images\\Box 4\\IMG_8138.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly W&S",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8139",
@@ -1517,10 +1546,11 @@
       "Images\\Box 4\\IMG_8140.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "TESA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8141",
@@ -1534,10 +1564,11 @@
       "Images\\Box 4\\IMG_8142.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Ultion",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8143",
@@ -1551,10 +1582,11 @@
       "Images\\Box 4\\IMG_8144.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet British Standard)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8145",
@@ -1568,10 +1600,11 @@
       "Images\\Box 4\\IMG_8146.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet ABS)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8147",
@@ -1585,10 +1618,11 @@
       "Images\\Box 4\\IMG_8148.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet British Standard)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8149",
@@ -1602,10 +1636,11 @@
       "Images\\Box 4\\IMG_8150.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Promax",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8151",
@@ -1619,10 +1654,11 @@
       "Images\\Box 4\\IMG_8152.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "CES",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8153",
@@ -1636,10 +1672,11 @@
       "Images\\Box 4\\IMG_8154.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8155",
@@ -1653,10 +1690,11 @@
       "Images\\Box 4\\IMG_8156.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet ABS)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8157",
@@ -1670,10 +1708,11 @@
       "Images\\Box 4\\IMG_8158.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet/Assa Abloy security marking)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8159",
@@ -1687,10 +1726,11 @@
       "Images\\Box 4\\IMG_8160.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet ABS)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8161",
@@ -1704,10 +1744,11 @@
       "Images\\Box 4\\IMG_8162.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet ABS)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8163",
@@ -1721,10 +1762,11 @@
       "Images\\Box 4\\IMG_8164.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABS (Avocet ABS)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8165",
@@ -1738,10 +1780,11 @@
       "Images\\Box 4\\IMG_8166.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8167",
@@ -1755,10 +1798,11 @@
       "Images\\Box 4\\IMG_8168.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8169",
@@ -1772,10 +1816,11 @@
       "Images\\Box 4\\IMG_8170.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Lotus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8171",
@@ -1789,10 +1834,11 @@
       "Images\\Box 4\\IMG_8172.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8173",
@@ -1806,10 +1852,11 @@
       "Images\\Box 4\\IMG_8174.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8175",
@@ -1823,10 +1870,11 @@
       "Images\\Box 4\\IMG_8176.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Winkhaus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8177",
@@ -1840,10 +1888,11 @@
       "Images\\Box 4\\IMG_8178.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abloy",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8179",
@@ -1857,10 +1906,11 @@
       "Images\\Box 4\\IMG_8180.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8181",
@@ -1874,10 +1924,11 @@
       "Images\\Box 4\\IMG_8182.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8183",
@@ -1891,10 +1942,11 @@
       "Images\\Box 4\\IMG_8184.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Interlock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8185",
@@ -1908,10 +1960,11 @@
       "Images\\Box 4\\IMG_8186.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8187",
@@ -1925,10 +1978,11 @@
       "Images\\Box 4\\IMG_8188.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Maco",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8189",
@@ -1942,10 +1996,11 @@
       "Images\\Box 4\\IMG_8190.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "ISEO",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8191",
@@ -1959,10 +2014,11 @@
       "Images\\Box 4\\IMG_8192.JPG"
     ],
     "format": null,
-    "brand": "",
-    "model": "",
+    "brand": "ABUS",
+    "model": "Extra Classe",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8193",
@@ -1976,10 +2032,11 @@
       "Images\\Box 4\\IMG_8194.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "DOM",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8195",
@@ -1993,10 +2050,11 @@
       "Images\\Box 4\\IMG_8196.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8197",
@@ -2010,10 +2068,11 @@
       "Images\\Box 4\\IMG_8198.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "ASSA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8199",
@@ -2027,10 +2086,11 @@
       "Images\\Box 4\\IMG_8200.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8201",
@@ -2044,10 +2104,11 @@
       "Images\\Box 4\\IMG_8202.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8203",
@@ -2061,10 +2122,11 @@
       "Images\\Box 4\\IMG_8204.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "GEGE",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8205",
@@ -2078,10 +2140,11 @@
       "Images\\Box 4\\IMG_8206.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8207",
@@ -2095,10 +2158,11 @@
       "Images\\Box 4\\IMG_8208.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8209",
@@ -2112,10 +2176,11 @@
       "Images\\Box 4\\IMG_8210.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "EVVA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8211",
@@ -2129,10 +2194,11 @@
       "Images\\Box 4\\IMG_8212.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Coastal",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8213",
@@ -2146,10 +2212,11 @@
       "Images\\Box 4\\IMG_8214.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Magnum",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8215",
@@ -2163,10 +2230,11 @@
       "Images\\Box 4\\IMG_8216.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8217",
@@ -2180,10 +2248,11 @@
       "Images\\Box 4\\IMG_8218.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ISEO",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8219",
@@ -2197,10 +2266,11 @@
       "Images\\Box 4\\IMG_8220.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "CES",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8221",
@@ -2214,10 +2284,11 @@
       "Images\\Box 4\\IMG_8222.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abloy",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8223",
@@ -2231,10 +2302,11 @@
       "Images\\Box 4\\IMG_8224.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "UNION (Assa Abloy)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8225",
@@ -2248,10 +2320,11 @@
       "Images\\Box 4\\IMG_8226.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Vachette",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8227",
@@ -2265,10 +2338,11 @@
       "Images\\Box 4\\IMG_8228.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8229",
@@ -2282,10 +2356,11 @@
       "Images\\Box 4\\IMG_8230.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Ezset",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8231",
@@ -2299,10 +2374,11 @@
       "Images\\Box 4\\IMG_8232.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8233",
@@ -2316,10 +2392,11 @@
       "Images\\Box 4\\IMG_8234.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8235",
@@ -2333,10 +2410,11 @@
       "Images\\Box 4\\IMG_8236.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Brisant",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8237",
@@ -2350,10 +2428,11 @@
       "Images\\Box 4\\IMG_8238.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8239",
@@ -2367,10 +2446,11 @@
       "Images\\Box 4\\IMG_8240.JPG"
     ],
     "format": null,
-    "brand": "",
-    "model": "",
+    "brand": "Best",
+    "model": "Cormax",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8241",
@@ -2384,11 +2464,12 @@
       "Images\\Box 4\\IMG_8242.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
     "comments": "",
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8254",
@@ -2402,10 +2483,11 @@
       "Images\\Box 5\\IMG_8255.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8256",
@@ -2419,10 +2501,11 @@
       "Images\\Box 5\\IMG_8257.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8258",
@@ -2436,10 +2519,11 @@
       "Images\\Box 5\\IMG_8259.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8260",
@@ -2453,10 +2537,11 @@
       "Images\\Box 5\\IMG_8261.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8262",
@@ -2470,10 +2555,11 @@
       "Images\\Box 5\\IMG_8263.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly JPM",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8264",
@@ -2487,10 +2573,11 @@
       "Images\\Box 5\\IMG_8265.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8266",
@@ -2504,10 +2591,11 @@
       "Images\\Box 5\\IMG_8267.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8268",
@@ -2521,10 +2609,11 @@
       "Images\\Box 5\\IMG_8269.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Federal",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8270",
@@ -2538,10 +2627,11 @@
       "Images\\Box 5\\IMG_8271.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8272",
@@ -2555,10 +2645,11 @@
       "Images\\Box 5\\IMG_8273.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8274",
@@ -2572,10 +2663,11 @@
       "Images\\Box 5\\IMG_8276.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8278",
@@ -2589,10 +2681,11 @@
       "Images\\Box 5\\IMG_8279.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8280",
@@ -2606,10 +2699,11 @@
       "Images\\Box 5\\IMG_8281.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Vier",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8282",
@@ -2623,10 +2717,11 @@
       "Images\\Box 5\\IMG_8283.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8285",
@@ -2640,10 +2735,11 @@
       "Images\\Box 5\\IMG_8286.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8287",
@@ -2657,10 +2753,11 @@
       "Images\\Box 5\\IMG_8288.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8291",
@@ -2674,10 +2771,11 @@
       "Images\\Box 5\\IMG_8292.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ILCO",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8293",
@@ -2691,10 +2789,11 @@
       "Images\\Box 5\\IMG_8294.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8297",
@@ -2708,10 +2807,11 @@
       "Images\\Box 5\\IMG_8298.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "TESA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8301",
@@ -2725,10 +2825,11 @@
       "Images\\Box 5\\IMG_8302.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8303",
@@ -2742,10 +2843,11 @@
       "Images\\Box 5\\IMG_8304.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8306",
@@ -2759,10 +2861,11 @@
       "Images\\Box 5\\IMG_8307.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8308",
@@ -2776,10 +2879,11 @@
       "Images\\Box 5\\IMG_8311.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8312",
@@ -2793,10 +2897,11 @@
       "Images\\Box 5\\IMG_8313.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Geba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8314",
@@ -2810,10 +2915,11 @@
       "Images\\Box 5\\IMG_8315.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8316",
@@ -2827,10 +2933,11 @@
       "Images\\Box 5\\IMG_8317.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8318",
@@ -2844,10 +2951,11 @@
       "Images\\Box 5\\IMG_8319.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8320",
@@ -2861,10 +2969,11 @@
       "Images\\Box 5\\IMG_8321.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ERA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8322",
@@ -2878,10 +2987,11 @@
       "Images\\Box 5\\IMG_8323.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8324",
@@ -2895,10 +3005,11 @@
       "Images\\Box 5\\IMG_8325.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abloy",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8326",
@@ -2912,10 +3023,11 @@
       "Images\\Box 5\\IMG_8327.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8328",
@@ -2929,10 +3041,11 @@
       "Images\\Box 5\\IMG_8329.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8330",
@@ -2946,10 +3059,11 @@
       "Images\\Box 5\\IMG_8331.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Excellent",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8332",
@@ -2963,10 +3077,11 @@
       "Images\\Box 5\\IMG_8333.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Union",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8334",
@@ -2980,10 +3095,11 @@
       "Images\\Box 5\\IMG_8336.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8337",
@@ -2997,10 +3113,11 @@
       "Images\\Box 5\\IMG_8338.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Union",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8340",
@@ -3014,10 +3131,11 @@
       "Images\\Box 5\\IMG_8341.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8342",
@@ -3031,10 +3149,11 @@
       "Images\\Box 5\\IMG_8343.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8344",
@@ -3048,10 +3167,11 @@
       "Images\\Box 5\\IMG_8345.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8346",
@@ -3065,10 +3185,11 @@
       "Images\\Box 5\\IMG_8347.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly EVVA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8348",
@@ -3082,10 +3203,11 @@
       "Images\\Box 5\\IMG_8349.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8350",
@@ -3099,10 +3221,11 @@
       "Images\\Box 5\\IMG_8351.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Corbin",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8352",
@@ -3116,10 +3239,11 @@
       "Images\\Box 5\\IMG_8353.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Silca",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8354",
@@ -3133,10 +3257,11 @@
       "Images\\Box 5\\IMG_8355.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Apecs",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8356",
@@ -3150,10 +3275,11 @@
       "Images\\Box 5\\IMG_8357.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Iseo",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8360",
@@ -3184,10 +3310,11 @@
       "Images\\Box 5\\IMG_8363.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly SL",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8364",
@@ -3201,11 +3328,12 @@
       "Images\\Box 5\\IMG_8365.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
     "comments": "",
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8366",
@@ -3219,10 +3347,11 @@
       "Images\\Box 5\\IMG_8367.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "BKS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8368",
@@ -3236,11 +3365,12 @@
       "Images\\Box 5\\IMG_8369.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
     "comments": "",
-    "readSource": "human-photo1"
+    "readSource": "human-photo1",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8370",
@@ -3254,10 +3384,11 @@
       "Images\\Box 5\\IMG_8371.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8372",
@@ -3271,10 +3402,11 @@
       "Images\\Box 5\\IMG_8373.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "KESO",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8374",
@@ -3289,10 +3421,11 @@
     ],
     "readSource": "human-photo1",
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8378",
@@ -3306,11 +3439,12 @@
       "Images\\Box 5\\IMG_8379.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "CARL F",
     "model": "",
     "keys": null,
     "comments": "",
-    "readSource": "human-photo1"
+    "readSource": "human-photo1",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8380",
@@ -3324,10 +3458,11 @@
       "Images\\Box 5\\IMG_8381.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Keyse",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8382",
@@ -3341,10 +3476,11 @@
       "Images\\Box 5\\IMG_8383.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Corbin",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8384",
@@ -3358,10 +3494,11 @@
       "Images\\Box 5\\IMG_8385.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8400",
@@ -3375,10 +3512,11 @@
       "Images\\Box 7\\IMG_8401.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8402",
@@ -3392,10 +3530,11 @@
       "Images\\Box 7\\IMG_8403.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "FAB",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8404",
@@ -3409,10 +3548,11 @@
       "Images\\Box 7\\IMG_8405.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8406",
@@ -3426,10 +3566,11 @@
       "Images\\Box 7\\IMG_8407.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8408",
@@ -3443,10 +3584,11 @@
       "Images\\Box 7\\IMG_8409.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly UAP",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8410",
@@ -3460,10 +3602,11 @@
       "Images\\Box 7\\IMG_8411.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8412",
@@ -3477,10 +3620,11 @@
       "Images\\Box 7\\IMG_8413.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8414",
@@ -3494,10 +3638,11 @@
       "Images\\Box 7\\IMG_8415.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Gelem",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8416",
@@ -3511,10 +3656,11 @@
       "Images\\Box 7\\IMG_8417.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8418",
@@ -3528,10 +3674,11 @@
       "Images\\Box 7\\IMG_8419.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly ABUS",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8420",
@@ -3545,10 +3692,11 @@
       "Images\\Box 7\\IMG_8421.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8422",
@@ -3562,10 +3710,11 @@
       "Images\\Box 7\\IMG_8423.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Silca (SL)",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8424",
@@ -3579,10 +3728,11 @@
       "Images\\Box 7\\IMG_8425.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Vachette",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8426",
@@ -3596,10 +3746,11 @@
       "Images\\Box 7\\IMG_8427.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8428",
@@ -3613,10 +3764,11 @@
       "Images\\Box 7\\IMG_8429.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly STP",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8430",
@@ -3630,10 +3782,11 @@
       "Images\\Box 7\\IMG_8431.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8432",
@@ -3647,10 +3800,11 @@
       "Images\\Box 7\\IMG_8433.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8434",
@@ -3664,10 +3818,11 @@
       "Images\\Box 7\\IMG_8435.JPG"
     ],
     "format": null,
-    "brand": "",
-    "model": "",
+    "brand": "Possibly Cintec Ltd",
+    "model": "Blocker 3012",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8436",
@@ -3681,10 +3836,11 @@
       "Images\\Box 7\\IMG_8437.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8438",
@@ -3698,10 +3854,11 @@
       "Images\\Box 7\\IMG_8439.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kwikset",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8440",
@@ -3715,10 +3872,11 @@
       "Images\\Box 7\\IMG_8441.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8442",
@@ -3732,10 +3890,11 @@
       "Images\\Box 7\\IMG_8443.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly JEFF",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8444",
@@ -3749,10 +3908,11 @@
       "Images\\Box 7\\IMG_8445.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "TESA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8446",
@@ -3766,10 +3926,11 @@
       "Images\\Box 7\\IMG_8447.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8448",
@@ -3783,10 +3944,11 @@
       "Images\\Box 7\\IMG_8449.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8450",
@@ -3800,10 +3962,11 @@
       "Images\\Box 7\\IMG_8451.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8452",
@@ -3817,10 +3980,11 @@
       "Images\\Box 7\\IMG_8453.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Gard",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8454",
@@ -3834,10 +3998,11 @@
       "Images\\Box 7\\IMG_8455.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Ilco",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8456",
@@ -3851,10 +4016,11 @@
       "Images\\Box 7\\IMG_8457.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8458",
@@ -3868,10 +4034,11 @@
       "Images\\Box 7\\IMG_8459.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8460",
@@ -3885,10 +4052,11 @@
       "Images\\Box 7\\IMG_8461.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8462",
@@ -3902,10 +4070,11 @@
       "Images\\Box 7\\IMG_8463.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abloy",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8464",
@@ -3919,10 +4088,11 @@
       "Images\\Box 7\\IMG_8465.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kwikset",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8466",
@@ -3936,10 +4106,11 @@
       "Images\\Box 7\\IMG_8467.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8468",
@@ -3953,10 +4124,11 @@
       "Images\\Box 7\\IMG_8469.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8470",
@@ -3970,10 +4142,11 @@
       "Images\\Box 7\\IMG_8471.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8472",
@@ -3987,10 +4160,11 @@
       "Images\\Box 7\\IMG_8473.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Silca",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8474",
@@ -4004,10 +4178,11 @@
       "Images\\Box 7\\IMG_8475.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8476",
@@ -4021,10 +4196,11 @@
       "Images\\Box 7\\IMG_8477.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8478",
@@ -4038,10 +4214,11 @@
       "Images\\Box 7\\IMG_8479.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8480",
@@ -4055,10 +4232,11 @@
       "Images\\Box 7\\IMG_8481.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8482",
@@ -4072,10 +4250,11 @@
       "Images\\Box 7\\IMG_8483.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Union",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8484",
@@ -4089,10 +4268,11 @@
       "Images\\Box 7\\IMG_8485.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8486",
@@ -4106,10 +4286,11 @@
       "Images\\Box 7\\IMG_8487.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8488",
@@ -4123,10 +4304,11 @@
       "Images\\Box 7\\IMG_8489.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8490",
@@ -4140,10 +4322,11 @@
       "Images\\Box 7\\IMG_8491.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kwikset",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8492",
@@ -4157,10 +4340,11 @@
       "Images\\Box 7\\IMG_8493.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Kaba",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8494",
@@ -4174,10 +4358,11 @@
       "Images\\Box 7\\IMG_8495.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8496",
@@ -4191,10 +4376,11 @@
       "Images\\Box 7\\IMG_8497.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8498",
@@ -4208,10 +4394,11 @@
       "Images\\Box 7\\IMG_8499.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8500",
@@ -4225,10 +4412,11 @@
       "Images\\Box 7\\IMG_8501.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8502",
@@ -4242,10 +4430,11 @@
       "Images\\Box 7\\IMG_8503.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Union",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8504",
@@ -4259,10 +4448,11 @@
       "Images\\Box 7\\IMG_8505.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly CISA",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8506",
@@ -4277,10 +4467,11 @@
     ],
     "readSource": "human-photo1",
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8508",
@@ -4294,10 +4485,11 @@
       "Images\\Box 7\\IMG_8509.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8518",
@@ -4474,11 +4666,12 @@
       "Images\\Box 8\\IMG_8537.JPG"
     ],
     "format": null,
-    "brand": "",
+    "brand": "Possibly Abus",
     "model": "",
     "keys": null,
     "comments": "",
-    "readSource": "human-verified"
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
   },
   {
     "id": "IMG_8538",

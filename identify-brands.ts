@@ -9,10 +9,12 @@
  * or overall design. These are guesses, not verified reads — check
  * brandSource for provenance, and expect some to be wrong or "Possibly X".
  *
- * Only fills in locks where brand AND model are both still empty, so it
- * never overwrites anything you (or a previous run of this script) set.
+ * Only fills in locks where format, brand, model, keys, AND comments are
+ * ALL still empty — i.e. completely untouched locks — so it never overwrites
+ * anything you (or a previous run of this script) set, and skips locks
+ * you've partially reviewed even if you left brand/model blank on purpose.
  * Safe to re-run: pass a box number to scope it, or omit to cover every
- * still-unidentified lock in the catalog.
+ * still-untouched lock in the catalog.
  */
 import Anthropic from "@anthropic-ai/sdk";
 import * as fs from "fs";
@@ -62,11 +64,13 @@ async function main() {
   const outFile = "catalog.json";
   const locks: any[] = JSON.parse(fs.readFileSync(outFile, "utf8"));
 
+  const isEmpty = (v: unknown) => v == null || (typeof v === "string" && v.trim() === "");
   const client = new Anthropic();
   let count = 0;
   for (const lock of locks) {
     if (box !== undefined && lock.box !== box) continue;
-    if ((lock.brand && String(lock.brand).trim()) || (lock.model && String(lock.model).trim())) continue;
+    if (!isEmpty(lock.format) || !isEmpty(lock.brand) || !isEmpty(lock.model) ||
+        !isEmpty(lock.keys) || !isEmpty(lock.comments)) continue;
     const photos = (lock.photos as string[]).filter((p: string) => IMG_RE.test(p) && fs.existsSync(p));
     if (photos.length === 0) continue;
 
