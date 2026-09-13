@@ -135,11 +135,19 @@ export default function App() {
       .catch((err) => setError(String(err)));
   }, []);
 
+  // Pair each lock with its catalog.json row number (1-based) BEFORE filtering,
+  // so the number stays stable under search instead of reflecting the filtered
+  // position — needed since row numbers are how corrections get referenced.
+  const numberedLocks = useMemo(
+    () => locks?.map((lock, i) => ({ lock, no: i + 1 })) ?? null,
+    [locks],
+  );
+
   const filteredLocks = useMemo(() => {
-    if (!locks) return locks;
+    if (!numberedLocks) return numberedLocks;
     const q = query.trim().toLowerCase();
-    return q === "" ? locks : locks.filter((l) => matchesQuery(l, q));
-  }, [locks, query]);
+    return q === "" ? numberedLocks : numberedLocks.filter(({ lock }) => matchesQuery(lock, q));
+  }, [numberedLocks, query]);
 
   const closePreview = () => setPreview(null);
   // Move between the row's photos, wrapping around.
@@ -257,7 +265,7 @@ export default function App() {
                 gap: 2.5,
               }}
             >
-              {filteredLocks!.map((lock, i) => {
+              {filteredLocks!.map(({ lock, no }) => {
                 const thumb = lock.photos[1] ?? lock.photos[0];
                 return (
                   <Card key={lock.id} sx={{ display: "flex", flexDirection: "column" }}>
@@ -315,29 +323,17 @@ export default function App() {
                     </Box>
 
                     <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
-                      <Stack direction="row" alignItems="baseline" justifyContent="space-between">
-                        <Typography variant="caption" color="text.secondary">
-                          No. {i + 1} · Box {lock.box}
+                      <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 1 }}>
+                        <Typography variant="caption" color="text.disabled">
+                          No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
+                          {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
                         </Typography>
                         {lock.needsReview && (
                           <Chip label="Needs review" size="small" color="warning" variant="outlined" />
                         )}
                       </Stack>
 
-                      <Typography variant="h6" sx={{ mt: 0.25, mb: 1 }}>
-                        {lock.stickerNumber ? `#${lock.stickerNumber}` : "No sticker"}
-                      </Typography>
-
-                      <Stack direction="row" spacing={1} sx={{ mb: 1.25, flexWrap: "wrap", gap: 1 }}>
-                        {lock.stickerShape && (
-                          <Chip label={lock.stickerShape} size="small" variant="outlined" />
-                        )}
-                        {lock.format && (
-                          <Chip label={lock.format} size="small" color="secondary" variant="outlined" />
-                        )}
-                      </Stack>
-
-                      <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
+                      <Typography variant="h6" sx={{ mb: 0.25 }}>
                         {lock.brand || "Unknown brand"}
                         {lock.brand && lock.brandSource === "ai-guess" && (
                           <Tooltip title="Brand guessed by AI, unverified">
@@ -348,9 +344,13 @@ export default function App() {
                         )}
                       </Typography>
                       {lock.model && (
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
                           {lock.model}
                         </Typography>
+                      )}
+
+                      {lock.format && (
+                        <Chip label={lock.format} size="small" color="secondary" variant="outlined" />
                       )}
 
                       <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 1.25 }}>
