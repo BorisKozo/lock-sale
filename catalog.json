@@ -4868,8 +4868,8 @@
     "format": null,
     "brand": "Lockwood",
     "model": "234/45",
-    "keys": null,
-    "comments": "",
+    "keys": 1,
+    "comments": "There is an issue where the key cannot be taken out of the lock but it works completely as you can see in the pictures.",
     "brandSource": "ai-guess"
   },
   {
