@@ -17,6 +17,7 @@ import {
   IconButton,
   InputAdornment,
   Modal,
+  Snackbar,
   Stack,
   TextField,
   Toolbar,
@@ -35,6 +36,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import ZoomInIcon from "@mui/icons-material/ZoomIn";
 import ZoomOutIcon from "@mui/icons-material/ZoomOut";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
 // The only format value in use so far; add more here as they come up.
 const FORMAT_OPTIONS = ["Euro", "Swiss"];
@@ -92,6 +94,16 @@ function matchesQuery(lock: Lock, query: string): boolean {
   return haystack.includes(query);
 }
 
+// A short reference code buyers can quote back when they want a specific
+// lock: <4-digit row No.>-<2-digit box>-<shape letter>. Computed in the UI
+// only (not stored in catalog.json) since it's fully derived from fields
+// that already live there.
+const SHAPE_CODE: Record<string, string> = { circle: "C", rhombus: "R", banner: "B" };
+function lockCode(lock: Lock, no: number): string {
+  const shapeLetter = (lock.stickerShape && SHAPE_CODE[lock.stickerShape]) || "X";
+  return `${String(no).padStart(4, "0")}-${String(lock.box).padStart(2, "0")}-${shapeLetter}`;
+}
+
 // Where to fetch the catalog from: the Express API in dev (proxied), or a
 // static JSON snapshot baked into the build for the read-only public site
 // (see deploy-public.ts). READ_ONLY hides editing when there's no API to save to.
@@ -142,6 +154,7 @@ export default function App() {
   const [zoom, setZoom] = useState<{ scale: number; x: number; y: number } | null>(null);
   const [isPanning, setIsPanning] = useState(false);
   const zoomDrag = useRef<{ startX: number; startY: number; originX: number; originY: number } | null>(null);
+  const [copiedCode, setCopiedCode] = useState<string | null>(null);
   // The lock currently being edited, plus its in-progress form values.
   const [editing, setEditing] = useState<Lock | null>(null);
   const [edits, setEdits] = useState<LockEdits | null>(null);
@@ -208,6 +221,15 @@ export default function App() {
   const endZoomDrag = () => {
     zoomDrag.current = null;
     setIsPanning(false);
+  };
+
+  const copyCode = async (code: string) => {
+    try {
+      await navigator.clipboard.writeText(code);
+      setCopiedCode(code);
+    } catch (err) {
+      console.error("Failed to copy code:", err);
+    }
   };
 
   // Left/right arrow keys navigate while the lightbox is open (Esc closes via MUI).
@@ -321,6 +343,7 @@ export default function App() {
             >
               {filteredLocks!.map(({ lock, no }) => {
                 const thumb = lock.photos[1] ?? lock.photos[0];
+                const code = lockCode(lock, no);
                 return (
                   <Card key={lock.id} sx={{ display: "flex", flexDirection: "column" }}>
                     <Box sx={{ position: "relative" }}>
@@ -377,6 +400,20 @@ export default function App() {
                     </Box>
 
                     <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
+                      <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.5 }}>
+                        <Typography
+                          variant="body2"
+                          sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5 }}
+                        >
+                          {code}
+                        </Typography>
+                        <Tooltip title="Copy code">
+                          <IconButton aria-label="copy lock code" size="small" onClick={() => copyCode(code)}>
+                            <ContentCopyIcon sx={{ fontSize: 15 }} />
+                          </IconButton>
+                        </Tooltip>
+                      </Stack>
+
                       <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 1 }}>
                         <Typography variant="caption" color="text.disabled">
                           No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
@@ -638,6 +675,14 @@ export default function App() {
           </Button>
         </DialogActions>
       </Dialog>
+
+      <Snackbar
+        open={!!copiedCode}
+        autoHideDuration={2000}
+        onClose={() => setCopiedCode(null)}
+        message={copiedCode ? `Copied code ${copiedCode}` : ""}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+      />
     </>
   );
 }
