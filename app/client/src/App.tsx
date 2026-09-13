@@ -64,6 +64,7 @@ interface LockEdits {
   model: string;
   keys: string; // kept as string while editing, parsed to number|null on save
   comments: string;
+  brandSource: string | null;
 }
 
 function toEdits(lock: Lock): LockEdits {
@@ -73,6 +74,7 @@ function toEdits(lock: Lock): LockEdits {
     model: lock.model ?? "",
     keys: lock.keys != null ? String(lock.keys) : "",
     comments: lock.comments ?? "",
+    brandSource: lock.brandSource ?? null,
   };
 }
 
@@ -397,6 +399,7 @@ export default function App() {
       model: edits.model,
       keys: edits.keys.trim() === "" ? null : Number(edits.keys),
       comments: edits.comments,
+      brandSource: edits.brandSource,
     };
     try {
       const res = await fetch(`/api/locks/${encodeURIComponent(editing.id)}`, {
@@ -650,6 +653,17 @@ export default function App() {
                 onChange={(e) => setEdits({ ...edits, brand: e.target.value })}
                 fullWidth
               />
+              {edits.brandSource === "ai-guess" && (
+                <Tooltip title="Click the × once you've verified this brand/model">
+                  <Chip
+                    icon={<AutoAwesomeIcon />}
+                    label="Guessed by AI"
+                    size="small"
+                    onDelete={() => setEdits({ ...edits, brandSource: null })}
+                    sx={{ alignSelf: "flex-start", mt: -1 }}
+                  />
+                </Tooltip>
+              )}
               <TextField
                 label="Model"
                 value={edits.model}
