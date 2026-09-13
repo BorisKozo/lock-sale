@@ -30,3 +30,4 @@ images-optimized/
 Thumbs.db
 *.log
 .idea/
+.claude/

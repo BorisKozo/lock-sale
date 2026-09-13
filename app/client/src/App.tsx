@@ -5,6 +5,8 @@ import {
   Autocomplete,
   Box,
   Button,
+  Card,
+  CardContent,
   Chip,
   CircularProgress,
   Container,
@@ -15,15 +17,10 @@ import {
   IconButton,
   InputAdornment,
   Modal,
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
+  Stack,
   TextField,
   Toolbar,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
@@ -31,6 +28,10 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import EditIcon from "@mui/icons-material/Edit";
 import SearchIcon from "@mui/icons-material/Search";
+import VpnKeyIcon from "@mui/icons-material/VpnKey";
+import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 
 // The only format value in use so far; add more here as they come up.
 const FORMAT_OPTIONS = ["Euro", "Swiss"];
@@ -45,6 +46,7 @@ interface Lock {
   format?: string | null; // single-select, one of FORMAT_OPTIONS
   brand?: string;
   model?: string;
+  brandSource?: string;
   keys?: number | null;
   comments?: string;
   [k: string]: unknown;
@@ -200,16 +202,24 @@ export default function App() {
 
   return (
     <>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div">
+      <AppBar position="static" color="inherit" sx={{ bgcolor: "background.paper" }}>
+        <Toolbar sx={{ gap: 1.5 }}>
+          <LockOutlinedIcon color="secondary" />
+          <Typography variant="h6" component="div" sx={{ color: "primary.main" }}>
             Lock Catalog
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ ml: "auto" }}>
+            {READ_ONLY ? "For sale — browse the collection" : "Editing view"}
           </Typography>
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="lg" sx={{ py: 3 }}>
-        {error && <Alert severity="error">Failed to load catalog: {error}</Alert>}
+      <Container maxWidth="lg" sx={{ py: 4 }}>
+        {error && (
+          <Alert severity="error" sx={{ mb: 2 }}>
+            Failed to load catalog: {error}
+          </Alert>
+        )}
 
         {!locks && !error && (
           <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
@@ -220,12 +230,12 @@ export default function App() {
         {locks && (
           <>
             <TextField
-              placeholder="Search all fields…"
+              placeholder="Search box, sticker #, shape, brand, model, comments…"
               size="small"
               fullWidth
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              sx={{ mb: 2 }}
+              sx={{ mb: 2, bgcolor: "background.paper", borderRadius: 1 }}
               slotProps={{
                 input: {
                   startAdornment: (
@@ -236,76 +246,145 @@ export default function App() {
                 },
               }}
             />
-            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5 }}>
               {filteredLocks!.length} of {locks.length} locks
             </Typography>
-            <TableContainer component={Paper}>
-              <Table size="small" aria-label="lock catalog">
-                <TableHead>
-                  <TableRow>
-                    <TableCell>ID</TableCell>
-                    <TableCell>Box</TableCell>
-                    <TableCell>Sticker #</TableCell>
-                    <TableCell>Shape</TableCell>
-                    <TableCell>Format</TableCell>
-                    <TableCell>Brand</TableCell>
-                    <TableCell>Model</TableCell>
-                    <TableCell align="right">Keys</TableCell>
-                    <TableCell>Comments</TableCell>
-                    <TableCell>Photos</TableCell>
-                    {!READ_ONLY && <TableCell align="right">Edit</TableCell>}
-                  </TableRow>
-                </TableHead>
-                <TableBody>
-                  {filteredLocks!.map((lock, i) => (
-                    <TableRow key={lock.id} hover>
-                      <TableCell>{i + 1}</TableCell>
-                      <TableCell>{lock.box}</TableCell>
-                      <TableCell>{lock.stickerNumber ?? "—"}</TableCell>
-                      <TableCell>{lock.stickerShape ?? "—"}</TableCell>
-                      <TableCell>
-                        {lock.format ? <Chip label={lock.format} size="small" /> : "—"}
-                      </TableCell>
-                      <TableCell>{lock.brand || "—"}</TableCell>
-                      <TableCell>{lock.model || "—"}</TableCell>
-                      <TableCell align="right">{lock.keys ?? "—"}</TableCell>
-                      <TableCell>{lock.comments || "—"}</TableCell>
-                      <TableCell>
-                        <Box sx={{ display: "flex", gap: 1 }}>
-                          {lock.photos.map((p, idx) => (
-                            <Box
-                              key={p}
-                              component="img"
-                              src={imageUrl(p)}
-                              alt=""
-                              loading="lazy"
-                              onClick={() =>
-                                setPreview({ urls: lock.photos.map(imageUrl), index: idx })
-                              }
-                              sx={{
-                                height: 64,
-                                width: 64,
-                                objectFit: "cover",
-                                borderRadius: 1,
-                                display: "block",
-                                cursor: "pointer",
-                              }}
-                            />
-                          ))}
-                        </Box>
-                      </TableCell>
-                      {!READ_ONLY && (
-                        <TableCell align="right">
-                          <IconButton aria-label="edit" size="small" onClick={() => openEdit(lock)}>
-                            <EditIcon fontSize="small" />
-                          </IconButton>
-                        </TableCell>
+
+            <Box
+              sx={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+                gap: 2.5,
+              }}
+            >
+              {filteredLocks!.map((lock, i) => {
+                const thumb = lock.photos[1] ?? lock.photos[0];
+                return (
+                  <Card key={lock.id} sx={{ display: "flex", flexDirection: "column" }}>
+                    <Box sx={{ position: "relative" }}>
+                      <Box
+                        component="img"
+                        src={imageUrl(thumb)}
+                        alt=""
+                        loading="lazy"
+                        onClick={() =>
+                          setPreview({
+                            urls: lock.photos.map(imageUrl),
+                            index: lock.photos.indexOf(thumb),
+                          })
+                        }
+                        sx={{
+                          width: "100%",
+                          aspectRatio: "4 / 3",
+                          objectFit: "cover",
+                          display: "block",
+                          cursor: "pointer",
+                        }}
+                      />
+                      {lock.photos.length > 1 && (
+                        <Chip
+                          icon={<PhotoLibraryIcon sx={{ fontSize: 14 }} />}
+                          label={lock.photos.length}
+                          size="small"
+                          sx={{
+                            position: "absolute",
+                            bottom: 8,
+                            right: 8,
+                            bgcolor: "rgba(0,0,0,0.55)",
+                            color: "common.white",
+                            "& .MuiChip-icon": { color: "common.white" },
+                          }}
+                        />
                       )}
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </Table>
-            </TableContainer>
+                      {!READ_ONLY && (
+                        <IconButton
+                          aria-label="edit"
+                          size="small"
+                          onClick={() => openEdit(lock)}
+                          sx={{
+                            position: "absolute",
+                            top: 6,
+                            right: 6,
+                            bgcolor: "rgba(255,255,255,0.9)",
+                            "&:hover": { bgcolor: "common.white" },
+                          }}
+                        >
+                          <EditIcon fontSize="small" />
+                        </IconButton>
+                      )}
+                    </Box>
+
+                    <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
+                      <Stack direction="row" alignItems="baseline" justifyContent="space-between">
+                        <Typography variant="caption" color="text.secondary">
+                          No. {i + 1} · Box {lock.box}
+                        </Typography>
+                        {lock.needsReview && (
+                          <Chip label="Needs review" size="small" color="warning" variant="outlined" />
+                        )}
+                      </Stack>
+
+                      <Typography variant="h6" sx={{ mt: 0.25, mb: 1 }}>
+                        {lock.stickerNumber ? `#${lock.stickerNumber}` : "No sticker"}
+                      </Typography>
+
+                      <Stack direction="row" spacing={1} sx={{ mb: 1.25, flexWrap: "wrap", gap: 1 }}>
+                        {lock.stickerShape && (
+                          <Chip label={lock.stickerShape} size="small" variant="outlined" />
+                        )}
+                        {lock.format && (
+                          <Chip label={lock.format} size="small" color="secondary" variant="outlined" />
+                        )}
+                      </Stack>
+
+                      <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
+                        {lock.brand || "Unknown brand"}
+                        {lock.brand && lock.brandSource === "ai-guess" && (
+                          <Tooltip title="Brand guessed by AI, unverified">
+                            <AutoAwesomeIcon
+                              sx={{ fontSize: 14, ml: 0.5, verticalAlign: "middle", color: "text.secondary" }}
+                            />
+                          </Tooltip>
+                        )}
+                      </Typography>
+                      {lock.model && (
+                        <Typography variant="body2" color="text.secondary">
+                          {lock.model}
+                        </Typography>
+                      )}
+
+                      <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 1.25 }}>
+                        <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
+                        <Typography variant="body2" color="text.secondary">
+                          {lock.keys == null
+                            ? "Keys unknown"
+                            : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
+                        </Typography>
+                      </Stack>
+
+                      {lock.comments && (
+                        <Tooltip title={lock.comments}>
+                          <Typography
+                            variant="body2"
+                            color="text.secondary"
+                            sx={{
+                              mt: 1,
+                              fontStyle: "italic",
+                              display: "-webkit-box",
+                              WebkitLineClamp: 2,
+                              WebkitBoxOrient: "vertical",
+                              overflow: "hidden",
+                            }}
+                          >
+                            {lock.comments}
+                          </Typography>
+                        </Tooltip>
+                      )}
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </Box>
           </>
         )}
       </Container>
