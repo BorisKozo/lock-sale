@@ -76,7 +76,7 @@ function esc(s: unknown): string {
 }
 
 function renderHtml(locks: Lock[], htmlDir: string): string {
-  const core = new Set(["id", "box", "stickerNumber", "stickerShape", "confidence", "needsReview", "photos", "readSource"]);
+  const core = new Set(["id", "box", "stickerNumber", "stickerShape", "confidence", "needsReview", "photos", "readSource", "brandSource"]);
   const extra = [...new Set(locks.flatMap(l => Object.keys(l)))].filter(k => !core.has(k));
   const rel = (p: string) => path.relative(htmlDir, path.resolve(p)).split(path.sep).join("/");
   const rows = locks.map((l, i) => `

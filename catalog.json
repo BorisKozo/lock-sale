@@ -4298,5 +4298,454 @@
     "model": "",
     "keys": null,
     "comments": ""
+  },
+  {
+    "id": "IMG_8518",
+    "box": 8,
+    "stickerNumber": "57",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8518.JPG",
+      "Images\\Box 8\\IMG_8519.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8520",
+    "box": 8,
+    "stickerNumber": "58",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8520.JPG",
+      "Images\\Box 8\\IMG_8521.JPG"
+    ],
+    "format": null,
+    "brand": "BiLock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8522",
+    "box": 8,
+    "stickerNumber": "59",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8522.JPG",
+      "Images\\Box 8\\IMG_8523.JPG"
+    ],
+    "format": null,
+    "brand": "Bi-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8524",
+    "box": 8,
+    "stickerNumber": "69",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8524.JPG",
+      "Images\\Box 8\\IMG_8525.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8526",
+    "box": 8,
+    "stickerNumber": "61",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8526.JPG",
+      "Images\\Box 8\\IMG_8527.JPG"
+    ],
+    "format": null,
+    "brand": "ASSA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8528",
+    "box": 8,
+    "stickerNumber": "62",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8528.JPG",
+      "Images\\Box 8\\IMG_8529.JPG"
+    ],
+    "format": null,
+    "brand": "Wynns Locks",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8530",
+    "box": 8,
+    "stickerNumber": "63",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8530.JPG",
+      "Images\\Box 8\\IMG_8531.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Nixonswitch/Zidane",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8532",
+    "box": 8,
+    "stickerNumber": "49",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8532.JPG",
+      "Images\\Box 8\\IMG_8533.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Master Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8534",
+    "box": 8,
+    "stickerNumber": "65",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8534.JPG",
+      "Images\\Box 8\\IMG_8535.JPG"
+    ],
+    "format": null,
+    "brand": "Viro",
+    "model": "102 (Lucchetto a Barilotto)",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8536",
+    "box": 8,
+    "stickerNumber": "99",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8536.JPG",
+      "Images\\Box 8\\IMG_8537.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8538",
+    "box": 8,
+    "stickerNumber": "67",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8538.JPG",
+      "Images\\Box 8\\IMG_8539.JPG"
+    ],
+    "format": null,
+    "brand": "Medeco",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8540",
+    "box": 8,
+    "stickerNumber": "68",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8540.JPG",
+      "Images\\Box 8\\IMG_8541.JPG"
+    ],
+    "format": null,
+    "brand": "Camel",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8542",
+    "box": 8,
+    "stickerNumber": "69",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8542.JPG",
+      "Images\\Box 8\\IMG_8543.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Russwin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8544",
+    "box": 8,
+    "stickerNumber": "70",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8544.JPG",
+      "Images\\Box 8\\IMG_8545.JPG"
+    ],
+    "format": null,
+    "brand": "Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8546",
+    "box": 8,
+    "stickerNumber": "71",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8546.JPG",
+      "Images\\Box 8\\IMG_8547.JPG"
+    ],
+    "format": null,
+    "brand": "ABUS",
+    "model": "Diskus No 24",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8548",
+    "box": 8,
+    "stickerNumber": "77",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8548.JPG",
+      "Images\\Box 8\\IMG_8549.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8550",
+    "box": 8,
+    "stickerNumber": "73",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8550.JPG",
+      "Images\\Box 8\\IMG_8551.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly CompX National",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8552",
+    "box": 8,
+    "stickerNumber": "74",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8552.JPG",
+      "Images\\Box 8\\IMG_8553.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Ingersoll",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8554",
+    "box": 8,
+    "stickerNumber": "75",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8554.JPG",
+      "Images\\Box 8\\IMG_8555.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Master Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8556",
+    "box": 8,
+    "stickerNumber": "76",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8556.JPG",
+      "Images\\Box 8\\IMG_8557.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8558",
+    "box": 8,
+    "stickerNumber": "78",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8558.JPG",
+      "Images\\Box 8\\IMG_8559.JPG"
+    ],
+    "format": null,
+    "brand": "Lockwood",
+    "model": "234/45",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8560",
+    "box": 8,
+    "stickerNumber": "79",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8560.JPG",
+      "Images\\Box 8\\IMG_8561.JPG"
+    ],
+    "format": null,
+    "brand": "Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8562",
+    "box": 8,
+    "stickerNumber": "80",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8562.JPG",
+      "Images\\Box 8\\IMG_8564.JPG"
+    ],
+    "format": null,
+    "brand": "MIWA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8565",
+    "box": 8,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8565.JPG",
+      "Images\\Box 8\\IMG_8566.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": null,
+    "brand": "Possibly Russwin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8567",
+    "box": 8,
+    "stickerNumber": "82",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8567.JPG",
+      "Images\\Box 8\\IMG_8568.JPG"
+    ],
+    "format": null,
+    "brand": "Sterling",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
   }
 ]
