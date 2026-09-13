@@ -4355,7 +4355,7 @@
   {
     "id": "IMG_8524",
     "box": 8,
-    "stickerNumber": "69",
+    "stickerNumber": "60",
     "stickerShape": "circle",
     "confidence": 0.7,
     "needsReview": false,
@@ -4368,7 +4368,8 @@
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
   },
   {
     "id": "IMG_8526",
@@ -4427,7 +4428,7 @@
   {
     "id": "IMG_8532",
     "box": 8,
-    "stickerNumber": "49",
+    "stickerNumber": "64",
     "stickerShape": "circle",
     "confidence": 0.85,
     "needsReview": false,
@@ -4440,7 +4441,8 @@
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
   },
   {
     "id": "IMG_8534",
@@ -4463,7 +4465,7 @@
   {
     "id": "IMG_8536",
     "box": 8,
-    "stickerNumber": "99",
+    "stickerNumber": "66",
     "stickerShape": "circle",
     "confidence": 0.95,
     "needsReview": false,
@@ -4475,7 +4477,8 @@
     "brand": "",
     "model": "",
     "keys": null,
-    "comments": ""
+    "comments": "",
+    "readSource": "human-verified"
   },
   {
     "id": "IMG_8538",
@@ -4570,7 +4573,7 @@
   {
     "id": "IMG_8548",
     "box": 8,
-    "stickerNumber": "77",
+    "stickerNumber": "72",
     "stickerShape": "circle",
     "confidence": 0.7,
     "needsReview": false,
@@ -4583,7 +4586,8 @@
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
   },
   {
     "id": "IMG_8550",
@@ -4714,7 +4718,7 @@
   {
     "id": "IMG_8565",
     "box": 8,
-    "stickerNumber": "28",
+    "stickerNumber": "81",
     "stickerShape": "circle",
     "confidence": 0.7,
     "needsReview": false,
@@ -4722,7 +4726,7 @@
       "Images\\Box 8\\IMG_8565.JPG",
       "Images\\Box 8\\IMG_8566.JPG"
     ],
-    "readSource": "human-photo1",
+    "readSource": "human-verified",
     "format": null,
     "brand": "Possibly Russwin",
     "model": "",
