@@ -1,0 +1,5012 @@
+[
+  {
+    "id": "IMG_7799",
+    "box": 2,
+    "stickerNumber": "08",
+    "stickerShape": "rhombus",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7799.JPG",
+      "Images\\Box 2\\IMG_7800.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "MCS",
+    "keys": 1,
+    "comments": "Key is damaged but working",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7802",
+    "box": 2,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7802.JPG",
+      "Images\\Box 2\\IMG_7803.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "7x7",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7805",
+    "box": 2,
+    "stickerNumber": "13",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7805.JPG",
+      "Images\\Box 2\\IMG_7806.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mottura",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7807",
+    "box": 2,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7807.JPG",
+      "Images\\Box 2\\IMG_7808.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Nabob",
+    "model": "Generic",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7809",
+    "box": 2,
+    "stickerNumber": "18",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7809.JPG",
+      "Images\\Box 2\\IMG_7810.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Stealth Key",
+    "model": "SK1030 (probably)",
+    "keys": 1,
+    "comments": "Not sure about the model",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7811",
+    "box": 2,
+    "stickerNumber": "22",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7811.JPG",
+      "Images\\Box 2\\IMG_7812.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Interactive",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7813",
+    "box": 2,
+    "stickerNumber": "30",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7813.JPG",
+      "Images\\Box 2\\IMG_7814.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Vega",
+    "model": "VP7",
+    "keys": 5,
+    "comments": "With card, brand new",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7815",
+    "box": 2,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7815.JPG",
+      "Images\\Box 2\\IMG_7817.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7818",
+    "box": 2,
+    "stickerNumber": "19",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7818.JPG",
+      "Images\\Box 2\\IMG_7819.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Unknown",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7820",
+    "box": 2,
+    "stickerNumber": "12",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7820.JPG",
+      "Images\\Box 2\\IMG_7821.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "DPI",
+    "keys": 5,
+    "comments": "Looks unused",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7822",
+    "box": 2,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7822.JPG",
+      "Images\\Box 2\\IMG_7823.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Abus",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7824-2",
+    "box": 2,
+    "stickerNumber": "23",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7824-2.JPG",
+      "Images\\Box 2\\IMG_7824.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "Probably Interactive or Classic",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7825",
+    "box": 2,
+    "stickerNumber": "25",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7825.JPG",
+      "Images\\Box 2\\IMG_7826.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Romlock",
+    "model": "Generic",
+    "keys": 2,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7827",
+    "box": 2,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7827.JPG",
+      "Images\\Box 2\\IMG_7828.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "3Locx",
+    "keys": 3,
+    "comments": "With card, brand new",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7829",
+    "box": 2,
+    "stickerNumber": "15",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7829.JPG",
+      "Images\\Box 2\\IMG_7830.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Abloy",
+    "model": "Disklock Pro",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7831",
+    "box": 2,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7831.JPG",
+      "Images\\Box 2\\IMG_7832.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "3ks",
+    "keys": 5,
+    "comments": "Brand new with card",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7833",
+    "box": 2,
+    "stickerNumber": "04",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7833.JPG",
+      "Images\\Box 2\\IMG_7834.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Not sure",
+    "keys": 5,
+    "comments": "Brand new, never used",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7835",
+    "box": 2,
+    "stickerNumber": "02",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7835.JPG",
+      "Images\\Box 2\\IMG_7836.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Fichet",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7837",
+    "box": 2,
+    "stickerNumber": "11",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7837.JPG",
+      "Images\\Box 2\\IMG_7839.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "7x7",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7840",
+    "box": 2,
+    "stickerNumber": "05",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7840.JPG",
+      "Images\\Box 2\\IMG_7841.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "CEI",
+    "model": "Unknown",
+    "keys": 4,
+    "comments": "Brand new, never used",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7842-2",
+    "box": 2,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7842-2.JPG",
+      "Images\\Box 2\\IMG_7842.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "EPS",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7843",
+    "box": 2,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7843.JPG",
+      "Images\\Box 2\\IMG_7844.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7845",
+    "box": 2,
+    "stickerNumber": "14",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7845.JPG",
+      "Images\\Box 2\\IMG_7846.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Tokoz",
+    "model": "Unknown",
+    "keys": 5,
+    "comments": "Brand new, never used",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7847",
+    "box": 2,
+    "stickerNumber": "17",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7847.JPG",
+      "Images\\Box 2\\IMG_7848.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Not sure",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "I think its a 6 pin Nabob generic lock...",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7849",
+    "box": 2,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7849.JPG",
+      "Images\\Box 2\\IMG_7850.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Generic",
+    "keys": 3,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7851",
+    "box": 2,
+    "stickerNumber": "24",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7851.JPG",
+      "Images\\Box 2\\IMG_7852.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "This is the 7x7 counterpart",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7853",
+    "box": 2,
+    "stickerNumber": "21",
+    "stickerShape": "rhombus",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7853.JPG",
+      "Images\\Box 2\\IMG_7854.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "SuperLock",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "These usually have 5 pins and 3 sliders, good for practice sliders with pins.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7855",
+    "box": 2,
+    "stickerNumber": "26",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7855.JPG",
+      "Images\\Box 2\\IMG_7856.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Unknown",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "2 rows of pins",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7857",
+    "box": 2,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7857.JPG",
+      "Images\\Box 2\\IMG_7858.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Evva",
+    "model": "ICS",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7859",
+    "box": 2,
+    "stickerNumber": "28",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7859.JPG",
+      "Images\\Box 2\\IMG_7860.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Keylox",
+    "keys": 3,
+    "comments": "Brand new, never used, with card",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7861",
+    "box": 2,
+    "stickerNumber": "29",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7861.JPG",
+      "Images\\Box 2\\IMG_7862.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Rav Bariah",
+    "model": "Locxis",
+    "keys": 2,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7863",
+    "box": 2,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7863.JPG",
+      "Images\\Box 2\\IMG_7864.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Yardeni",
+    "model": "Unknown",
+    "keys": 1,
+    "comments": "Has 2 rows of pins",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7865",
+    "box": 2,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 1,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7865.JPG",
+      "Images\\Box 2\\IMG_7866.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": "Euro",
+    "brand": "Alba",
+    "model": "Generic",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7867",
+    "box": 2,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7867.JPG",
+      "Images\\Box 2\\IMG_7868.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Magnum",
+    "model": "Generic",
+    "keys": 1,
+    "comments": "Generic 6 pin lock comparable to Yale",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7869",
+    "box": 2,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7869.JPG",
+      "Images\\Box 2\\IMG_7870.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Nabob",
+    "model": "Unknown",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7871",
+    "box": 2,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 2\\IMG_7871.JPG",
+      "Images\\Box 2\\IMG_7872.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "MT5+",
+    "keys": 1,
+    "comments": "This is the ENTR format lock that connects to the motor.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7992",
+    "box": 3,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7992.JPG",
+      "Images\\Box 3\\IMG_7993.JPG"
+    ],
+    "format": "Euro",
+    "brand": "DOM",
+    "model": "Not sure",
+    "keys": 3,
+    "comments": "Its the one where you can open with the outside key even if the inside key is inserted and turned",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7994",
+    "box": 3,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7994.JPG",
+      "Images\\Box 3\\IMG_7995.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Ruko",
+    "model": "Not sure",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7996",
+    "box": 3,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7996.JPG",
+      "Images\\Box 3\\IMG_7997.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Don't know",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_7998",
+    "box": 3,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_7998.JPG",
+      "Images\\Box 3\\IMG_7999.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Swiss",
+    "brand": "Kaba",
+    "model": "Maybe Kesso",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8001",
+    "box": 3,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8001.JPG",
+      "Images\\Box 3\\IMG_8002.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Tesa",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8003",
+    "box": 3,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8003.JPG",
+      "Images\\Box 3\\IMG_8004.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CEI",
+    "model": "Don't know",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8005",
+    "box": 3,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8005.JPG",
+      "Images\\Box 3\\IMG_8006.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mauer",
+    "model": "Redline (or similar)",
+    "keys": 5,
+    "comments": "Its the one where the external key is different from the internal key because the external key needs to go all the way through the lock to open the internal part.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8007",
+    "box": 3,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8007.JPG",
+      "Images\\Box 3\\IMG_8008.JPG"
+    ],
+    "format": "Euro",
+    "brand": "GEGE",
+    "model": "Don't know",
+    "keys": 3,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8009",
+    "box": 3,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8009.JPG",
+      "Images\\Box 3\\IMG_8010.JPG"
+    ],
+    "format": "Euro",
+    "brand": "DOM",
+    "model": "Don't Know",
+    "keys": 3,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8011",
+    "box": 3,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8011.JPG",
+      "Images\\Box 3\\IMG_8012.JPG"
+    ],
+    "format": "Swiss",
+    "brand": "Kaba",
+    "model": "Keso (probably)",
+    "keys": 0,
+    "comments": "Looks used and a little dirty",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8013",
+    "box": 3,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8013.JPG",
+      "Images\\Box 3\\IMG_8014.JPG"
+    ],
+    "format": "Euro",
+    "brand": "I forgot what brand this is",
+    "model": "Generic",
+    "keys": 3,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8015",
+    "box": 3,
+    "stickerNumber": "08",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8015.JPG",
+      "Images\\Box 3\\IMG_8016.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "Wink-Haus",
+    "model": "Generic",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8017",
+    "box": 3,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8017.JPG",
+      "Images\\Box 3\\IMG_8018.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABS",
+    "model": "General/Diamond",
+    "keys": 2,
+    "comments": "Has keycard",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8019",
+    "box": 3,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8019.JPG",
+      "Images\\Box 3\\IMG_8020.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Ultion",
+    "model": "Generic",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8021",
+    "box": 3,
+    "stickerNumber": "09",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8021.JPG",
+      "Images\\Box 3\\IMG_8022.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yale",
+    "model": "Generic",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8027",
+    "box": 3,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8027.JPG",
+      "Images\\Box 3\\IMG_8028.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ASSA",
+    "model": "Don't remember",
+    "keys": 2,
+    "comments": "Its the one with the finger side pins",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8031",
+    "box": 3,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8031.JPG",
+      "Images\\Box 3\\IMG_8032.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "Don't know",
+    "keys": 3,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8033",
+    "box": 3,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8033.JPG",
+      "Images\\Box 3\\IMG_8034.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Not sure",
+    "model": "Don't know",
+    "keys": 0,
+    "comments": "Don't know anything about this one",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8035",
+    "box": 3,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8035.JPG",
+      "Images\\Box 3\\IMG_8036.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "keys": 2,
+    "comments": "Strangely unbranded MTL, I can tell only by the keys.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8037",
+    "box": 3,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8037.JPG",
+      "Images\\Box 3\\IMG_8038.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ASSA",
+    "model": "Not sure",
+    "keys": 2,
+    "comments": "Its again the one with the finger pins",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8039",
+    "box": 3,
+    "stickerNumber": "27",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8039.JPG",
+      "Images\\Box 3\\IMG_8040.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Don't know",
+    "model": "Don't know",
+    "keys": 0,
+    "comments": "Don't know anything about this one",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8041",
+    "box": 3,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8041.JPG",
+      "Images\\Box 3\\IMG_8043.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Vachette",
+    "model": "Generic",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8046",
+    "box": 3,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8046.JPG",
+      "Images\\Box 3\\IMG_8047.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mauer",
+    "model": "Redline",
+    "keys": 6,
+    "comments": "Its the one with the different external and internal keys, there are 4 external, 1 internal, and 1 external key I made that opens just the external part which is not connected to the cam.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8048",
+    "box": 3,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8048.JPG",
+      "Images\\Box 3\\IMG_8049.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8050",
+    "box": 3,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8050.JPG",
+      "Images\\Box 3\\IMG_8051.JPG"
+    ],
+    "format": "Euro",
+    "brand": "KESO",
+    "model": "2000",
+    "keys": 7,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8052",
+    "box": 3,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8052.JPG",
+      "Images\\Box 3\\IMG_8053.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "SuperLock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": false
+  },
+  {
+    "id": "IMG_8058",
+    "box": 3,
+    "stickerNumber": "02",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8058.JPG",
+      "Images\\Box 3\\IMG_8059.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Federal Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8060",
+    "box": 3,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8060.JPG",
+      "Images\\Box 3\\IMG_8061.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ERA (Rockdoor)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8064",
+    "box": 3,
+    "stickerNumber": "05",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8064.JPG",
+      "Images\\Box 3\\IMG_8065.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8068",
+    "box": 3,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8068.JPG",
+      "Images\\Box 3\\IMG_8069.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8075",
+    "box": 3,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8075.JPG",
+      "Images\\Box 3\\IMG_8076.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8077",
+    "box": 3,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8077.JPG",
+      "Images\\Box 3\\IMG_8078.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8079",
+    "box": 3,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8079.JPG",
+      "Images\\Box 3\\IMG_8080.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8081",
+    "box": 3,
+    "stickerNumber": "01",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8081.JPG",
+      "Images\\Box 3\\IMG_8082.JPG"
+    ],
+    "format": "Euro",
+    "brand": "IKON",
+    "model": "735HL60",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8083",
+    "box": 3,
+    "stickerNumber": "04",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8083.JPG",
+      "Images\\Box 3\\IMG_8084.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Lince",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8085",
+    "box": 3,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8085.JPG",
+      "Images\\Box 3\\IMG_8086.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yard",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8087",
+    "box": 3,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8087.JPG",
+      "Images\\Box 3\\IMG_8088.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8089",
+    "box": 3,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8089.JPG",
+      "Images\\Box 3\\IMG_8090.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Silca",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8091",
+    "box": 3,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8091.JPG",
+      "Images\\Box 3\\IMG_8092.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Medeco",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8093",
+    "box": 3,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8093.JPG",
+      "Images\\Box 3\\IMG_8094.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8095",
+    "box": 3,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8095.JPG",
+      "Images\\Box 3\\IMG_8096.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8097",
+    "box": 3,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 3\\IMG_8097.JPG",
+      "Images\\Box 3\\IMG_8098.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8119",
+    "box": 4,
+    "stickerNumber": "01",
+    "stickerShape": "rhombus",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8119.JPG",
+      "Images\\Box 4\\IMG_8120.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Mila",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8121",
+    "box": 4,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8121.JPG",
+      "Images\\Box 4\\IMG_8122.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Herman",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8123",
+    "box": 4,
+    "stickerNumber": "02",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8123.JPG",
+      "Images\\Box 4\\IMG_8124.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8125",
+    "box": 4,
+    "stickerNumber": "04",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8125.JPG",
+      "Images\\Box 4\\IMG_8126.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Apache Locksport",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8127",
+    "box": 4,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8127.JPG",
+      "Images\\Box 4\\IMG_8128.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8129",
+    "box": 4,
+    "stickerNumber": "05",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8129.JPG",
+      "Images\\Box 4\\IMG_8130.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8131",
+    "box": 4,
+    "stickerNumber": "08",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8131.JPG",
+      "Images\\Box 4\\IMG_8132.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8133",
+    "box": 4,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8133.JPG",
+      "Images\\Box 4\\IMG_8134.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8135",
+    "box": 4,
+    "stickerNumber": "15",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8135.JPG",
+      "Images\\Box 4\\IMG_8136.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8137",
+    "box": 4,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8137.JPG",
+      "Images\\Box 4\\IMG_8138.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly W&S",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8139",
+    "box": 4,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8139.JPG",
+      "Images\\Box 4\\IMG_8140.JPG"
+    ],
+    "format": "Euro",
+    "brand": "TESA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8141",
+    "box": 4,
+    "stickerNumber": "11",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8141.JPG",
+      "Images\\Box 4\\IMG_8142.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Ultion",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8143",
+    "box": 4,
+    "stickerNumber": "12",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8143.JPG",
+      "Images\\Box 4\\IMG_8144.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet British Standard)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8145",
+    "box": 4,
+    "stickerNumber": "13",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8145.JPG",
+      "Images\\Box 4\\IMG_8146.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet ABS)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8147",
+    "box": 4,
+    "stickerNumber": "14",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8147.JPG",
+      "Images\\Box 4\\IMG_8148.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet British Standard)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8149",
+    "box": 4,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8149.JPG",
+      "Images\\Box 4\\IMG_8150.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Promax",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8151",
+    "box": 4,
+    "stickerNumber": "17",
+    "stickerShape": "rhombus",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8151.JPG",
+      "Images\\Box 4\\IMG_8152.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CES",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8153",
+    "box": 4,
+    "stickerNumber": "18",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8153.JPG",
+      "Images\\Box 4\\IMG_8154.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8155",
+    "box": 4,
+    "stickerNumber": "19",
+    "stickerShape": "rhombus",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8155.JPG",
+      "Images\\Box 4\\IMG_8156.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet ABS)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8157",
+    "box": 4,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8157.JPG",
+      "Images\\Box 4\\IMG_8158.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet/Assa Abloy security marking)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8159",
+    "box": 4,
+    "stickerNumber": "21",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8159.JPG",
+      "Images\\Box 4\\IMG_8160.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet ABS)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8161",
+    "box": 4,
+    "stickerNumber": "22",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8161.JPG",
+      "Images\\Box 4\\IMG_8162.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet ABS)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8163",
+    "box": 4,
+    "stickerNumber": "23",
+    "stickerShape": "rhombus",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8163.JPG",
+      "Images\\Box 4\\IMG_8164.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABS (Avocet ABS)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8165",
+    "box": 4,
+    "stickerNumber": "24",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8165.JPG",
+      "Images\\Box 4\\IMG_8166.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8167",
+    "box": 4,
+    "stickerNumber": "25",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8167.JPG",
+      "Images\\Box 4\\IMG_8168.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8169",
+    "box": 4,
+    "stickerNumber": "26",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8169.JPG",
+      "Images\\Box 4\\IMG_8170.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Lotus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8171",
+    "box": 4,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8171.JPG",
+      "Images\\Box 4\\IMG_8172.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8173",
+    "box": 4,
+    "stickerNumber": "28",
+    "stickerShape": "rhombus",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8173.JPG",
+      "Images\\Box 4\\IMG_8174.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8175",
+    "box": 4,
+    "stickerNumber": "29",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8175.JPG",
+      "Images\\Box 4\\IMG_8176.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Winkhaus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8177",
+    "box": 4,
+    "stickerNumber": "30",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8177.JPG",
+      "Images\\Box 4\\IMG_8178.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8179",
+    "box": 4,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8179.JPG",
+      "Images\\Box 4\\IMG_8180.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8181",
+    "box": 4,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8181.JPG",
+      "Images\\Box 4\\IMG_8182.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8183",
+    "box": 4,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8183.JPG",
+      "Images\\Box 4\\IMG_8184.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Interlock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8185",
+    "box": 4,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8185.JPG",
+      "Images\\Box 4\\IMG_8186.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8187",
+    "box": 4,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8187.JPG",
+      "Images\\Box 4\\IMG_8188.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Maco",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8189",
+    "box": 4,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8189.JPG",
+      "Images\\Box 4\\IMG_8190.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ISEO",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8191",
+    "box": 4,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8191.JPG",
+      "Images\\Box 4\\IMG_8192.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "Extra Classe",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8193",
+    "box": 4,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8193.JPG",
+      "Images\\Box 4\\IMG_8194.JPG"
+    ],
+    "format": "Euro",
+    "brand": "DOM",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8195",
+    "box": 4,
+    "stickerNumber": "08",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8195.JPG",
+      "Images\\Box 4\\IMG_8196.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8197",
+    "box": 4,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8197.JPG",
+      "Images\\Box 4\\IMG_8198.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ASSA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8199",
+    "box": 4,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8199.JPG",
+      "Images\\Box 4\\IMG_8200.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8201",
+    "box": 4,
+    "stickerNumber": "09",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8201.JPG",
+      "Images\\Box 4\\IMG_8202.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8203",
+    "box": 4,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8203.JPG",
+      "Images\\Box 4\\IMG_8204.JPG"
+    ],
+    "format": "Euro",
+    "brand": "GEGE",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8205",
+    "box": 4,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8205.JPG",
+      "Images\\Box 4\\IMG_8206.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8207",
+    "box": 4,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8207.JPG",
+      "Images\\Box 4\\IMG_8208.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8209",
+    "box": 4,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8209.JPG",
+      "Images\\Box 4\\IMG_8210.JPG"
+    ],
+    "format": "Euro",
+    "brand": "EVVA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8211",
+    "box": 4,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8211.JPG",
+      "Images\\Box 4\\IMG_8212.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Coastal",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8213",
+    "box": 4,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8213.JPG",
+      "Images\\Box 4\\IMG_8214.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Magnum",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8215",
+    "box": 4,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8215.JPG",
+      "Images\\Box 4\\IMG_8216.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8217",
+    "box": 4,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8217.JPG",
+      "Images\\Box 4\\IMG_8218.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ISEO",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8219",
+    "box": 4,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8219.JPG",
+      "Images\\Box 4\\IMG_8220.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CES",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8221",
+    "box": 4,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8221.JPG",
+      "Images\\Box 4\\IMG_8222.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8223",
+    "box": 4,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8223.JPG",
+      "Images\\Box 4\\IMG_8224.JPG"
+    ],
+    "format": "Euro",
+    "brand": "UNION (Assa Abloy)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8225",
+    "box": 4,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8225.JPG",
+      "Images\\Box 4\\IMG_8226.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Vachette",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8227",
+    "box": 4,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8227.JPG",
+      "Images\\Box 4\\IMG_8228.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8229",
+    "box": 4,
+    "stickerNumber": "27",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8229.JPG",
+      "Images\\Box 4\\IMG_8230.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Ezset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8231",
+    "box": 4,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8231.JPG",
+      "Images\\Box 4\\IMG_8232.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8233",
+    "box": 4,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8233.JPG",
+      "Images\\Box 4\\IMG_8234.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8235",
+    "box": 4,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8235.JPG",
+      "Images\\Box 4\\IMG_8236.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Brisant",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8237",
+    "box": 4,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8237.JPG",
+      "Images\\Box 4\\IMG_8238.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8239",
+    "box": 4,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8239.JPG",
+      "Images\\Box 4\\IMG_8240.JPG"
+    ],
+    "format": null,
+    "brand": "Best",
+    "model": "Cormax",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8241",
+    "box": 4,
+    "stickerNumber": "01",
+    "stickerShape": "banner",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 4\\IMG_8241.JPG",
+      "Images\\Box 4\\IMG_8242.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8254",
+    "box": 5,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8254.JPG",
+      "Images\\Box 5\\IMG_8255.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8256",
+    "box": 5,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8256.JPG",
+      "Images\\Box 5\\IMG_8257.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8258",
+    "box": 5,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8258.JPG",
+      "Images\\Box 5\\IMG_8259.JPG"
+    ],
+    "format": "Euro",
+    "brand": "ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8260",
+    "box": 5,
+    "stickerNumber": "09",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8260.JPG",
+      "Images\\Box 5\\IMG_8261.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8262",
+    "box": 5,
+    "stickerNumber": "18",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8262.JPG",
+      "Images\\Box 5\\IMG_8263.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly JPM",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8264",
+    "box": 5,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8264.JPG",
+      "Images\\Box 5\\IMG_8265.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8266",
+    "box": 5,
+    "stickerNumber": "14",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8266.JPG",
+      "Images\\Box 5\\IMG_8267.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8268",
+    "box": 5,
+    "stickerNumber": "11",
+    "stickerShape": "rhombus",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8268.JPG",
+      "Images\\Box 5\\IMG_8269.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Federal",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8270",
+    "box": 5,
+    "stickerNumber": "07",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8270.JPG",
+      "Images\\Box 5\\IMG_8271.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8272",
+    "box": 5,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8272.JPG",
+      "Images\\Box 5\\IMG_8273.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8274",
+    "box": 5,
+    "stickerNumber": "04",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8274.JPG",
+      "Images\\Box 5\\IMG_8276.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8278",
+    "box": 5,
+    "stickerNumber": "06",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8278.JPG",
+      "Images\\Box 5\\IMG_8279.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8280",
+    "box": 5,
+    "stickerNumber": "05",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8280.JPG",
+      "Images\\Box 5\\IMG_8281.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Vier",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8282",
+    "box": 5,
+    "stickerNumber": "29",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8282.JPG",
+      "Images\\Box 5\\IMG_8283.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8285",
+    "box": 5,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8285.JPG",
+      "Images\\Box 5\\IMG_8286.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8287",
+    "box": 5,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8287.JPG",
+      "Images\\Box 5\\IMG_8288.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8291",
+    "box": 5,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8291.JPG",
+      "Images\\Box 5\\IMG_8292.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ILCO",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8293",
+    "box": 5,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8293.JPG",
+      "Images\\Box 5\\IMG_8294.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8297",
+    "box": 5,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8297.JPG",
+      "Images\\Box 5\\IMG_8298.JPG"
+    ],
+    "format": "Euro",
+    "brand": "TESA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8301",
+    "box": 5,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8301.JPG",
+      "Images\\Box 5\\IMG_8302.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8303",
+    "box": 5,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8303.JPG",
+      "Images\\Box 5\\IMG_8304.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8306",
+    "box": 5,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8306.JPG",
+      "Images\\Box 5\\IMG_8307.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8308",
+    "box": 5,
+    "stickerNumber": "30",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8308.JPG",
+      "Images\\Box 5\\IMG_8311.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8312",
+    "box": 5,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8312.JPG",
+      "Images\\Box 5\\IMG_8313.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Geba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8314",
+    "box": 5,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8314.JPG",
+      "Images\\Box 5\\IMG_8315.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8316",
+    "box": 5,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8316.JPG",
+      "Images\\Box 5\\IMG_8317.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8318",
+    "box": 5,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8318.JPG",
+      "Images\\Box 5\\IMG_8319.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8320",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8320.JPG",
+      "Images\\Box 5\\IMG_8321.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ERA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8322",
+    "box": 5,
+    "stickerNumber": "07",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8322.JPG",
+      "Images\\Box 5\\IMG_8323.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8324",
+    "box": 5,
+    "stickerNumber": "01",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8324.JPG",
+      "Images\\Box 5\\IMG_8325.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8326",
+    "box": 5,
+    "stickerNumber": "09",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8326.JPG",
+      "Images\\Box 5\\IMG_8327.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8328",
+    "box": 5,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8328.JPG",
+      "Images\\Box 5\\IMG_8329.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8330",
+    "box": 5,
+    "stickerNumber": "24",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8330.JPG",
+      "Images\\Box 5\\IMG_8331.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Excellent",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8332",
+    "box": 5,
+    "stickerNumber": "16",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8332.JPG",
+      "Images\\Box 5\\IMG_8333.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Union",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8334",
+    "box": 5,
+    "stickerNumber": "15",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8334.JPG",
+      "Images\\Box 5\\IMG_8336.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8337",
+    "box": 5,
+    "stickerNumber": "26",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8337.JPG",
+      "Images\\Box 5\\IMG_8338.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Union",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8340",
+    "box": 5,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8340.JPG",
+      "Images\\Box 5\\IMG_8341.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8342",
+    "box": 5,
+    "stickerNumber": "01",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8342.JPG",
+      "Images\\Box 5\\IMG_8343.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8344",
+    "box": 5,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8344.JPG",
+      "Images\\Box 5\\IMG_8345.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8346",
+    "box": 5,
+    "stickerNumber": "03",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8346.JPG",
+      "Images\\Box 5\\IMG_8347.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly EVVA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8348",
+    "box": 5,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8348.JPG",
+      "Images\\Box 5\\IMG_8349.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8350",
+    "box": 5,
+    "stickerNumber": "10",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8350.JPG",
+      "Images\\Box 5\\IMG_8351.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Corbin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8352",
+    "box": 5,
+    "stickerNumber": "08",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8352.JPG",
+      "Images\\Box 5\\IMG_8353.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Silca",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8354",
+    "box": 5,
+    "stickerNumber": "13",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8354.JPG",
+      "Images\\Box 5\\IMG_8355.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Apecs",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8356",
+    "box": 5,
+    "stickerNumber": "17",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8356.JPG",
+      "Images\\Box 5\\IMG_8357.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Iseo",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8360",
+    "box": 5,
+    "stickerNumber": "12",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8360.JPG",
+      "Images\\Box 5\\IMG_8361.JPG"
+    ],
+    "format": "Euro",
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8362",
+    "box": 5,
+    "stickerNumber": "23",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8362.JPG",
+      "Images\\Box 5\\IMG_8363.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly SL",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8364",
+    "box": 5,
+    "stickerNumber": "06",
+    "stickerShape": "rhombus",
+    "confidence": 0.6,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8364.JPG",
+      "Images\\Box 5\\IMG_8365.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8366",
+    "box": 5,
+    "stickerNumber": "02",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8366.JPG",
+      "Images\\Box 5\\IMG_8367.JPG"
+    ],
+    "format": "Euro",
+    "brand": "BKS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8368",
+    "box": 5,
+    "stickerNumber": "05",
+    "stickerShape": "banner",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8368.JPG",
+      "Images\\Box 5\\IMG_8369.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-photo1",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8370",
+    "box": 5,
+    "stickerNumber": "27",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8370.JPG",
+      "Images\\Box 5\\IMG_8371.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8372",
+    "box": 5,
+    "stickerNumber": "03",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8372.JPG",
+      "Images\\Box 5\\IMG_8373.JPG"
+    ],
+    "format": "Euro",
+    "brand": "KESO",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8374",
+    "box": 5,
+    "stickerNumber": "08",
+    "stickerShape": "rhombus",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8374.JPG",
+      "Images\\Box 5\\IMG_8375.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8378",
+    "box": 5,
+    "stickerNumber": "04",
+    "stickerShape": "banner",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8378.JPG",
+      "Images\\Box 5\\IMG_8379.JPG"
+    ],
+    "format": "Euro",
+    "brand": "CARL F",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-photo1",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8380",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "rhombus",
+    "confidence": 0.6,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8380.JPG",
+      "Images\\Box 5\\IMG_8381.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Keyse",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8382",
+    "box": 5,
+    "stickerNumber": "22",
+    "stickerShape": "rhombus",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8382.JPG",
+      "Images\\Box 5\\IMG_8383.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Corbin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8384",
+    "box": 5,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 5\\IMG_8384.JPG",
+      "Images\\Box 5\\IMG_8385.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8400",
+    "box": 7,
+    "stickerNumber": "1",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8400.JPG",
+      "Images\\Box 7\\IMG_8401.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8402",
+    "box": 7,
+    "stickerNumber": "2",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8402.JPG",
+      "Images\\Box 7\\IMG_8403.JPG"
+    ],
+    "format": "Euro",
+    "brand": "FAB",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8404",
+    "box": 7,
+    "stickerNumber": "3",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8404.JPG",
+      "Images\\Box 7\\IMG_8405.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8406",
+    "box": 7,
+    "stickerNumber": "4",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8406.JPG",
+      "Images\\Box 7\\IMG_8407.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8408",
+    "box": 7,
+    "stickerNumber": "6",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8408.JPG",
+      "Images\\Box 7\\IMG_8409.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly UAP",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8410",
+    "box": 7,
+    "stickerNumber": "5",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8410.JPG",
+      "Images\\Box 7\\IMG_8411.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8412",
+    "box": 7,
+    "stickerNumber": "7",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8412.JPG",
+      "Images\\Box 7\\IMG_8413.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8414",
+    "box": 7,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8414.JPG",
+      "Images\\Box 7\\IMG_8415.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Gelem",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8416",
+    "box": 7,
+    "stickerNumber": "9",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8416.JPG",
+      "Images\\Box 7\\IMG_8417.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8418",
+    "box": 7,
+    "stickerNumber": "8",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8418.JPG",
+      "Images\\Box 7\\IMG_8419.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly ABUS",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8420",
+    "box": 7,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8420.JPG",
+      "Images\\Box 7\\IMG_8421.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8422",
+    "box": 7,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8422.JPG",
+      "Images\\Box 7\\IMG_8423.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Silca (SL)",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8424",
+    "box": 7,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8424.JPG",
+      "Images\\Box 7\\IMG_8425.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Vachette",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8426",
+    "box": 7,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8426.JPG",
+      "Images\\Box 7\\IMG_8427.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8428",
+    "box": 7,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8428.JPG",
+      "Images\\Box 7\\IMG_8429.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly STP",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8430",
+    "box": 7,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8430.JPG",
+      "Images\\Box 7\\IMG_8431.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8432",
+    "box": 7,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8432.JPG",
+      "Images\\Box 7\\IMG_8433.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8434",
+    "box": 7,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8434.JPG",
+      "Images\\Box 7\\IMG_8435.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Cintec Ltd",
+    "model": "Blocker 3012",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8436",
+    "box": 7,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8436.JPG",
+      "Images\\Box 7\\IMG_8437.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8438",
+    "box": 7,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8438.JPG",
+      "Images\\Box 7\\IMG_8439.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8440",
+    "box": 7,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8440.JPG",
+      "Images\\Box 7\\IMG_8441.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8442",
+    "box": 7,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8442.JPG",
+      "Images\\Box 7\\IMG_8443.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly JEFF",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8444",
+    "box": 7,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8444.JPG",
+      "Images\\Box 7\\IMG_8445.JPG"
+    ],
+    "format": "Euro",
+    "brand": "TESA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8446",
+    "box": 7,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8446.JPG",
+      "Images\\Box 7\\IMG_8447.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8448",
+    "box": 7,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8448.JPG",
+      "Images\\Box 7\\IMG_8449.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8450",
+    "box": 7,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8450.JPG",
+      "Images\\Box 7\\IMG_8451.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8452",
+    "box": 7,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8452.JPG",
+      "Images\\Box 7\\IMG_8453.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Gard",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8454",
+    "box": 7,
+    "stickerNumber": "32",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8454.JPG",
+      "Images\\Box 7\\IMG_8455.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Ilco",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8456",
+    "box": 7,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8456.JPG",
+      "Images\\Box 7\\IMG_8457.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8458",
+    "box": 7,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8458.JPG",
+      "Images\\Box 7\\IMG_8459.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8460",
+    "box": 7,
+    "stickerNumber": "27",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8460.JPG",
+      "Images\\Box 7\\IMG_8461.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8462",
+    "box": 7,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8462.JPG",
+      "Images\\Box 7\\IMG_8463.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8464",
+    "box": 7,
+    "stickerNumber": "33",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8464.JPG",
+      "Images\\Box 7\\IMG_8465.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8466",
+    "box": 7,
+    "stickerNumber": "34",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8466.JPG",
+      "Images\\Box 7\\IMG_8467.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8468",
+    "box": 7,
+    "stickerNumber": "37",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8468.JPG",
+      "Images\\Box 7\\IMG_8469.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8470",
+    "box": 7,
+    "stickerNumber": "35",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8470.JPG",
+      "Images\\Box 7\\IMG_8471.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8472",
+    "box": 7,
+    "stickerNumber": "36",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8472.JPG",
+      "Images\\Box 7\\IMG_8473.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Silca",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8474",
+    "box": 7,
+    "stickerNumber": "38",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8474.JPG",
+      "Images\\Box 7\\IMG_8475.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8476",
+    "box": 7,
+    "stickerNumber": "39",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8476.JPG",
+      "Images\\Box 7\\IMG_8477.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8478",
+    "box": 7,
+    "stickerNumber": "42",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8478.JPG",
+      "Images\\Box 7\\IMG_8479.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8480",
+    "box": 7,
+    "stickerNumber": "44",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8480.JPG",
+      "Images\\Box 7\\IMG_8481.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8482",
+    "box": 7,
+    "stickerNumber": "40",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8482.JPG",
+      "Images\\Box 7\\IMG_8483.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Union",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8484",
+    "box": 7,
+    "stickerNumber": "45",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8484.JPG",
+      "Images\\Box 7\\IMG_8485.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Yale",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8486",
+    "box": 7,
+    "stickerNumber": "43",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8486.JPG",
+      "Images\\Box 7\\IMG_8487.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8488",
+    "box": 7,
+    "stickerNumber": "41",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8488.JPG",
+      "Images\\Box 7\\IMG_8489.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8490",
+    "box": 7,
+    "stickerNumber": "46",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8490.JPG",
+      "Images\\Box 7\\IMG_8491.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8492",
+    "box": 7,
+    "stickerNumber": "47",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8492.JPG",
+      "Images\\Box 7\\IMG_8493.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Kaba",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8494",
+    "box": 7,
+    "stickerNumber": "48",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8494.JPG",
+      "Images\\Box 7\\IMG_8495.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8496",
+    "box": 7,
+    "stickerNumber": "50",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8496.JPG",
+      "Images\\Box 7\\IMG_8497.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8498",
+    "box": 7,
+    "stickerNumber": "51",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8498.JPG",
+      "Images\\Box 7\\IMG_8499.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8500",
+    "box": 7,
+    "stickerNumber": "49",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8500.JPG",
+      "Images\\Box 7\\IMG_8501.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8502",
+    "box": 7,
+    "stickerNumber": "53",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8502.JPG",
+      "Images\\Box 7\\IMG_8503.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Union",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8504",
+    "box": 7,
+    "stickerNumber": "54",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8504.JPG",
+      "Images\\Box 7\\IMG_8505.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly CISA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8506",
+    "box": 7,
+    "stickerNumber": "52",
+    "stickerShape": "circle",
+    "confidence": 0.8,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8506.JPG",
+      "Images\\Box 7\\IMG_8507.JPG"
+    ],
+    "readSource": "human-photo1",
+    "format": "Euro",
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8508",
+    "box": 7,
+    "stickerNumber": "55",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 7\\IMG_8508.JPG",
+      "Images\\Box 7\\IMG_8509.JPG"
+    ],
+    "format": "Euro",
+    "brand": "Possibly Mul-T-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8518",
+    "box": 8,
+    "stickerNumber": "57",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8518.JPG",
+      "Images\\Box 8\\IMG_8519.JPG"
+    ],
+    "format": null,
+    "brand": "",
+    "model": "",
+    "keys": null,
+    "comments": ""
+  },
+  {
+    "id": "IMG_8520",
+    "box": 8,
+    "stickerNumber": "58",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8520.JPG",
+      "Images\\Box 8\\IMG_8521.JPG"
+    ],
+    "format": null,
+    "brand": "BiLock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8522",
+    "box": 8,
+    "stickerNumber": "59",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8522.JPG",
+      "Images\\Box 8\\IMG_8523.JPG"
+    ],
+    "format": null,
+    "brand": "Bi-Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8524",
+    "box": 8,
+    "stickerNumber": "60",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8524.JPG",
+      "Images\\Box 8\\IMG_8525.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_8526",
+    "box": 8,
+    "stickerNumber": "61",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8526.JPG",
+      "Images\\Box 8\\IMG_8527.JPG"
+    ],
+    "format": null,
+    "brand": "ASSA",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8528",
+    "box": 8,
+    "stickerNumber": "62",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8528.JPG",
+      "Images\\Box 8\\IMG_8529.JPG"
+    ],
+    "format": null,
+    "brand": "Wynns Locks",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8530",
+    "box": 8,
+    "stickerNumber": "63",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8530.JPG",
+      "Images\\Box 8\\IMG_8531.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Nixonswitch/Zidane",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8532",
+    "box": 8,
+    "stickerNumber": "64",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8532.JPG",
+      "Images\\Box 8\\IMG_8533.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Master Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_8534",
+    "box": 8,
+    "stickerNumber": "65",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8534.JPG",
+      "Images\\Box 8\\IMG_8535.JPG"
+    ],
+    "format": null,
+    "brand": "Viro",
+    "model": "102 (Lucchetto a Barilotto)",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8536",
+    "box": 8,
+    "stickerNumber": "66",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8536.JPG",
+      "Images\\Box 8\\IMG_8537.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "readSource": "human-verified",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8538",
+    "box": 8,
+    "stickerNumber": "67",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8538.JPG",
+      "Images\\Box 8\\IMG_8539.JPG"
+    ],
+    "format": null,
+    "brand": "Medeco",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8540",
+    "box": 8,
+    "stickerNumber": "68",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8540.JPG",
+      "Images\\Box 8\\IMG_8541.JPG"
+    ],
+    "format": null,
+    "brand": "Camel",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8542",
+    "box": 8,
+    "stickerNumber": "69",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8542.JPG",
+      "Images\\Box 8\\IMG_8543.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Russwin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8544",
+    "box": 8,
+    "stickerNumber": "70",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8544.JPG",
+      "Images\\Box 8\\IMG_8545.JPG"
+    ],
+    "format": null,
+    "brand": "Kwikset",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8546",
+    "box": 8,
+    "stickerNumber": "71",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8546.JPG",
+      "Images\\Box 8\\IMG_8547.JPG"
+    ],
+    "format": null,
+    "brand": "ABUS",
+    "model": "Diskus No 24",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8548",
+    "box": 8,
+    "stickerNumber": "72",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8548.JPG",
+      "Images\\Box 8\\IMG_8549.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abus",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess",
+    "readSource": "human-verified"
+  },
+  {
+    "id": "IMG_8550",
+    "box": 8,
+    "stickerNumber": "73",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8550.JPG",
+      "Images\\Box 8\\IMG_8551.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly CompX National",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8552",
+    "box": 8,
+    "stickerNumber": "74",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8552.JPG",
+      "Images\\Box 8\\IMG_8553.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Ingersoll",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8554",
+    "box": 8,
+    "stickerNumber": "75",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8554.JPG",
+      "Images\\Box 8\\IMG_8555.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Master Lock",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8556",
+    "box": 8,
+    "stickerNumber": "76",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8556.JPG",
+      "Images\\Box 8\\IMG_8557.JPG"
+    ],
+    "format": null,
+    "brand": "Possibly Abloy",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8558",
+    "box": 8,
+    "stickerNumber": "78",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8558.JPG",
+      "Images\\Box 8\\IMG_8559.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Lockwood",
+    "model": "234/45",
+    "keys": 1,
+    "comments": "There is an issue where the key cannot be taken out of the lock but it works completely as you can see in the pictures.",
+    "brandSource": null
+  },
+  {
+    "id": "IMG_8560",
+    "box": 8,
+    "stickerNumber": "79",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8560.JPG",
+      "Images\\Box 8\\IMG_8561.JPG"
+    ],
+    "format": null,
+    "brand": "Yale",
+    "model": "",
+    "keys": 1,
+    "comments": "Padlock with variable size shackle ",
+    "brandSource": null
+  },
+  {
+    "id": "IMG_8562",
+    "box": 8,
+    "stickerNumber": "80",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8562.JPG",
+      "Images\\Box 8\\IMG_8564.JPG"
+    ],
+    "format": "Camlock",
+    "brand": "MIWA",
+    "model": "",
+    "keys": 3,
+    "comments": "Its a vending machine lock",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8565",
+    "box": 8,
+    "stickerNumber": "81",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8565.JPG",
+      "Images\\Box 8\\IMG_8566.JPG"
+    ],
+    "readSource": "human-verified",
+    "format": null,
+    "brand": "Possibly Russwin",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8567",
+    "box": 8,
+    "stickerNumber": "82",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 8\\IMG_8567.JPG",
+      "Images\\Box 8\\IMG_8568.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Sterling",
+    "model": "",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  }
+]
