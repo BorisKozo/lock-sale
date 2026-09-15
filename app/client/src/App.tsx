@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
   Alert,
   AppBar,
@@ -486,14 +486,22 @@ export default function App() {
     [locks],
   );
 
+  // Filtering (and the ~300-card grid it drives) is the expensive part of
+  // every keystroke. Deferring it lets React keep the input itself snappy —
+  // it renders the grid at low priority and abandons a stale in-progress
+  // render as soon as another keystroke comes in, instead of blocking on it.
+  const deferredQuery = useDeferredValue(query);
+  const deferredHideReady = useDeferredValue(hideReady);
+
   const filteredLocks = useMemo(() => {
     if (!numberedLocks) return numberedLocks;
-    const q = query.trim().toLowerCase();
+    const q = deferredQuery.trim().toLowerCase();
     return numberedLocks.filter(
       ({ lock, no }) =>
-        (q === "" || matchesQuery(lock, no, q)) && (!hideReady || lock.readyForSale !== true),
+        (q === "" || matchesQuery(lock, no, q)) &&
+        (!deferredHideReady || lock.readyForSale !== true),
     );
-  }, [numberedLocks, query, hideReady]);
+  }, [numberedLocks, deferredQuery, deferredHideReady]);
 
   const closePreview = () => {
     setPreview(null);
@@ -683,6 +691,8 @@ export default function App() {
                   display: "grid",
                   gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
                   gap: 2.5,
+                  opacity: query !== deferredQuery || hideReady !== deferredHideReady ? 0.6 : 1,
+                  transition: "opacity 0.1s",
                 }}
               >
                 {filteredLocks!.map(({ lock, no }) => (
