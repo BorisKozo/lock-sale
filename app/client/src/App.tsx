@@ -428,10 +428,16 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
 export default function App() {
   const [locks, setLocks] = useState<Lock[] | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [query, setQuery] = useState("");
+  // Search text and the ready-for-sale filter live in the querystring so a
+  // refresh (or a shared link) keeps the same view — see the sync effect below.
+  const [query, setQuery] = useState(
+    () => new URLSearchParams(window.location.search).get("q") ?? "",
+  );
   // Local-only view filter; meaningless on the published site since
   // readyForSale never appears there — see READ_ONLY.
-  const [hideReady, setHideReady] = useState(false);
+  const [hideReady, setHideReady] = useState(
+    () => new URLSearchParams(window.location.search).get("hideReady") === "1",
+  );
   // The open lightbox: the current row's photo paths plus which one is showing.
   const [preview, setPreview] = useState<{ photos: string[]; index: number } | null>(null);
   // Dev-only original-image zoom/pan state; null means "not zoomed" (showing
@@ -456,6 +462,20 @@ export default function App() {
       .then((data: Lock[]) => setLocks(data))
       .catch((err) => setError(String(err)));
   }, []);
+
+  // Keep the search text and hide-ready filter mirrored into the querystring
+  // (replacing, not pushing, history entries) so a refresh or a shared link
+  // reproduces the same filtered view.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (query) params.set("q", query);
+    else params.delete("q");
+    if (hideReady) params.set("hideReady", "1");
+    else params.delete("hideReady");
+    const qs = params.toString();
+    const url = window.location.pathname + (qs ? `?${qs}` : "") + window.location.hash;
+    window.history.replaceState(null, "", url);
+  }, [query, hideReady]);
 
   // Pair each lock with its catalog.json row number (1-based) BEFORE filtering,
   // so the number stays stable under search instead of reflecting the filtered
