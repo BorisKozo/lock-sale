@@ -107,13 +107,16 @@ function matchesQuery(lock: Lock, no: number, query: string): boolean {
 }
 
 // A short reference code buyers can quote back when they want a specific
-// lock: <4-digit row No.>-<2-digit box>-<shape letter>. Computed in the UI
-// only (not stored in catalog.json) since it's fully derived from fields
-// that already live there.
+// lock: <4-digit row No.>-<2-digit box>-<sticker #>-<shape letter>. The
+// sticker # is included because that's what's physically written on the
+// lock, so it's what you'd actually use to find it on the shelf. Computed
+// in the UI only (not stored in catalog.json) since it's fully derived
+// from fields that already live there.
 const SHAPE_CODE: Record<string, string> = { circle: "C", rhombus: "R", banner: "B" };
 function lockCode(lock: Lock, no: number): string {
   const shapeLetter = (lock.stickerShape && SHAPE_CODE[lock.stickerShape]) || "X";
-  return `${String(no).padStart(4, "0")}-${String(lock.box).padStart(2, "0")}-${shapeLetter}`;
+  const sticker = lock.stickerNumber ? lock.stickerNumber.padStart(2, "0") : "--";
+  return `${String(no).padStart(4, "0")}-${String(lock.box).padStart(2, "0")}-${sticker}-${shapeLetter}`;
 }
 
 // Where to fetch the catalog from: the Express API in dev (proxied), or a
@@ -417,7 +420,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
             <Stack direction="row" alignItems="center" spacing={0.5}>
               <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
               <Typography variant="body2" color="text.secondary">
-                {lock.keys == null ? "Keys unknown" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
+                {lock.keys == null ? "N/A" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
               </Typography>
             </Stack>
           </Stack>
