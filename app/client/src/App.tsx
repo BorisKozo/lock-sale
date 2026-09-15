@@ -98,8 +98,10 @@ const SEARCH_FIELDS: (keyof Lock)[] = [
   "comments",
 ];
 
-function matchesQuery(lock: Lock, query: string): boolean {
-  const haystack = SEARCH_FIELDS.map((f) => String(lock[f] ?? "")).join(" ").toLowerCase();
+function matchesQuery(lock: Lock, no: number, query: string): boolean {
+  const haystack = [String(no), ...SEARCH_FIELDS.map((f) => String(lock[f] ?? ""))]
+    .join(" ")
+    .toLowerCase();
   return haystack.includes(query);
 }
 
@@ -467,8 +469,8 @@ export default function App() {
     if (!numberedLocks) return numberedLocks;
     const q = query.trim().toLowerCase();
     return numberedLocks.filter(
-      ({ lock }) =>
-        (q === "" || matchesQuery(lock, q)) && (!hideReady || lock.readyForSale !== true),
+      ({ lock, no }) =>
+        (q === "" || matchesQuery(lock, no, q)) && (!hideReady || lock.readyForSale !== true),
     );
   }, [numberedLocks, query, hideReady]);
 
@@ -590,8 +592,8 @@ export default function App() {
   };
 
   return (
-    <>
-      <AppBar position="static" color="inherit" sx={{ bgcolor: "background.paper" }}>
+    <Box sx={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+      <AppBar position="static" color="inherit" sx={{ bgcolor: "background.paper", flexShrink: 0 }}>
         <Toolbar sx={{ gap: 1.5 }}>
           <LockOutlinedIcon color="secondary" />
           <Typography variant="h6" component="div" sx={{ color: "primary.main" }}>
@@ -603,21 +605,21 @@ export default function App() {
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="lg" sx={{ py: 4 }}>
-        {error && (
-          <Alert severity="error" sx={{ mb: 2 }}>
-            Failed to load catalog: {error}
-          </Alert>
-        )}
+      {error && (
+        <Container maxWidth="lg" sx={{ pt: 4, flexShrink: 0 }}>
+          <Alert severity="error">Failed to load catalog: {error}</Alert>
+        </Container>
+      )}
 
-        {!locks && !error && (
-          <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
-            <CircularProgress />
-          </Box>
-        )}
+      {!locks && !error && (
+        <Box sx={{ display: "flex", justifyContent: "center", py: 8 }}>
+          <CircularProgress />
+        </Box>
+      )}
 
-        {locks && (
-          <>
+      {locks && (
+        <>
+          <Container maxWidth="lg" sx={{ pt: 4, flexShrink: 0 }}>
             <TextField
               placeholder="Search box, sticker #, shape, brand, model, comments…"
               size="small"
@@ -651,28 +653,32 @@ export default function App() {
             <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5 }}>
               {filteredLocks!.length} of {locks.length} locks
             </Typography>
+          </Container>
 
-            <Box
-              sx={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-                gap: 2.5,
-              }}
-            >
-              {filteredLocks!.map(({ lock, no }) => (
-                <LockCard
-                  key={lock.id}
-                  lock={lock}
-                  no={no}
-                  onPreview={openPreview}
-                  onOpenEdit={openEdit}
-                  onCopyCode={copyCode}
-                />
-              ))}
-            </Box>
-          </>
-        )}
-      </Container>
+          <Box sx={{ flex: 1, overflow: "auto" }}>
+            <Container maxWidth="lg" sx={{ pb: 4 }}>
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+                  gap: 2.5,
+                }}
+              >
+                {filteredLocks!.map(({ lock, no }) => (
+                  <LockCard
+                    key={lock.id}
+                    lock={lock}
+                    no={no}
+                    onPreview={openPreview}
+                    onOpenEdit={openEdit}
+                    onCopyCode={copyCode}
+                  />
+                ))}
+              </Box>
+            </Container>
+          </Box>
+        </>
+      )}
 
       {/* Standalone lightbox — browsing photos without editing. While editing,
           the combined dialog below shows the photo panel instead. */}
@@ -846,6 +852,6 @@ export default function App() {
         message={copiedCode ? `Copied code ${copiedCode}` : ""}
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
       />
-    </>
+    </Box>
   );
 }
