@@ -361,46 +361,66 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
       </Box>
 
       <CardContent sx={{ p: 1.5, "&:last-child": { pb: 1.5 } }}>
-        <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.25 }}>
-          <Typography variant="body2" sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5 }}>
-            {code}
-          </Typography>
-          <Tooltip title="Copy code">
-            <IconButton aria-label="copy lock code" size="small" onClick={() => onCopyCode(code)}>
-              <ContentCopyIcon sx={{ fontSize: 15 }} />
-            </IconButton>
-          </Tooltip>
-        </Stack>
-
-        <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 0.5 }}>
-          <Typography variant="caption" color="text.disabled">
-            No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
+        <Stack direction="row" alignItems="center" justifyContent="space-between" spacing={0.5} sx={{ mb: 0.5 }}>
+          <Stack direction="row" alignItems="center" spacing={0.25} sx={{ flexShrink: 0 }}>
+            <Typography
+              variant="body2"
+              sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5, whiteSpace: "nowrap" }}
+            >
+              {code}
+            </Typography>
+            <Tooltip title="Copy code">
+              <IconButton aria-label="copy lock code" size="small" onClick={() => onCopyCode(code)}>
+                <ContentCopyIcon sx={{ fontSize: 15 }} />
+              </IconButton>
+            </Tooltip>
+          </Stack>
+          <Typography
+            variant="caption"
+            color="text.disabled"
+            sx={{
+              fontSize: "0.7rem",
+              textAlign: "right",
+              flexGrow: 1,
+              minWidth: 0,
+              whiteSpace: "nowrap",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+            }}
+          >
+            Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
             {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
           </Typography>
-          {lock.needsReview && <Chip label="Needs review" size="small" color="warning" variant="outlined" />}
         </Stack>
-
-        <Typography variant="h6" sx={{ mb: 0 }}>
-          {lock.brand || "Unknown brand"}
-          {lock.brand && lock.brandSource === "ai-guess" && (
-            <Tooltip title="Brand guessed by AI, unverified">
-              <AutoAwesomeIcon sx={{ fontSize: 14, ml: 0.5, verticalAlign: "middle", color: "text.secondary" }} />
-            </Tooltip>
-          )}
-        </Typography>
-        {lock.model && (
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 0.5 }}>
-            {lock.model}
-          </Typography>
+        {lock.needsReview && (
+          <Chip label="Needs review" size="small" color="warning" variant="outlined" sx={{ mb: 0.5 }} />
         )}
 
-        {lock.format && <Chip label={lock.format} size="small" color="secondary" variant="outlined" />}
-
-        <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 0.75 }}>
-          <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
-          <Typography variant="body2" color="text.secondary">
-            {lock.keys == null ? "Keys unknown" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
-          </Typography>
+        <Stack direction="row" alignItems="flex-start" justifyContent="space-between" spacing={0.5}>
+          <Box sx={{ minWidth: 0 }}>
+            <Typography variant="h6" sx={{ mb: 0 }}>
+              {lock.brand || "Unknown brand"}
+              {lock.brand && lock.brandSource === "ai-guess" && (
+                <Tooltip title="Brand guessed by AI, unverified">
+                  <AutoAwesomeIcon sx={{ fontSize: 14, ml: 0.5, verticalAlign: "middle", color: "text.secondary" }} />
+                </Tooltip>
+              )}
+            </Typography>
+            {lock.model && (
+              <Typography variant="body2" color="text.secondary">
+                {lock.model}
+              </Typography>
+            )}
+          </Box>
+          <Stack alignItems="flex-end" spacing={0.5} sx={{ flexShrink: 0, mt: 0.25 }}>
+            {lock.format && <Chip label={lock.format} size="small" color="secondary" variant="outlined" />}
+            <Stack direction="row" alignItems="center" spacing={0.5}>
+              <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
+              <Typography variant="body2" color="text.secondary">
+                {lock.keys == null ? "Keys unknown" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
+              </Typography>
+            </Stack>
+          </Stack>
         </Stack>
 
         {lock.comments && (
@@ -628,7 +648,20 @@ export default function App() {
           <Typography variant="subtitle1" component="div" sx={{ color: "primary.main", fontWeight: 600 }}>
             Lock Catalog
           </Typography>
-          <Typography variant="caption" color="text.secondary" sx={{ ml: "auto" }}>
+          {!READ_ONLY && (
+            <FormControlLabel
+              control={
+                <Checkbox
+                  size="small"
+                  checked={hideReady}
+                  onChange={(e) => setHideReady(e.target.checked)}
+                />
+              }
+              label="Hide ready for sale"
+              sx={{ ml: "auto", mr: 0, "& .MuiFormControlLabel-label": { fontSize: "0.8125rem" } }}
+            />
+          )}
+          <Typography variant="caption" color="text.secondary" sx={{ ml: READ_ONLY ? "auto" : 0 }}>
             {READ_ONLY ? "For sale — browse the collection" : "Editing view"}
           </Typography>
         </Toolbar>
@@ -666,19 +699,6 @@ export default function App() {
                 },
               }}
             />
-            {!READ_ONLY && (
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    size="small"
-                    checked={hideReady}
-                    onChange={(e) => setHideReady(e.target.checked)}
-                  />
-                }
-                label="Hide locks marked ready for sale"
-                sx={{ mb: 0, "& .MuiFormControlLabel-label": { fontSize: "0.875rem" } }}
-              />
-            )}
             <Typography variant="caption" color="text.secondary" sx={{ display: "block", mb: 1 }}>
               {filteredLocks!.length} of {locks.length} locks
             </Typography>
