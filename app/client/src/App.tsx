@@ -295,6 +295,9 @@ export default function App() {
   const [locks, setLocks] = useState<Lock[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  // Local-only view filter; meaningless on the published site since
+  // readyForSale never appears there — see READ_ONLY.
+  const [hideReady, setHideReady] = useState(false);
   // The open lightbox: the current row's photo paths plus which one is showing.
   const [preview, setPreview] = useState<{ photos: string[]; index: number } | null>(null);
   // Dev-only original-image zoom/pan state; null means "not zoomed" (showing
@@ -331,8 +334,11 @@ export default function App() {
   const filteredLocks = useMemo(() => {
     if (!numberedLocks) return numberedLocks;
     const q = query.trim().toLowerCase();
-    return q === "" ? numberedLocks : numberedLocks.filter(({ lock }) => matchesQuery(lock, q));
-  }, [numberedLocks, query]);
+    return numberedLocks.filter(
+      ({ lock }) =>
+        (q === "" || matchesQuery(lock, q)) && (!hideReady || lock.readyForSale !== true),
+    );
+  }, [numberedLocks, query, hideReady]);
 
   const closePreview = () => {
     setPreview(null);
@@ -483,6 +489,19 @@ export default function App() {
                 },
               }}
             />
+            {!READ_ONLY && (
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    size="small"
+                    checked={hideReady}
+                    onChange={(e) => setHideReady(e.target.checked)}
+                  />
+                }
+                label="Hide locks marked ready for sale"
+                sx={{ mb: 1 }}
+              />
+            )}
             <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5 }}>
               {filteredLocks!.length} of {locks.length} locks
             </Typography>
