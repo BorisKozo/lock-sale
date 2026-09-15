@@ -86,8 +86,9 @@ function toEdits(lock: Lock): LockEdits {
 }
 
 // The fields shown in the table, concatenated for a simple substring search.
+// "id" (the source photo filename, e.g. IMG_8139) is deliberately excluded:
+// it's never shown in the UI, so matching it just produces confusing hits.
 const SEARCH_FIELDS: (keyof Lock)[] = [
-  "id",
   "box",
   "stickerNumber",
   "stickerShape",
