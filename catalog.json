@@ -1121,11 +1121,11 @@
     "readSource": "human-photo1",
     "format": "Euro",
     "brand": "SuperLock",
-    "model": "",
-    "keys": null,
-    "comments": "",
+    "model": "Blocker",
+    "keys": 1,
+    "comments": "It has the blocker pin, pin in pin, and 3 sliders",
     "brandSource": null,
-    "readyForSale": false
+    "readyForSale": true
   },
   {
     "id": "IMG_8058",
@@ -1141,9 +1141,10 @@
     "format": "Euro",
     "brand": "Federal Lock",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "This is a really fun lock with trap pins and nice biting on the key.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8060",
@@ -1157,11 +1158,12 @@
       "Images\\Box 3\\IMG_8061.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ERA (Rockdoor)",
+    "brand": "ATK",
     "model": "",
-    "keys": null,
+    "keys": 3,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8064",
@@ -1175,11 +1177,12 @@
       "Images\\Box 3\\IMG_8065.JPG"
     ],
     "format": "Euro",
-    "brand": "CISA",
+    "brand": "Union",
     "model": "",
-    "keys": null,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8068",
@@ -1193,11 +1196,12 @@
       "Images\\Box 3\\IMG_8069.JPG"
     ],
     "format": "Euro",
-    "brand": "Mul-T-Lock",
+    "brand": "Magen",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Probably easy pick",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8075",
@@ -1214,9 +1218,10 @@
     "format": "Euro",
     "brand": "ABUS",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "This is a cutaway (I think factory) dimple pin Abus",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8077",
@@ -1230,11 +1235,12 @@
       "Images\\Box 3\\IMG_8078.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
-    "model": "",
-    "keys": null,
+    "brand": "Yardeni",
+    "model": "GARD",
+    "keys": 3,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8079",
@@ -1248,11 +1254,12 @@
       "Images\\Box 3\\IMG_8080.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Magnum",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Combines regular pins and sliders (or finger pins)",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8081",
@@ -1267,10 +1274,11 @@
     ],
     "format": "Euro",
     "brand": "IKON",
-    "model": "735HL60",
-    "keys": null,
+    "model": "",
+    "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8083",
@@ -1286,9 +1294,10 @@
     "format": "Euro",
     "brand": "Lince",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "I think its the one that has active pins on both sides (top and bottom)",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8085",
@@ -1302,11 +1311,12 @@
       "Images\\Box 3\\IMG_8086.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Yard",
-    "model": "",
-    "keys": null,
+    "brand": "Yardeni",
+    "model": "Yard",
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8087",
@@ -1320,11 +1330,12 @@
       "Images\\Box 3\\IMG_8088.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABUS",
+    "brand": "Winkhaus",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 0,
+    "comments": "Only one half of the lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8089",
@@ -1338,11 +1349,12 @@
       "Images\\Box 3\\IMG_8090.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Silca",
+    "brand": "Ge Ge",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "I think side pin is passive but not sure",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8091",
@@ -1357,10 +1369,11 @@
     ],
     "format": "Euro",
     "brand": "Medeco",
-    "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "model": "519",
+    "keys": 1,
+    "comments": "Rotating pins",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8093",
