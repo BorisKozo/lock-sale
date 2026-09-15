@@ -360,8 +360,8 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
         )}
       </Box>
 
-      <CardContent sx={{ flexGrow: 1, "&:last-child": { pb: 2 } }}>
-        <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.5 }}>
+      <CardContent sx={{ p: 1.5, "&:last-child": { pb: 1.5 } }}>
+        <Stack direction="row" alignItems="center" spacing={0.25} sx={{ mb: 0.25 }}>
           <Typography variant="body2" sx={{ fontFamily: "monospace", fontWeight: 700, letterSpacing: 0.5 }}>
             {code}
           </Typography>
@@ -372,7 +372,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
           </Tooltip>
         </Stack>
 
-        <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 1 }}>
+        <Stack direction="row" alignItems="baseline" justifyContent="space-between" sx={{ mb: 0.5 }}>
           <Typography variant="caption" color="text.disabled">
             No. {no} · Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
             {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
@@ -380,7 +380,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
           {lock.needsReview && <Chip label="Needs review" size="small" color="warning" variant="outlined" />}
         </Stack>
 
-        <Typography variant="h6" sx={{ mb: 0.25 }}>
+        <Typography variant="h6" sx={{ mb: 0 }}>
           {lock.brand || "Unknown brand"}
           {lock.brand && lock.brandSource === "ai-guess" && (
             <Tooltip title="Brand guessed by AI, unverified">
@@ -389,14 +389,14 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
           )}
         </Typography>
         {lock.model && (
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 0.5 }}>
             {lock.model}
           </Typography>
         )}
 
         {lock.format && <Chip label={lock.format} size="small" color="secondary" variant="outlined" />}
 
-        <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 1.25 }}>
+        <Stack direction="row" alignItems="center" spacing={0.5} sx={{ mt: 0.75 }}>
           <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
           <Typography variant="body2" color="text.secondary">
             {lock.keys == null ? "Keys unknown" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
@@ -409,7 +409,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
               variant="body2"
               color="text.secondary"
               sx={{
-                mt: 1,
+                mt: 0.5,
                 fontStyle: "italic",
                 display: "-webkit-box",
                 WebkitLineClamp: 2,
@@ -623,19 +623,19 @@ export default function App() {
   return (
     <Box sx={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       <AppBar position="static" color="inherit" sx={{ bgcolor: "background.paper", flexShrink: 0 }}>
-        <Toolbar sx={{ gap: 1.5 }}>
-          <LockOutlinedIcon color="secondary" />
-          <Typography variant="h6" component="div" sx={{ color: "primary.main" }}>
+        <Toolbar variant="dense" sx={{ gap: 1.5, minHeight: 44 }}>
+          <LockOutlinedIcon color="secondary" fontSize="small" />
+          <Typography variant="subtitle1" component="div" sx={{ color: "primary.main", fontWeight: 600 }}>
             Lock Catalog
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ ml: "auto" }}>
+          <Typography variant="caption" color="text.secondary" sx={{ ml: "auto" }}>
             {READ_ONLY ? "For sale — browse the collection" : "Editing view"}
           </Typography>
         </Toolbar>
       </AppBar>
 
       {error && (
-        <Container maxWidth="lg" sx={{ pt: 4, flexShrink: 0 }}>
+        <Container maxWidth="lg" sx={{ pt: 1.5, flexShrink: 0 }}>
           <Alert severity="error">Failed to load catalog: {error}</Alert>
         </Container>
       )}
@@ -648,14 +648,14 @@ export default function App() {
 
       {locks && (
         <>
-          <Container maxWidth="lg" sx={{ pt: 4, flexShrink: 0 }}>
+          <Container maxWidth="lg" sx={{ pt: 1.5, flexShrink: 0 }}>
             <TextField
               placeholder="Search box, sticker #, shape, brand, model, comments…"
               size="small"
               fullWidth
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              sx={{ mb: 2, bgcolor: "background.paper", borderRadius: 1 }}
+              sx={{ mb: 0.75, bgcolor: "background.paper", borderRadius: 1 }}
               slotProps={{
                 input: {
                   startAdornment: (
@@ -676,21 +676,21 @@ export default function App() {
                   />
                 }
                 label="Hide locks marked ready for sale"
-                sx={{ mb: 1 }}
+                sx={{ mb: 0, "& .MuiFormControlLabel-label": { fontSize: "0.875rem" } }}
               />
             )}
-            <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5 }}>
+            <Typography variant="caption" color="text.secondary" sx={{ display: "block", mb: 1 }}>
               {filteredLocks!.length} of {locks.length} locks
             </Typography>
           </Container>
 
           <Box sx={{ flex: 1, overflow: "auto" }}>
-            <Container maxWidth="lg" sx={{ pb: 4 }}>
+            <Container maxWidth="lg" sx={{ pb: 2 }}>
               <Box
                 sx={{
                   display: "grid",
                   gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-                  gap: 2.5,
+                  gap: 1.5,
                   opacity: query !== deferredQuery || hideReady !== deferredHideReady ? 0.6 : 1,
                   transition: "opacity 0.1s",
                 }}
