@@ -151,6 +151,138 @@ const ctrlColorSx = {
 // button in the group onto the same point instead of laying them out).
 const ctrlSx = { ...ctrlColorSx, position: "absolute" as const };
 
+interface PhotoViewerProps {
+  photos: string[];
+  index: number;
+  zoom: { scale: number; x: number; y: number } | null;
+  isPanning: boolean;
+  onWheel: (e: React.WheelEvent) => void;
+  onMouseDown: (e: React.MouseEvent) => void;
+  onMouseMove: (e: React.MouseEvent) => void;
+  onMouseUp: () => void;
+  onStep: (delta: number) => void;
+  onStartZoom: () => void;
+  onZoomBy: (factor: number) => void;
+  onExitZoom: () => void;
+  onClose: () => void;
+  showZoomControls: boolean;
+}
+
+// Fills its container (100% x 100%) — the caller sizes that container,
+// whether that's a fixed-size floating box (standalone lightbox) or a flex
+// panel inside the combined edit dialog.
+function PhotoViewer({
+  photos,
+  index,
+  zoom,
+  isPanning,
+  onWheel,
+  onMouseDown,
+  onMouseMove,
+  onMouseUp,
+  onStep,
+  onStartZoom,
+  onZoomBy,
+  onExitZoom,
+  onClose,
+  showZoomControls,
+}: PhotoViewerProps) {
+  return (
+    <Box sx={{ position: "relative", width: "100%", height: "100%", bgcolor: "common.black" }}>
+      {zoom ? (
+        <Box
+          onWheel={onWheel}
+          onMouseDown={onMouseDown}
+          onMouseMove={onMouseMove}
+          onMouseUp={onMouseUp}
+          onMouseLeave={onMouseUp}
+          sx={{
+            width: "100%",
+            height: "100%",
+            overflow: "hidden",
+            cursor: isPanning ? "grabbing" : "grab",
+          }}
+        >
+          <Box
+            component="img"
+            src={originalImageUrl(photos[index])}
+            alt=""
+            draggable={false}
+            sx={{
+              display: "block",
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+              transform: `translate(${zoom.x}px, ${zoom.y}px) scale(${zoom.scale})`,
+              transformOrigin: "center center",
+              userSelect: "none",
+            }}
+          />
+        </Box>
+      ) : (
+        <Box
+          component="img"
+          src={imageUrl(photos[index])}
+          alt=""
+          sx={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }}
+        />
+      )}
+
+      {showZoomControls && (
+        <Stack direction="row" spacing={0.5} sx={{ position: "absolute", top: 8, left: 8 }}>
+          {zoom ? (
+            <>
+              <IconButton aria-label="zoom in" onClick={() => onZoomBy(1.4)} sx={ctrlColorSx}>
+                <ZoomInIcon />
+              </IconButton>
+              <IconButton aria-label="zoom out" onClick={() => onZoomBy(1 / 1.4)} sx={ctrlColorSx}>
+                <ZoomOutIcon />
+              </IconButton>
+              <IconButton aria-label="reset zoom" onClick={onStartZoom} sx={ctrlColorSx}>
+                <RestartAltIcon />
+              </IconButton>
+              <Tooltip title="Back to normal view">
+                <IconButton aria-label="exit zoom" onClick={onExitZoom} sx={ctrlColorSx}>
+                  <CloseIcon fontSize="small" />
+                </IconButton>
+              </Tooltip>
+            </>
+          ) : (
+            <Tooltip title="Open original image to zoom &amp; pan">
+              <IconButton aria-label="zoom original image" onClick={onStartZoom} sx={ctrlColorSx}>
+                <ZoomInIcon />
+              </IconButton>
+            </Tooltip>
+          )}
+        </Stack>
+      )}
+
+      <IconButton aria-label="close" onClick={onClose} sx={{ ...ctrlSx, top: 8, right: 8 }}>
+        <CloseIcon />
+      </IconButton>
+
+      {photos.length > 1 && (
+        <>
+          <IconButton
+            aria-label="previous"
+            onClick={() => onStep(-1)}
+            sx={{ ...ctrlSx, left: 8, top: "50%", transform: "translateY(-50%)" }}
+          >
+            <ChevronLeftIcon />
+          </IconButton>
+          <IconButton
+            aria-label="next"
+            onClick={() => onStep(1)}
+            sx={{ ...ctrlSx, right: 8, top: "50%", transform: "translateY(-50%)" }}
+          >
+            <ChevronRightIcon />
+          </IconButton>
+        </>
+      )}
+    </Box>
+  );
+}
+
 interface LockCardProps {
   lock: Lock;
   no: number;
@@ -378,10 +510,15 @@ export default function App() {
     setIsPanning(false);
   };
 
-  // Left/right arrow keys navigate while the lightbox is open (Esc closes via MUI).
+  // Left/right arrow keys navigate while the lightbox is open (Esc closes via
+  // MUI). Ignored while a text field has focus — the edit dialog shows its
+  // form and photo together now, so arrow keys typed into Brand/Model/etc.
+  // must move the cursor, not the photo.
   useEffect(() => {
     if (!preview) return;
     const onKey = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
       if (e.key === "ArrowLeft") step(-1);
       else if (e.key === "ArrowRight") step(1);
     };
@@ -389,10 +526,13 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, [preview !== null]);
 
+  // Opens the combined edit+photo dialog: editing the lock also shows its
+  // photos side by side, so both are set together here.
   const openEdit = useCallback((lock: Lock) => {
     setEditing(lock);
     setEdits(toEdits(lock));
     setSaveError(null);
+    setPreview({ photos: lock.photos, index: 0 });
   }, []);
   const openPreview = useCallback((photos: string[], index: number) => {
     setPreview({ photos, index });
@@ -410,6 +550,9 @@ export default function App() {
     setEditing(null);
     setEdits(null);
     setSaveError(null);
+    setPreview(null);
+    setZoom(null);
+    setIsPanning(false);
   };
 
   const saveEdit = async () => {
@@ -528,7 +671,9 @@ export default function App() {
         )}
       </Container>
 
-      <Modal open={!!preview} onClose={closePreview}>
+      {/* Standalone lightbox — browsing photos without editing. While editing,
+          the combined dialog below shows the photo panel instead. */}
+      <Modal open={!!preview && !editing} onClose={closePreview}>
         <Box
           onClick={closePreview}
           sx={{
@@ -542,206 +687,153 @@ export default function App() {
           {preview && (
             <Box
               onClick={(e) => e.stopPropagation()}
-              sx={{ position: "relative", display: "inline-flex" }}
+              sx={{ width: "80vw", height: "80vh", position: "relative" }}
             >
-              {zoom ? (
-                <Box
-                  onWheel={onZoomWheel}
-                  onMouseDown={onZoomMouseDown}
-                  onMouseMove={onZoomMouseMove}
-                  onMouseUp={endZoomDrag}
-                  onMouseLeave={endZoomDrag}
-                  sx={{
-                    width: "90vw",
-                    height: "85vh",
-                    overflow: "hidden",
-                    cursor: isPanning ? "grabbing" : "grab",
-                    bgcolor: "rgba(0,0,0,0.3)",
-                  }}
-                >
-                  <Box
-                    component="img"
-                    src={originalImageUrl(preview.photos[preview.index])}
-                    alt=""
-                    draggable={false}
-                    sx={{
-                      display: "block",
-                      maxWidth: "none",
-                      width: "90vw",
-                      height: "85vh",
-                      objectFit: "contain",
-                      transform: `translate(${zoom.x}px, ${zoom.y}px) scale(${zoom.scale})`,
-                      transformOrigin: "center center",
-                      userSelect: "none",
-                    }}
-                  />
-                </Box>
-              ) : (
-                <Box
-                  component="img"
-                  src={imageUrl(preview.photos[preview.index])}
-                  alt=""
-                  sx={{ maxWidth: "80vw", maxHeight: "80vh", display: "block" }}
-                />
-              )}
-
-              {!READ_ONLY && (
-                <Stack
-                  direction="row"
-                  spacing={0.5}
-                  sx={{ position: "absolute", top: 8, left: 8 }}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  {zoom ? (
-                    <>
-                      <IconButton aria-label="zoom in" onClick={() => zoomBy(1.4)} sx={ctrlColorSx}>
-                        <ZoomInIcon />
-                      </IconButton>
-                      <IconButton aria-label="zoom out" onClick={() => zoomBy(1 / 1.4)} sx={ctrlColorSx}>
-                        <ZoomOutIcon />
-                      </IconButton>
-                      <IconButton aria-label="reset zoom" onClick={startZoom} sx={ctrlColorSx}>
-                        <RestartAltIcon />
-                      </IconButton>
-                      <Tooltip title="Back to normal view">
-                        <IconButton aria-label="exit zoom" onClick={() => setZoom(null)} sx={ctrlColorSx}>
-                          <CloseIcon fontSize="small" />
-                        </IconButton>
-                      </Tooltip>
-                    </>
-                  ) : (
-                    <Tooltip title="Open original image to zoom &amp; pan">
-                      <IconButton aria-label="zoom original image" onClick={startZoom} sx={ctrlColorSx}>
-                        <ZoomInIcon />
-                      </IconButton>
-                    </Tooltip>
-                  )}
-                </Stack>
-              )}
-
-              <IconButton
-                aria-label="close"
-                onClick={closePreview}
-                sx={{ ...ctrlSx, top: 8, right: 8 }}
-              >
-                <CloseIcon />
-              </IconButton>
-
-              {preview.photos.length > 1 && (
-                <>
-                  <IconButton
-                    aria-label="previous"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      step(-1);
-                    }}
-                    sx={{
-                      ...ctrlSx,
-                      left: 8,
-                      top: "50%",
-                      transform: "translateY(-50%)",
-                    }}
-                  >
-                    <ChevronLeftIcon />
-                  </IconButton>
-                  <IconButton
-                    aria-label="next"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      step(1);
-                    }}
-                    sx={{
-                      ...ctrlSx,
-                      right: 8,
-                      top: "50%",
-                      transform: "translateY(-50%)",
-                    }}
-                  >
-                    <ChevronRightIcon />
-                  </IconButton>
-                </>
-              )}
+              <PhotoViewer
+                photos={preview.photos}
+                index={preview.index}
+                zoom={zoom}
+                isPanning={isPanning}
+                onWheel={onZoomWheel}
+                onMouseDown={onZoomMouseDown}
+                onMouseMove={onZoomMouseMove}
+                onMouseUp={endZoomDrag}
+                onStep={step}
+                onStartZoom={startZoom}
+                onZoomBy={zoomBy}
+                onExitZoom={() => setZoom(null)}
+                onClose={closePreview}
+                showZoomControls={!READ_ONLY}
+              />
             </Box>
           )}
         </Box>
       </Modal>
 
-      <Dialog open={!!editing} onClose={closeEdit} fullWidth maxWidth="sm">
-        <DialogTitle>
-          Edit lock {editing?.stickerNumber ? `#${editing.stickerNumber}` : editing?.id}
-        </DialogTitle>
-        <DialogContent>
-          {saveError && (
-            <Alert severity="error" sx={{ mb: 2 }}>
-              Failed to save: {saveError}
-            </Alert>
+      {/* Combined edit dialog: form on the left, photo panel on the right,
+          flush against each other (no gap, no divider) in one modal. */}
+      <Dialog
+        open={!!editing}
+        onClose={closeEdit}
+        maxWidth={false}
+        PaperProps={{
+          sx: {
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            width: "95vw",
+            maxWidth: 1100,
+            height: { xs: "90vh", md: "85vh" },
+            m: 0,
+            overflow: "hidden",
+          },
+        }}
+      >
+        <Box
+          sx={{
+            width: { xs: "100%", md: 440 },
+            flexShrink: 0,
+            display: "flex",
+            flexDirection: "column",
+            overflow: "auto",
+          }}
+        >
+          <DialogTitle>
+            Edit lock {editing?.stickerNumber ? `#${editing.stickerNumber}` : editing?.id}
+          </DialogTitle>
+          <DialogContent sx={{ flexGrow: 1 }}>
+            {saveError && (
+              <Alert severity="error" sx={{ mb: 2 }}>
+                Failed to save: {saveError}
+              </Alert>
+            )}
+            {edits && (
+              <Box sx={{ display: "flex", flexDirection: "column", gap: 2, pt: 1 }}>
+                <Autocomplete
+                  options={FORMAT_OPTIONS}
+                  value={edits.format}
+                  onChange={(_e, value) => setEdits({ ...edits, format: value })}
+                  renderInput={(params) => <TextField {...params} label="Format" />}
+                />
+                <TextField
+                  label="Brand"
+                  value={edits.brand}
+                  onChange={(e) => setEdits({ ...edits, brand: e.target.value })}
+                  fullWidth
+                />
+                {edits.brandSource === "ai-guess" && (
+                  <Tooltip title="Click the × once you've verified this brand/model">
+                    <Chip
+                      icon={<AutoAwesomeIcon />}
+                      label="Guessed by AI"
+                      size="small"
+                      onDelete={() => setEdits({ ...edits, brandSource: null })}
+                      sx={{ alignSelf: "flex-start", mt: -1 }}
+                    />
+                  </Tooltip>
+                )}
+                <TextField
+                  label="Model"
+                  value={edits.model}
+                  onChange={(e) => setEdits({ ...edits, model: e.target.value })}
+                  fullWidth
+                />
+                <TextField
+                  label="Keys"
+                  type="number"
+                  value={edits.keys}
+                  onChange={(e) => setEdits({ ...edits, keys: e.target.value })}
+                  fullWidth
+                />
+                <TextField
+                  label="Comments"
+                  value={edits.comments}
+                  onChange={(e) => setEdits({ ...edits, comments: e.target.value })}
+                  multiline
+                  minRows={2}
+                  fullWidth
+                />
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={edits.readyForSale}
+                      onChange={(e) => setEdits({ ...edits, readyForSale: e.target.checked })}
+                    />
+                  }
+                  label="Ready for sale (done editing this lock)"
+                />
+              </Box>
+            )}
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={closeEdit} disabled={saving}>
+              Cancel
+            </Button>
+            <Button onClick={saveEdit} variant="contained" disabled={saving}>
+              {saving ? "Saving…" : "Save"}
+            </Button>
+          </DialogActions>
+        </Box>
+
+        <Box sx={{ flexGrow: 1, position: "relative", minHeight: { xs: 280, md: "auto" } }}>
+          {preview && (
+            <PhotoViewer
+              photos={preview.photos}
+              index={preview.index}
+              zoom={zoom}
+              isPanning={isPanning}
+              onWheel={onZoomWheel}
+              onMouseDown={onZoomMouseDown}
+              onMouseMove={onZoomMouseMove}
+              onMouseUp={endZoomDrag}
+              onStep={step}
+              onStartZoom={startZoom}
+              onZoomBy={zoomBy}
+              onExitZoom={() => setZoom(null)}
+              onClose={closeEdit}
+              showZoomControls={!READ_ONLY}
+            />
           )}
-          {edits && (
-            <Box sx={{ display: "flex", flexDirection: "column", gap: 2, pt: 1 }}>
-              <Autocomplete
-                options={FORMAT_OPTIONS}
-                value={edits.format}
-                onChange={(_e, value) => setEdits({ ...edits, format: value })}
-                renderInput={(params) => <TextField {...params} label="Format" />}
-              />
-              <TextField
-                label="Brand"
-                value={edits.brand}
-                onChange={(e) => setEdits({ ...edits, brand: e.target.value })}
-                fullWidth
-              />
-              {edits.brandSource === "ai-guess" && (
-                <Tooltip title="Click the × once you've verified this brand/model">
-                  <Chip
-                    icon={<AutoAwesomeIcon />}
-                    label="Guessed by AI"
-                    size="small"
-                    onDelete={() => setEdits({ ...edits, brandSource: null })}
-                    sx={{ alignSelf: "flex-start", mt: -1 }}
-                  />
-                </Tooltip>
-              )}
-              <TextField
-                label="Model"
-                value={edits.model}
-                onChange={(e) => setEdits({ ...edits, model: e.target.value })}
-                fullWidth
-              />
-              <TextField
-                label="Keys"
-                type="number"
-                value={edits.keys}
-                onChange={(e) => setEdits({ ...edits, keys: e.target.value })}
-                fullWidth
-              />
-              <TextField
-                label="Comments"
-                value={edits.comments}
-                onChange={(e) => setEdits({ ...edits, comments: e.target.value })}
-                multiline
-                minRows={2}
-                fullWidth
-              />
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={edits.readyForSale}
-                    onChange={(e) => setEdits({ ...edits, readyForSale: e.target.checked })}
-                  />
-                }
-                label="Ready for sale (done editing this lock)"
-              />
-            </Box>
-          )}
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={closeEdit} disabled={saving}>
-            Cancel
-          </Button>
-          <Button onClick={saveEdit} variant="contained" disabled={saving}>
-            {saving ? "Saving…" : "Save"}
-          </Button>
-        </DialogActions>
+        </Box>
       </Dialog>
 
       <Snackbar
