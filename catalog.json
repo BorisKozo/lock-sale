@@ -1080,7 +1080,7 @@
       "Images\\Box 3\\IMG_8048.JPG",
       "Images\\Box 3\\IMG_8049.JPG"
     ],
-    "format": null,
+    "format": "Euro",
     "brand": "ABUS",
     "model": "",
     "keys": 2,
@@ -1099,7 +1099,7 @@
       "Images\\Box 3\\IMG_8050.JPG",
       "Images\\Box 3\\IMG_8051.JPG"
     ],
-    "format": null,
+    "format": "Euro",
     "brand": "KESO",
     "model": "2000",
     "keys": 7,
@@ -1119,12 +1119,13 @@
       "Images\\Box 3\\IMG_8053.JPG"
     ],
     "readSource": "human-photo1",
-    "format": null,
-    "brand": "Possibly Mul-T-Lock",
+    "format": "Euro",
+    "brand": "SuperLock",
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": false
   },
   {
     "id": "IMG_8058",
