@@ -579,6 +579,9 @@ export default function App() {
       setLocks((prev) => prev && prev.map((l) => (l.id === updated.id ? updated : l)));
       setEditing(null);
       setEdits(null);
+      setPreview(null);
+      setZoom(null);
+      setIsPanning(false);
     } catch (err) {
       setSaveError(String(err));
     } finally {
