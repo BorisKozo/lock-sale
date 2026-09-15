@@ -1083,9 +1083,10 @@
     "format": null,
     "brand": "ABUS",
     "model": "",
-    "keys": null,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8050",
@@ -1101,9 +1102,10 @@
     "format": null,
     "brand": "KESO",
     "model": "2000",
-    "keys": null,
+    "keys": 7,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8052",
