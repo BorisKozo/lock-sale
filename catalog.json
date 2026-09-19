@@ -883,11 +883,12 @@
       "Images\\Box 3\\IMG_8018.JPG"
     ],
     "format": "Euro",
-    "brand": "ABS",
-    "model": "General/Diamond",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": 2,
     "comments": "Has keycard",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_8019",
@@ -1387,11 +1388,12 @@
       "Images\\Box 3\\IMG_8094.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Lince",
     "model": "",
-    "keys": null,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8095",
@@ -1404,12 +1406,13 @@
       "Images\\Box 3\\IMG_8095.JPG",
       "Images\\Box 3\\IMG_8096.JPG"
     ],
-    "format": "Euro",
+    "format": "Swiss",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "This is a sliders lock apparently, I saw a video of it being picked once but I don't remember where. ",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8097",
@@ -1423,11 +1426,12 @@
       "Images\\Box 3\\IMG_8098.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "GE GE",
     "model": "",
-    "keys": null,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8119",
@@ -1443,9 +1447,10 @@
     "format": "Euro",
     "brand": "Mila",
     "model": "",
-    "keys": null,
+    "keys": 3,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8121",
@@ -1459,11 +1464,12 @@
       "Images\\Box 4\\IMG_8122.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Herman",
+    "brand": "Herman",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "This is a local version of a cheap chinese lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8123",
@@ -1477,11 +1483,12 @@
       "Images\\Box 4\\IMG_8124.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kwikset",
+    "brand": "Generic",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Good for basic picking practice.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8125",
@@ -1495,11 +1502,12 @@
       "Images\\Box 4\\IMG_8126.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Apache Locksport",
-    "model": "",
+    "brand": "Genric",
+    "model": "Challenge Lock",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "This is a challenge lock from Apache Locksport which I wasn't able to pick",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8127",
@@ -1513,11 +1521,12 @@
       "Images\\Box 4\\IMG_8128.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
-    "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "brand": "Generic",
+    "model": "Dimple",
+    "keys": 1,
+    "comments": "A generic 2 row dimple lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8129",
@@ -1531,11 +1540,12 @@
       "Images\\Box 4\\IMG_8130.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Yale",
-    "model": "",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8131",
@@ -1549,11 +1559,12 @@
       "Images\\Box 4\\IMG_8132.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
-    "model": "",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8133",
@@ -1570,8 +1581,9 @@
     "brand": "Possibly Yale",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Good for basic picking practice",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8135",
@@ -1585,11 +1597,12 @@
       "Images\\Box 4\\IMG_8136.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abus",
+    "brand": "Generic",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Half euro",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8137",
@@ -1603,11 +1616,12 @@
       "Images\\Box 4\\IMG_8138.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly W&S",
+    "brand": "W&S",
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8139",
@@ -1624,8 +1638,9 @@
     "brand": "TESA",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "I keep it picked open because I had a Spanish friend pick it for me after I failed for months.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8141",
@@ -1642,8 +1657,9 @@
     "brand": "Ultion",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "There is some strange rust or other type of slime coming out of it, I don't know if it opens.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8143",
@@ -1657,11 +1673,12 @@
       "Images\\Box 4\\IMG_8144.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet British Standard)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8145",
@@ -1675,11 +1692,12 @@
       "Images\\Box 4\\IMG_8146.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet ABS)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8147",
@@ -1693,11 +1711,12 @@
       "Images\\Box 4\\IMG_8148.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet British Standard)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8149",
@@ -1711,11 +1730,12 @@
       "Images\\Box 4\\IMG_8150.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Promax",
+    "brand": "Promax",
     "model": "",
-    "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 3,
+    "comments": "There are 2 original keys and 1 impressioned so this lock is good for beginner impressioning practice.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8151",
@@ -1731,9 +1751,10 @@
     "format": "Euro",
     "brand": "CES",
     "model": "",
-    "keys": null,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8153",
@@ -1765,11 +1786,12 @@
       "Images\\Box 4\\IMG_8156.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet ABS)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8157",
@@ -1783,11 +1805,12 @@
       "Images\\Box 4\\IMG_8158.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet/Assa Abloy security marking)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8159",
@@ -1801,11 +1824,12 @@
       "Images\\Box 4\\IMG_8160.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet ABS)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "External",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8161",
@@ -1819,11 +1843,12 @@
       "Images\\Box 4\\IMG_8162.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet ABS)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8163",
@@ -1837,11 +1862,12 @@
       "Images\\Box 4\\IMG_8164.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ABS (Avocet ABS)",
-    "model": "",
+    "brand": "Avocet",
+    "model": "ABS",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "External",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8165",
@@ -2035,11 +2061,12 @@
       "Images\\Box 4\\IMG_8186.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "TESA",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "I keep it picked because its hard to pick :)",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8187",
@@ -2074,8 +2101,9 @@
     "brand": "ISEO",
     "model": "",
     "keys": null,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Half Euro",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8191",
@@ -2093,7 +2121,8 @@
     "model": "Extra Classe",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8193",
@@ -2111,7 +2140,8 @@
     "model": "",
     "keys": null,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8195",
