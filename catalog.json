@@ -1485,7 +1485,7 @@
     "format": "Euro",
     "brand": "Generic",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "Good for basic picking practice.",
     "brandSource": null,
     "readyForSale": true
@@ -1504,7 +1504,7 @@
     "format": "Euro",
     "brand": "Genric",
     "model": "Challenge Lock",
-    "keys": null,
+    "keys": 0,
     "comments": "This is a challenge lock from Apache Locksport which I wasn't able to pick",
     "brandSource": null,
     "readyForSale": true
@@ -1542,7 +1542,7 @@
     "format": "Euro",
     "brand": "Mul-T-Lock",
     "model": "Classic",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1561,7 +1561,7 @@
     "format": "Euro",
     "brand": "Mul-T-Lock",
     "model": "Classic",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1580,7 +1580,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "Good for basic picking practice",
     "brandSource": "ai-guess",
     "readyForSale": true
@@ -1599,7 +1599,7 @@
     "format": "Euro",
     "brand": "Generic",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "Half euro",
     "brandSource": null,
     "readyForSale": true
@@ -1618,7 +1618,7 @@
     "format": "Euro",
     "brand": "W&S",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1637,7 +1637,7 @@
     "format": "Euro",
     "brand": "TESA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "I keep it picked open because I had a Spanish friend pick it for me after I failed for months.",
     "brandSource": null,
     "readyForSale": true
@@ -1656,7 +1656,7 @@
     "format": "Euro",
     "brand": "Ultion",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "There is some strange rust or other type of slime coming out of it, I don't know if it opens.",
     "brandSource": null,
     "readyForSale": true
@@ -1675,7 +1675,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1694,7 +1694,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess",
     "readyForSale": true
@@ -1713,7 +1713,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1770,7 +1770,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1788,7 +1788,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1807,7 +1807,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1826,7 +1826,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "External",
     "brandSource": null,
     "readyForSale": true
@@ -1845,7 +1845,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -1864,7 +1864,7 @@
     "format": "Euro",
     "brand": "Avocet",
     "model": "ABS",
-    "keys": null,
+    "keys": 0,
     "comments": "External",
     "brandSource": null,
     "readyForSale": true
@@ -1883,7 +1883,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1901,7 +1901,7 @@
     "format": "Euro",
     "brand": "ABUS",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1919,7 +1919,7 @@
     "format": "Euro",
     "brand": "Lotus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1937,7 +1937,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1955,7 +1955,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1973,7 +1973,7 @@
     "format": "Euro",
     "brand": "Winkhaus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -1991,7 +1991,7 @@
     "format": "Euro",
     "brand": "Possibly Abloy",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2009,7 +2009,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2027,7 +2027,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2045,7 +2045,7 @@
     "format": "Euro",
     "brand": "Interlock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2063,7 +2063,7 @@
     "format": "Euro",
     "brand": "TESA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "I keep it picked because its hard to pick :)",
     "brandSource": null,
     "readyForSale": true
@@ -2082,7 +2082,7 @@
     "format": "Euro",
     "brand": "Maco",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2100,7 +2100,7 @@
     "format": "Euro",
     "brand": "ISEO",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "Half Euro",
     "brandSource": null,
     "readyForSale": true
@@ -2119,7 +2119,7 @@
     "format": "Euro",
     "brand": "ABUS",
     "model": "Extra Classe",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -2138,7 +2138,7 @@
     "format": "Euro",
     "brand": "DOM",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": null,
     "readyForSale": true
@@ -2157,7 +2157,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2175,7 +2175,7 @@
     "format": "Euro",
     "brand": "ASSA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2193,7 +2193,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2211,7 +2211,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2229,7 +2229,7 @@
     "format": "Euro",
     "brand": "GEGE",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2247,7 +2247,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2265,7 +2265,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2283,7 +2283,7 @@
     "format": "Euro",
     "brand": "EVVA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2301,7 +2301,7 @@
     "format": "Euro",
     "brand": "Possibly Coastal",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2319,7 +2319,7 @@
     "format": "Euro",
     "brand": "Magnum",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2337,7 +2337,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2355,7 +2355,7 @@
     "format": "Euro",
     "brand": "Possibly ISEO",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2373,7 +2373,7 @@
     "format": "Euro",
     "brand": "CES",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2391,7 +2391,7 @@
     "format": "Euro",
     "brand": "Possibly Abloy",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2409,7 +2409,7 @@
     "format": "Euro",
     "brand": "UNION (Assa Abloy)",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2427,7 +2427,7 @@
     "format": "Euro",
     "brand": "Possibly Vachette",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2445,7 +2445,7 @@
     "format": "Euro",
     "brand": "Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2463,7 +2463,7 @@
     "format": "Euro",
     "brand": "Possibly Ezset",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2481,7 +2481,7 @@
     "format": "Euro",
     "brand": "Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2499,7 +2499,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2517,7 +2517,7 @@
     "format": "Euro",
     "brand": "Brisant",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2535,7 +2535,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2553,7 +2553,7 @@
     "format": null,
     "brand": "Best",
     "model": "Cormax",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2571,7 +2571,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "readSource": "human-verified",
     "brandSource": "ai-guess"
@@ -2590,7 +2590,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2608,7 +2608,7 @@
     "format": "Euro",
     "brand": "Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2626,7 +2626,7 @@
     "format": "Euro",
     "brand": "ABUS",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2644,7 +2644,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2662,7 +2662,7 @@
     "format": "Euro",
     "brand": "Possibly JPM",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2680,7 +2680,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2698,7 +2698,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2716,7 +2716,7 @@
     "format": "Euro",
     "brand": "Possibly Federal",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2734,7 +2734,7 @@
     "format": "Euro",
     "brand": "CISA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2752,7 +2752,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2770,7 +2770,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2788,7 +2788,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2806,7 +2806,7 @@
     "format": "Euro",
     "brand": "Possibly Vier",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2824,7 +2824,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2842,7 +2842,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2860,7 +2860,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2878,7 +2878,7 @@
     "format": "Euro",
     "brand": "Possibly ILCO",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2896,7 +2896,7 @@
     "format": "Euro",
     "brand": "Possibly CISA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2914,7 +2914,7 @@
     "format": "Euro",
     "brand": "TESA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2932,7 +2932,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2950,7 +2950,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2968,7 +2968,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -2986,7 +2986,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3004,7 +3004,7 @@
     "format": "Euro",
     "brand": "Geba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3022,7 +3022,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3040,7 +3040,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3058,7 +3058,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3076,7 +3076,7 @@
     "format": "Euro",
     "brand": "Possibly ERA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3094,7 +3094,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3112,7 +3112,7 @@
     "format": "Euro",
     "brand": "Possibly Abloy",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3130,7 +3130,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3148,7 +3148,7 @@
     "format": "Euro",
     "brand": "Possibly ABUS",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3166,7 +3166,7 @@
     "format": "Euro",
     "brand": "Possibly Excellent",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3184,7 +3184,7 @@
     "format": "Euro",
     "brand": "Possibly Union",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3202,7 +3202,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3220,7 +3220,7 @@
     "format": "Euro",
     "brand": "Possibly Union",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3238,7 +3238,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3256,7 +3256,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3274,7 +3274,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3292,7 +3292,7 @@
     "format": "Euro",
     "brand": "Possibly EVVA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3310,7 +3310,7 @@
     "format": "Euro",
     "brand": "Possibly CISA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3328,7 +3328,7 @@
     "format": "Euro",
     "brand": "Corbin",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3346,7 +3346,7 @@
     "format": "Euro",
     "brand": "Possibly Silca",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3364,7 +3364,7 @@
     "format": "Euro",
     "brand": "Apecs",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3382,7 +3382,7 @@
     "format": "Euro",
     "brand": "Iseo",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3400,7 +3400,7 @@
     "format": "Euro",
     "brand": "",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": ""
   },
   {
@@ -3417,7 +3417,7 @@
     "format": "Euro",
     "brand": "Possibly SL",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3435,7 +3435,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "readSource": "human-verified",
     "brandSource": "ai-guess"
@@ -3454,7 +3454,7 @@
     "format": "Euro",
     "brand": "BKS",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3472,7 +3472,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "readSource": "human-photo1",
     "brandSource": "ai-guess"
@@ -3491,7 +3491,7 @@
     "format": "Euro",
     "brand": "Possibly Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3509,7 +3509,7 @@
     "format": "Euro",
     "brand": "KESO",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3528,7 +3528,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3546,7 +3546,7 @@
     "format": "Euro",
     "brand": "CARL F",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "readSource": "human-photo1",
     "brandSource": "ai-guess"
@@ -3565,7 +3565,7 @@
     "format": "Euro",
     "brand": "Possibly Keyse",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3583,7 +3583,7 @@
     "format": "Euro",
     "brand": "Possibly Corbin",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3601,7 +3601,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3619,7 +3619,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3637,7 +3637,7 @@
     "format": "Euro",
     "brand": "FAB",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3655,7 +3655,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3673,7 +3673,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3691,7 +3691,7 @@
     "format": "Euro",
     "brand": "Possibly UAP",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3709,7 +3709,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3727,7 +3727,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3745,7 +3745,7 @@
     "format": "Euro",
     "brand": "Gelem",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3763,7 +3763,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3781,7 +3781,7 @@
     "format": "Euro",
     "brand": "Possibly ABUS",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3799,7 +3799,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3817,7 +3817,7 @@
     "format": "Euro",
     "brand": "Possibly Silca (SL)",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3835,7 +3835,7 @@
     "format": "Euro",
     "brand": "Vachette",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3853,7 +3853,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3871,7 +3871,7 @@
     "format": "Euro",
     "brand": "Possibly STP",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3889,7 +3889,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3907,7 +3907,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3925,7 +3925,7 @@
     "format": "Euro",
     "brand": "Possibly Cintec Ltd",
     "model": "Blocker 3012",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3943,7 +3943,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3961,7 +3961,7 @@
     "format": "Euro",
     "brand": "Possibly Kwikset",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3979,7 +3979,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -3997,7 +3997,7 @@
     "format": "Euro",
     "brand": "Possibly JEFF",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4015,7 +4015,7 @@
     "format": "Euro",
     "brand": "TESA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4033,7 +4033,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4051,7 +4051,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4069,7 +4069,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4087,7 +4087,7 @@
     "format": "Euro",
     "brand": "Gard",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4105,7 +4105,7 @@
     "format": "Euro",
     "brand": "Possibly Ilco",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4123,7 +4123,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4141,7 +4141,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4159,7 +4159,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4177,7 +4177,7 @@
     "format": "Euro",
     "brand": "Possibly Abloy",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4195,7 +4195,7 @@
     "format": "Euro",
     "brand": "Possibly Kwikset",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4213,7 +4213,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4231,7 +4231,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4249,7 +4249,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4267,7 +4267,7 @@
     "format": "Euro",
     "brand": "Possibly Silca",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4285,7 +4285,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4303,7 +4303,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4321,7 +4321,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4339,7 +4339,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4357,7 +4357,7 @@
     "format": "Euro",
     "brand": "Possibly Union",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4375,7 +4375,7 @@
     "format": "Euro",
     "brand": "Possibly Yale",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4393,7 +4393,7 @@
     "format": "Euro",
     "brand": "Possibly CISA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4411,7 +4411,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4429,7 +4429,7 @@
     "format": "Euro",
     "brand": "Possibly Kwikset",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4447,7 +4447,7 @@
     "format": "Euro",
     "brand": "Possibly Kaba",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4465,7 +4465,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4483,7 +4483,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4501,7 +4501,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4519,7 +4519,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4537,7 +4537,7 @@
     "format": "Euro",
     "brand": "Possibly Union",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4555,7 +4555,7 @@
     "format": "Euro",
     "brand": "Possibly CISA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4574,7 +4574,7 @@
     "format": "Euro",
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4592,7 +4592,7 @@
     "format": "Euro",
     "brand": "Possibly Mul-T-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4610,7 +4610,7 @@
     "format": null,
     "brand": "",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": ""
   },
   {
@@ -4627,7 +4627,7 @@
     "format": null,
     "brand": "BiLock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4645,7 +4645,7 @@
     "format": null,
     "brand": "Bi-Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4663,7 +4663,7 @@
     "format": null,
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess",
     "readSource": "human-verified"
@@ -4682,7 +4682,7 @@
     "format": null,
     "brand": "ASSA",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4700,7 +4700,7 @@
     "format": null,
     "brand": "Wynns Locks",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4718,7 +4718,7 @@
     "format": null,
     "brand": "Possibly Nixonswitch/Zidane",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4736,7 +4736,7 @@
     "format": null,
     "brand": "Possibly Master Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess",
     "readSource": "human-verified"
@@ -4755,7 +4755,7 @@
     "format": null,
     "brand": "Viro",
     "model": "102 (Lucchetto a Barilotto)",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4773,7 +4773,7 @@
     "format": null,
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "readSource": "human-verified",
     "brandSource": "ai-guess"
@@ -4792,7 +4792,7 @@
     "format": null,
     "brand": "Medeco",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4810,7 +4810,7 @@
     "format": null,
     "brand": "Camel",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4828,7 +4828,7 @@
     "format": null,
     "brand": "Possibly Russwin",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4846,7 +4846,7 @@
     "format": null,
     "brand": "Kwikset",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4864,7 +4864,7 @@
     "format": null,
     "brand": "ABUS",
     "model": "Diskus No 24",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4882,7 +4882,7 @@
     "format": null,
     "brand": "Possibly Abus",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess",
     "readSource": "human-verified"
@@ -4901,7 +4901,7 @@
     "format": null,
     "brand": "Possibly CompX National",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4919,7 +4919,7 @@
     "format": null,
     "brand": "Possibly Ingersoll",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4937,7 +4937,7 @@
     "format": null,
     "brand": "Possibly Master Lock",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -4955,7 +4955,7 @@
     "format": null,
     "brand": "Possibly Abloy",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
@@ -5029,7 +5029,7 @@
     "format": null,
     "brand": "Possibly Russwin",
     "model": "",
-    "keys": null,
+    "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
   },
