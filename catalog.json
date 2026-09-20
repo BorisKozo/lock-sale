@@ -1768,11 +1768,12 @@
       "Images\\Box 4\\IMG_8154.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abus",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Has two rows of pins and no key",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8155",
@@ -1881,11 +1882,12 @@
       "Images\\Box 4\\IMG_8166.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Yale",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Has two rows of pins and no key",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8167",
@@ -1903,7 +1905,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8169",
@@ -1921,7 +1924,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8171",
@@ -1935,11 +1939,12 @@
       "Images\\Box 4\\IMG_8172.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Super Lock",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8173",
@@ -1953,11 +1958,12 @@
       "Images\\Box 4\\IMG_8174.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
-    "model": "",
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8175",
@@ -1973,9 +1979,10 @@
     "format": "Euro",
     "brand": "Winkhaus",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8177",
@@ -1989,11 +1996,12 @@
       "Images\\Box 4\\IMG_8178.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abloy",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8179",
@@ -2007,11 +2015,12 @@
       "Images\\Box 4\\IMG_8180.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Has two rows of keys",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8181",
@@ -2025,11 +2034,12 @@
       "Images\\Box 4\\IMG_8182.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Has two rows of pins",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8183",
@@ -2045,9 +2055,10 @@
     "format": "Euro",
     "brand": "Interlock",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8185",
@@ -2080,11 +2091,12 @@
       "Images\\Box 4\\IMG_8188.JPG"
     ],
     "format": "Euro",
-    "brand": "Maco",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Its a regular pin tumbler Mul-T-Lock with a Macoware inscription on it.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8189",
@@ -2155,11 +2167,12 @@
       "Images\\Box 4\\IMG_8196.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Don't Know",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8197",
@@ -2177,7 +2190,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8199",
@@ -2191,11 +2205,12 @@
       "Images\\Box 4\\IMG_8200.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Generic",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Strange keyway",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8201",
@@ -2209,11 +2224,12 @@
       "Images\\Box 4\\IMG_8202.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
-    "model": "",
+    "brand": "Yardeni",
+    "model": "Gard",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8203",
@@ -2229,9 +2245,10 @@
     "format": "Euro",
     "brand": "GEGE",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8205",
@@ -2245,11 +2262,12 @@
       "Images\\Box 4\\IMG_8206.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8207",
@@ -2266,8 +2284,9 @@
     "brand": "Possibly Mul-T-Lock",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "It has a strange version of the flexing key logo so I don't know if this is fake or a very old/new version",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8209",
@@ -2282,10 +2301,11 @@
     ],
     "format": "Euro",
     "brand": "EVVA",
-    "model": "",
+    "model": "3KS",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8211",
@@ -2299,11 +2319,12 @@
       "Images\\Box 4\\IMG_8212.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Coastal",
+    "brand": "Coastal",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8213",
@@ -2319,9 +2340,10 @@
     "format": "Euro",
     "brand": "Magnum",
     "model": "",
-    "keys": 0,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8215",
@@ -2335,11 +2357,12 @@
       "Images\\Box 4\\IMG_8216.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8217",
@@ -2353,11 +2376,12 @@
       "Images\\Box 4\\IMG_8218.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly ISEO",
+    "brand": "ISEO",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8219",
@@ -2375,7 +2399,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8221",
@@ -2389,11 +2414,12 @@
       "Images\\Box 4\\IMG_8222.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abloy",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Strange keyway",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8223",
@@ -2411,7 +2437,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8225",
@@ -2425,11 +2452,12 @@
       "Images\\Box 4\\IMG_8226.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Vachette",
+    "brand": "Don't know",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Looks like an imressioned key.",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8227",
@@ -2446,8 +2474,9 @@
     "brand": "Yale",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Not sure why I keep it picked",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8229",
@@ -2461,11 +2490,12 @@
       "Images\\Box 4\\IMG_8230.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Ezset",
+    "brand": "E&S",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Not sure why I keep it picked",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8231",
@@ -2482,8 +2512,9 @@
     "brand": "Yale",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Not sure why I keep it picked",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8233",
@@ -2497,11 +2528,12 @@
       "Images\\Box 4\\IMG_8234.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Generic",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Not sure why I keep it picked",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8235",
@@ -2519,7 +2551,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8237",
@@ -2533,11 +2566,12 @@
       "Images\\Box 4\\IMG_8238.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
+    "brand": "Rato? ",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8239",
@@ -2550,12 +2584,13 @@
       "Images\\Box 4\\IMG_8239.JPG",
       "Images\\Box 4\\IMG_8240.JPG"
     ],
-    "format": null,
+    "format": "Core",
     "brand": "Best",
     "model": "Cormax",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "This is just a coremax core for a best lock with no pins!",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8241",
@@ -2736,7 +2771,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8272",
@@ -2768,11 +2804,12 @@
       "Images\\Box 5\\IMG_8276.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abus",
+    "brand": "Yardeni",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Has the legacy Yardeni (ירדני) logo on the front",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8278",
@@ -2786,11 +2823,12 @@
       "Images\\Box 5\\IMG_8279.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
+    "brand": "GE GE",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8280",
@@ -2916,7 +2954,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8301",
@@ -3038,11 +3077,12 @@
       "Images\\Box 5\\IMG_8317.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Rav Bariah (Mul-T-Lock)",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "After the sale of the Mul-T-Lock division, Rav Bariah could not use the flexing key symbol for the exact same lock so they made this symbol instead. After a law suit by Assa Abloy that this symbol resembles the original Mul-T-Lock too much they changed the symbol to just say Rav Bariah ",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8318",
@@ -3092,11 +3132,12 @@
       "Images\\Box 5\\IMG_8323.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abus",
-    "model": "",
+    "brand": "Yardeni",
+    "model": "Gard",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8324",
@@ -3254,11 +3295,12 @@
       "Images\\Box 5\\IMG_8343.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
+    "brand": "Rav Bariah ",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Rav Bariah new logo (just says Rav Bariah - רב בריח)",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8344",
@@ -3290,11 +3332,12 @@
       "Images\\Box 5\\IMG_8347.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly EVVA",
-    "model": "",
-    "keys": 0,
+    "brand": "EVVA",
+    "model": "3KS",
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8348",
