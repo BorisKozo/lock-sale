@@ -5097,5 +5097,663 @@
     "comments": "",
     "brandSource": null,
     "readyForSale": true
+  },
+  {
+    "id": "IMG_8578",
+    "box": 9,
+    "stickerNumber": "83",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8578.JPG",
+      "Images\\Box 9\\IMG_8579.JPG"
+    ],
+    "brand": "Amtech",
+    "model": "",
+    "brandSource": null,
+    "format": "Padlock",
+    "keys": 3,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8580",
+    "box": 9,
+    "stickerNumber": "84",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8580.JPG",
+      "Images\\Box 9\\IMG_8581.JPG"
+    ],
+    "brand": "BOSI TOOLS",
+    "model": "",
+    "brandSource": null,
+    "format": null,
+    "keys": 3,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8582",
+    "box": 9,
+    "stickerNumber": "85",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8582.JPG",
+      "Images\\Box 9\\IMG_8583.JPG"
+    ],
+    "brand": "Extra",
+    "model": "",
+    "brandSource": null,
+    "format": null,
+    "keys": 3,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8584",
+    "box": 9,
+    "stickerNumber": "86",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8584.JPG",
+      "Images\\Box 9\\IMG_8585.JPG"
+    ],
+    "brand": "An Jia Bao",
+    "model": "",
+    "brandSource": null,
+    "format": null,
+    "keys": 3,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8586",
+    "box": 9,
+    "stickerNumber": "87",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8586.JPG",
+      "Images\\Box 9\\IMG_8587.JPG"
+    ],
+    "brand": "Tri-Star",
+    "model": "",
+    "brandSource": null,
+    "format": null,
+    "keys": 3,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8588",
+    "box": 9,
+    "stickerNumber": "88",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8588.JPG",
+      "Images\\Box 9\\IMG_8589.JPG"
+    ],
+    "brand": "MB",
+    "model": "",
+    "brandSource": null,
+    "format": null,
+    "keys": 4,
+    "comments": "Chinese disc detainer lock",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8590",
+    "box": 9,
+    "stickerNumber": "89",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8590.JPG",
+      "Images\\Box 9\\IMG_8591.JPG"
+    ],
+    "brand": "ABUS",
+    "model": "838CS/50",
+    "brandSource": null,
+    "format": "Padlock",
+    "keys": 4,
+    "comments": "Disc Detainer, brand new, I took it out of the box for the photo.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8592",
+    "box": 9,
+    "stickerNumber": "90",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8592.JPG",
+      "Images\\Box 9\\IMG_8593.JPG"
+    ],
+    "brand": "Yale",
+    "model": "",
+    "brandSource": null,
+    "format": "Euro",
+    "keys": 0,
+    "comments": "A repinable cutaway lock that I made with the LockNoob hacksaw technique, didn't come out well.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8594",
+    "box": 9,
+    "stickerNumber": "91",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8594.JPG",
+      "Images\\Box 9\\IMG_8595.JPG"
+    ],
+    "brand": "",
+    "model": "",
+    "format": "Euro",
+    "keys": 0,
+    "comments": "A front cutaway that I made with a repinable chamber for demos.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8596",
+    "box": 9,
+    "stickerNumber": "93",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8596.JPG",
+      "Images\\Box 9\\IMG_8597.JPG"
+    ],
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "format": "Euro",
+    "keys": 0,
+    "comments": "A repinablle Mul-T-Lock classic for picking practice. ",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8598",
+    "box": 9,
+    "stickerNumber": "92",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8598.JPG",
+      "Images\\Box 9\\IMG_8599.JPG"
+    ],
+    "brand": "Sparrows",
+    "model": "Revolver",
+    "format": "Core",
+    "keys": 1,
+    "comments": "This is a sparrow revolver that has a Schalge core and 4 sides, you can load each side with different difficulty.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8600",
+    "box": 9,
+    "stickerNumber": "94",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8600.JPG",
+      "Images\\Box 9\\IMG_8601.JPG"
+    ],
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "brandSource": "ai-guess",
+    "format": "Euro",
+    "keys": 1,
+    "comments": "A cutaway I made where you can see all the action including the inner pins.",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8602",
+    "box": 9,
+    "stickerNumber": "96",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8602.JPG",
+      "Images\\Box 9\\IMG_8603.JPG"
+    ],
+    "brand": "Mul-T-Lock",
+    "model": "Classic",
+    "format": "Euro",
+    "keys": 0,
+    "comments": "A repinabble lock I made.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8604",
+    "box": 9,
+    "stickerNumber": "97",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8604.JPG",
+      "Images\\Box 9\\IMG_8605.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Classic",
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "This is a cutaway I made, it came out really nice you can see all the action.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8606",
+    "box": 9,
+    "stickerNumber": "95",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8606.JPG",
+      "Images\\Box 9\\IMG_8607.JPG"
+    ],
+    "brand": "Schlage",
+    "model": "",
+    "format": "Core",
+    "keys": 0,
+    "comments": "This is a professionally made cutaway (not by me)",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8608",
+    "box": 9,
+    "stickerNumber": "1",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8608.JPG",
+      "Images\\Box 9\\IMG_8609.JPG"
+    ],
+    "brand": "CompX National",
+    "model": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8610",
+    "box": 9,
+    "stickerNumber": "2",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8610.JPG",
+      "Images\\Box 9\\IMG_8611.JPG"
+    ],
+    "brand": "Chubb",
+    "model": "AVA",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 2,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8612",
+    "box": 9,
+    "stickerNumber": "3",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8612.JPG",
+      "Images\\Box 9\\IMG_8613.JPG"
+    ],
+    "brand": "Chubb",
+    "model": "AVA",
+    "brandSource": null,
+    "format": null,
+    "keys": 2,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8614",
+    "box": 9,
+    "stickerNumber": "4",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8614.JPG",
+      "Images\\Box 9\\IMG_8615.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8616",
+    "box": 9,
+    "stickerNumber": "5",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8616.JPG",
+      "Images\\Box 9\\IMG_8617.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Classic",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8618",
+    "box": 9,
+    "stickerNumber": "6",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8618.JPG",
+      "Images\\Box 9\\IMG_8619.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Classic",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8620",
+    "box": 9,
+    "stickerNumber": "7",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8620.JPG",
+      "Images\\Box 9\\IMG_8621.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Classic",
+    "brandSource": null,
+    "format": null,
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8622",
+    "box": 9,
+    "stickerNumber": "8",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8622.JPG",
+      "Images\\Box 9\\IMG_8623.JPG"
+    ],
+    "brand": "Illinois Lock Co.",
+    "model": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8624",
+    "box": 9,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8624.JPG",
+      "Images\\Box 9\\IMG_8625.JPG"
+    ],
+    "brand": "Ruko ASSA ABLOY",
+    "model": "Series 1200",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8626",
+    "box": 9,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8626.JPG",
+      "Images\\Box 9\\IMG_8627.JPG"
+    ],
+    "brand": "Fort Lock",
+    "model": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8628",
+    "box": 9,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8628.JPG",
+      "Images\\Box 9\\IMG_8629.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8630",
+    "box": 9,
+    "stickerNumber": "9",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8630.JPG",
+      "Images\\Box 9\\IMG_8631.JPG"
+    ],
+    "brand": "Ruko",
+    "model": "400",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8632",
+    "box": 9,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8632.JPG",
+      "Images\\Box 9\\IMG_8633.JPG"
+    ],
+    "brand": "Parrot",
+    "model": "",
+    "brandSource": "ai-guess"
+  },
+  {
+    "id": "IMG_8634",
+    "box": 9,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8634.JPG",
+      "Images\\Box 9\\IMG_8635.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Classic",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8636",
+    "box": 9,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8636.JPG",
+      "Images\\Box 9\\IMG_8637.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8638",
+    "box": 9,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.8,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8638.JPG",
+      "Images\\Box 9\\IMG_8639.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8640",
+    "box": 9,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8640.JPG",
+      "Images\\Box 9\\IMG_8641.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8642",
+    "box": 9,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8642.JPG",
+      "Images\\Box 9\\IMG_8643.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8644",
+    "box": 9,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8644.JPG",
+      "Images\\Box 9\\IMG_8645.JPG"
+    ],
+    "brand": "ASSA",
+    "model": "",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8646",
+    "box": 9,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8646.JPG",
+      "Images\\Box 9\\IMG_8647.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8648",
+    "box": 9,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8648.JPG",
+      "Images\\Box 9\\IMG_8649.JPG"
+    ],
+    "brand": "Generic",
+    "model": "",
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "A cool lock for electric switching, has 4 positions to switch between with the key. ",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8650",
+    "box": 9,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8650.JPG",
+      "Images\\Box 9\\IMG_8651.JPG"
+    ],
+    "brand": "",
+    "model": ""
+  },
+  {
+    "id": "IMG_8652",
+    "box": 9,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 9\\IMG_8652.JPG",
+      "Images\\Box 9\\IMG_8653.JPG"
+    ],
+    "brand": "Abloy",
+    "model": "Exec",
+    "brandSource": null,
+    "format": "Camlock",
+    "keys": 0,
+    "comments": "",
+    "readyForSale": true
   }
 ]
