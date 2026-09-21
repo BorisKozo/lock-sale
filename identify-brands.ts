@@ -34,13 +34,15 @@ function imageBlock(file: string) {
 
 async function identify(client: Anthropic, photos: string[]): Promise<{ brand: string | null; model: string | null }> {
   const prompt =
-    "These photos show a door lock cylinder (Euro-profile or similar). Based on visible markings, " +
+    "These photos are different views of the SAME lock (padlock, cylinder, cam lock, etc.). " +
+    "Examine ALL of them: a logo or marking may appear on only one. Based on visible markings, " +
     "keyway shape, logo, finish, or overall design, give your best guess at the brand and model. " +
     "Return strict JSON, no prose, no code fences: " +
     '{"brand": <string or null>, "model": <string or null>}. ' +
     "If you recognize the brand but not the specific model, name the brand and set model to null. " +
-    'If you\'re not fully confident, prefix the guess with "Possibly " rather than omitting it, ' +
-    "but use null if you truly have no idea. Never invent a specific model number you can't actually see or infer.";
+    "If you're not fully confident, still give your best guess as the plain brand name — never add " +
+    'hedging words like "Possibly" or "Probably" (guesses are flagged separately). ' +
+    "Use null only if you truly have no idea. Never invent a specific model number you can't actually see or infer.";
   const msg = await client.messages.create({
     model: "claude-sonnet-5",
     max_tokens: 200,
@@ -49,10 +51,9 @@ async function identify(client: Anthropic, photos: string[]): Promise<{ brand: s
   const text = msg.content.filter((b): b is Anthropic.TextBlock => b.type === "text").map(b => b.text).join("");
   try {
     const j = JSON.parse(text.replace(/```json|```/g, "").trim());
-    return {
-      brand: typeof j.brand === "string" && j.brand.trim() ? j.brand.trim() : null,
-      model: typeof j.model === "string" && j.model.trim() ? j.model.trim() : null,
-    };
+    const clean = (v: unknown) =>
+      typeof v === "string" && v.trim() ? v.trim().replace(/^(possibly|probably|maybe)\s+/i, "") || null : null;
+    return { brand: clean(j.brand), model: clean(j.model) };
   } catch {
     return { brand: null, model: null };
   }
@@ -75,10 +76,16 @@ async function main() {
     if (photos.length === 0) continue;
 
     const guess = await identify(client, photos);
-    lock.brand = guess.brand ?? "";
-    lock.model = guess.model ?? "";
-    if (guess.brand || guess.model) lock.brandSource = "ai-guess";
-    fs.writeFileSync(outFile, JSON.stringify(locks, null, 2)); // incremental save
+    // Re-read right before writing so edits saved from the app while the
+    // (slow) API calls were running aren't clobbered by a stale in-memory copy.
+    const fresh: any[] = JSON.parse(fs.readFileSync(outFile, "utf8"));
+    const target = fresh.find((l) => l.id === lock.id);
+    if (!target) continue;
+    if (!isEmpty(target.brand) || !isEmpty(target.model)) continue; // user filled it meanwhile
+    target.brand = guess.brand ?? "";
+    target.model = guess.model ?? "";
+    if (guess.brand || guess.model) target.brandSource = "ai-guess";
+    fs.writeFileSync(outFile, JSON.stringify(fresh, null, 2)); // incremental save
     count++;
     console.log(`${lock.id}: brand=${JSON.stringify(guess.brand)} model=${JSON.stringify(guess.model)}`);
   }

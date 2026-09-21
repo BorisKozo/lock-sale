@@ -22,6 +22,8 @@ import {
   Snackbar,
   Stack,
   TextField,
+  ToggleButton,
+  ToggleButtonGroup,
   Toolbar,
   Tooltip,
   Typography,
@@ -85,22 +87,21 @@ function toEdits(lock: Lock): LockEdits {
   };
 }
 
-// The fields shown in the table, concatenated for a simple substring search.
-// "id" (the source photo filename, e.g. IMG_8139) is deliberately excluded:
-// it's never shown in the UI, so matching it just produces confusing hits.
-const SEARCH_FIELDS: (keyof Lock)[] = [
-  "box",
-  "stickerNumber",
-  "stickerShape",
-  "format",
-  "brand",
-  "model",
-  "keys",
-  "comments",
-];
-
+// Search matches only what the card actually displays (built from the same
+// label helpers the card renders with) — never raw stored values the user
+// can't see, like the source photo filename or an unpadded box number.
 function matchesQuery(lock: Lock, no: number, query: string): boolean {
-  const haystack = [String(no), ...SEARCH_FIELDS.map((f) => String(lock[f] ?? ""))]
+  const haystack = [
+    lockCode(lock, no),
+    stickerLabel(lock),
+    lock.brand || "Unknown brand",
+    lock.format,
+    keysLabel(lock),
+    lock.model,
+    lock.comments,
+    lock.needsReview ? "Needs review" : "",
+    !READ_ONLY && lock.readyForSale === true ? "Ready for sale" : "",
+  ]
     .join(" ")
     .toLowerCase();
   return haystack.includes(query);
@@ -117,6 +118,16 @@ function lockCode(lock: Lock, no: number): string {
   const shapeLetter = (lock.stickerShape && SHAPE_CODE[lock.stickerShape]) || "X";
   const sticker = lock.stickerNumber ? lock.stickerNumber.padStart(2, "0") : "--";
   return `${String(no).padStart(4, "0")}-${String(lock.box).padStart(2, "0")}-${sticker}-${shapeLetter}`;
+}
+
+function stickerLabel(lock: Lock): string {
+  return `Box ${lock.box} · ${lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}${
+    lock.stickerShape ? ` (${lock.stickerShape})` : ""
+  }`;
+}
+
+function keysLabel(lock: Lock): string {
+  return lock.keys == null ? "N/A" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`;
 }
 
 // Where to fetch the catalog from: the Express API in dev (proxied), or a
@@ -295,13 +306,14 @@ interface LockCardProps {
   onPreview: (photos: string[], index: number) => void;
   onOpenEdit: (lock: Lock) => void;
   onCopyCode: (code: string) => void;
+  photoIndex: 0 | 1;
 }
 
 // Memoized so typing in the edit dialog (which lives in App's state) doesn't
 // re-render all ~300 cards on every keystroke — only cards whose own props
 // actually changed (e.g. after a save) re-render.
-const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCopyCode }: LockCardProps) {
-  const thumb = lock.photos[1] ?? lock.photos[0];
+const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCopyCode, photoIndex }: LockCardProps) {
+  const thumb = lock.photos[photoIndex] ?? lock.photos[0];
   const code = lockCode(lock, no);
   // Internal-only status, never relevant on the published site — see READ_ONLY.
   const showReady = !READ_ONLY && lock.readyForSale === true;
@@ -391,8 +403,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
               textOverflow: "ellipsis",
             }}
           >
-            Box {lock.box} · {lock.stickerNumber ? `#${lock.stickerNumber}` : "no sticker"}
-            {lock.stickerShape ? ` (${lock.stickerShape})` : ""}
+            {stickerLabel(lock)}
           </Typography>
         </Stack>
         {lock.needsReview && (
@@ -420,7 +431,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
             <Stack direction="row" alignItems="center" spacing={0.5}>
               <VpnKeyIcon sx={{ fontSize: 16, color: "text.secondary" }} />
               <Typography variant="body2" color="text.secondary">
-                {lock.keys == null ? "N/A" : `${lock.keys} ${lock.keys === 1 ? "key" : "keys"}`}
+                {keysLabel(lock)}
               </Typography>
             </Stack>
           </Stack>
@@ -462,6 +473,16 @@ export default function App() {
   const [hideReady, setHideReady] = useState(
     () => new URLSearchParams(window.location.search).get("hideReady") === "1",
   );
+  // Which of each lock's photos the cards show: 0 = first (the sticker shot),
+  // 1 = second (the default). Kept in the querystring as photo=1 / photo=2.
+  const [photoIndex, setPhotoIndex] = useState<0 | 1>(() =>
+    new URLSearchParams(window.location.search).get("photo") === "1" ? 0 : 1,
+  );
+  // Once the user has picked a photo, the param stays in the URL even when it
+  // equals the default; before that (or when absent on load) the URL stays clean.
+  const [photoChosen, setPhotoChosen] = useState(() =>
+    new URLSearchParams(window.location.search).has("photo"),
+  );
   // The open lightbox: the current row's photo paths plus which one is showing.
   const [preview, setPreview] = useState<{ photos: string[]; index: number } | null>(null);
   // Dev-only original-image zoom/pan state; null means "not zoomed" (showing
@@ -496,10 +517,12 @@ export default function App() {
     else params.delete("q");
     if (hideReady) params.set("hideReady", "1");
     else params.delete("hideReady");
+    if (photoChosen) params.set("photo", String(photoIndex + 1));
+    else params.delete("photo");
     const qs = params.toString();
     const url = window.location.pathname + (qs ? `?${qs}` : "") + window.location.hash;
     window.history.replaceState(null, "", url);
-  }, [query, hideReady]);
+  }, [query, hideReady, photoIndex, photoChosen]);
 
   // Pair each lock with its catalog.json row number (1-based) BEFORE filtering,
   // so the number stays stable under search instead of reflecting the filtered
@@ -699,12 +722,41 @@ export default function App() {
                       <SearchIcon fontSize="small" />
                     </InputAdornment>
                   ),
+                  endAdornment: query ? (
+                    <InputAdornment position="end">
+                      <IconButton
+                        aria-label="clear search"
+                        size="small"
+                        edge="end"
+                        onClick={() => setQuery("")}
+                      >
+                        <CloseIcon fontSize="small" />
+                      </IconButton>
+                    </InputAdornment>
+                  ) : null,
                 },
               }}
             />
-            <Typography variant="caption" color="text.secondary" sx={{ display: "block", mb: 1 }}>
-              {filteredLocks!.length} of {locks.length} locks
-            </Typography>
+            <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ mb: 1 }}>
+              <Typography variant="caption" color="text.secondary">
+                {filteredLocks!.length} of {locks.length} locks
+              </Typography>
+              <ToggleButtonGroup
+                size="small"
+                exclusive
+                value={photoIndex}
+                onChange={(_, v: 0 | 1 | null) => {
+                  if (v === null) return;
+                  setPhotoIndex(v);
+                  setPhotoChosen(true);
+                }}
+                aria-label="photo shown on cards"
+                sx={{ "& .MuiToggleButton-root": { py: 0, px: 1, fontSize: "0.75rem", textTransform: "none" } }}
+              >
+                <ToggleButton value={0}>Photo 1</ToggleButton>
+                <ToggleButton value={1}>Photo 2</ToggleButton>
+              </ToggleButtonGroup>
+            </Stack>
           </Container>
 
           <Box sx={{ flex: 1, overflow: "auto" }}>
@@ -726,6 +778,7 @@ export default function App() {
                     onPreview={openPreview}
                     onOpenEdit={openEdit}
                     onCopyCode={copyCode}
+                    photoIndex={photoIndex}
                   />
                 ))}
               </Box>
