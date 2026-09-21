@@ -2677,11 +2677,12 @@
       "Images\\Box 5\\IMG_8261.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Abus",
+    "brand": "Rav Bariah",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "A generic Rav Bariah lock with the new logo",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8262",
@@ -3169,11 +3170,12 @@
       "Images\\Box 5\\IMG_8327.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Rav Bariah",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "This is a picked dimple lock which looks like an Mul-T-Lock classic clone (can it be called a clone if its made by the same company that made the original?)",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8328",
@@ -3804,11 +3806,12 @@
       "Images\\Box 7\\IMG_8417.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
-    "model": "",
-    "keys": 0,
+    "brand": "Mul-T-Lock",
+    "model": "Interactive",
+    "keys": 3,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8418",
