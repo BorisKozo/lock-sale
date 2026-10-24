@@ -43,7 +43,7 @@ import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 
 // Keep alphabetically sorted — this list drives the editing dropdown as-is.
-const FORMAT_OPTIONS = ["Camlock", "Core", "Euro", "Mortise Round", "Oval", "Padlock", "Swiss"];
+const FORMAT_OPTIONS = ["Camlock", "Combination", "Core", "Euro", "Mortise Round", "Oval", "Padlock", "Swiss"];
 
 interface Lock {
   id: string;
