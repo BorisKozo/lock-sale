@@ -5778,5 +5778,525 @@
     "keys": 0,
     "comments": "",
     "readyForSale": true
+  },
+  {
+    "id": "IMG_8715",
+    "box": 10,
+    "stickerNumber": "1",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8715.JPG",
+      "Images\\Box 10\\IMG_8716.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Generic",
+    "model": "",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8717",
+    "box": 10,
+    "stickerNumber": "2",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8717.JPG",
+      "Images\\Box 10\\IMG_8718.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Generic",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8719",
+    "box": 10,
+    "stickerNumber": "3",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8719.JPG",
+      "Images\\Box 10\\IMG_8720.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Master",
+    "model": "",
+    "keys": null,
+    "comments": "Combination is 29-17-2",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8721",
+    "box": 10,
+    "stickerNumber": "10",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8721.JPG",
+      "Images\\Box 10\\IMG_8722.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Generic",
+    "model": "",
+    "keys": null,
+    "comments": "This is an electronic lock with a fingerprint reader. I think the battery is dead though.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8723",
+    "box": 10,
+    "stickerNumber": "4",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8723.JPG",
+      "Images\\Box 10\\IMG_8724.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Tonyon",
+    "model": "",
+    "keys": null,
+    "comments": "This is the one that can be bypassed like the sesame lock.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8725",
+    "box": 10,
+    "stickerNumber": "11",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8725.JPG",
+      "Images\\Box 10\\IMG_8726.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Generic",
+    "model": "",
+    "keys": null,
+    "comments": "Chinese Master clone, this one has a cutaway hole so you can see the mechanism",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8727",
+    "box": 10,
+    "stickerNumber": "12",
+    "stickerShape": "circle",
+    "confidence": 0.7,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8727.JPG",
+      "Images\\Box 10\\IMG_8728.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Forge",
+    "model": "",
+    "keys": null,
+    "comments": "TSA 007 compatible",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8729",
+    "box": 10,
+    "stickerNumber": "13",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8729.JPG",
+      "Images\\Box 10\\IMG_8730.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Generic",
+    "model": "",
+    "keys": null,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8731",
+    "box": 10,
+    "stickerNumber": "5",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8731.JPG",
+      "Images\\Box 10\\IMG_8732.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Knollan",
+    "model": "SALY Dance",
+    "keys": null,
+    "comments": "The original mechanism later adapted to Master 1500ID in Blue - UP UP LEFT LEFT",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8733",
+    "box": 10,
+    "stickerNumber": "21",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8733.JPG",
+      "Images\\Box 10\\IMG_8734.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8735",
+    "box": 10,
+    "stickerNumber": "20",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8735.JPG",
+      "Images\\Box 10\\IMG_8736.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Corbin",
+    "model": "",
+    "keys": null,
+    "comments": "Vintage lock that doesn't work",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8737",
+    "box": 10,
+    "stickerNumber": "28",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8737.JPG",
+      "Images\\Box 10\\IMG_8738.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "REESE",
+    "model": "",
+    "keys": null,
+    "comments": "Vintage lock that doesn't work",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8739",
+    "box": 10,
+    "stickerNumber": "22",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8739.JPG",
+      "Images\\Box 10\\IMG_8740.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8741",
+    "box": 10,
+    "stickerNumber": "29",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8741.JPG",
+      "Images\\Box 10\\IMG_8743.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "77",
+    "keys": 0,
+    "comments": "It should work, I don't have the key",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8744",
+    "box": 10,
+    "stickerNumber": "14",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8744.JPG",
+      "Images\\Box 10\\IMG_8745.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8746",
+    "box": 10,
+    "stickerNumber": "30",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8746.JPG",
+      "Images\\Box 10\\IMG_8747.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8748",
+    "box": 10,
+    "stickerNumber": "23",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8748.JPG",
+      "Images\\Box 10\\IMG_8749.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8750",
+    "box": 10,
+    "stickerNumber": "31",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8750.JPG",
+      "Images\\Box 10\\IMG_8751.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Yardeni",
+    "model": "",
+    "keys": null,
+    "comments": "A very very old lock body, was found in the dirt in the woods.",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8752",
+    "box": 10,
+    "stickerNumber": "24",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8752.JPG",
+      "Images\\Box 10\\IMG_8753.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8754",
+    "box": 10,
+    "stickerNumber": "32",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8754.JPG",
+      "Images\\Box 10\\IMG_8755.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8756",
+    "box": 10,
+    "stickerNumber": "33",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8756.JPG",
+      "Images\\Box 10\\IMG_8757.JPG"
+    ],
+    "format": "Padlock",
+    "brand": "Mul-T-Lock",
+    "model": "N66/40",
+    "keys": 1,
+    "comments": "A Mul-T-Lock pin tumbler padlock with one original key",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8758",
+    "box": 10,
+    "stickerNumber": "15",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8758.JPG",
+      "Images\\Box 10\\IMG_8759.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8760",
+    "box": 10,
+    "stickerNumber": "25",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8760.JPG",
+      "Images\\Box 10\\IMG_8761.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Master",
+    "model": "1500ID",
+    "keys": null,
+    "comments": "The one and only in Blue - UP LEFT LEFT UP",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8762",
+    "box": 10,
+    "stickerNumber": "16",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8762.JPG",
+      "Images\\Box 10\\IMG_8763.JPG"
+    ],
+    "format": "Combination",
+    "brand": "Knollan",
+    "model": "SALY Dance",
+    "keys": null,
+    "comments": "The original mechanism later adapted to Master 1500ID in Blue - UP LEFT LEFT RIGHT",
+    "brandSource": null,
+    "readyForSale": true
+  },
+  {
+    "id": "IMG_8764",
+    "box": 10,
+    "stickerNumber": "6",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8764.JPG",
+      "Images\\Box 10\\IMG_8765.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8766",
+    "box": 10,
+    "stickerNumber": "7",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8766.JPG",
+      "Images\\Box 10\\IMG_8767.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8768",
+    "box": 10,
+    "stickerNumber": "8",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8768.JPG",
+      "Images\\Box 10\\IMG_8769.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8770",
+    "box": 10,
+    "stickerNumber": "17",
+    "stickerShape": "circle",
+    "confidence": 0.9,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8770.JPG",
+      "Images\\Box 10\\IMG_8771.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8772",
+    "box": 10,
+    "stickerNumber": "26",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8772.JPG",
+      "Images\\Box 10\\IMG_8773.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8775",
+    "box": 10,
+    "stickerNumber": "34",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8775.JPG",
+      "Images\\Box 10\\IMG_8776.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8777",
+    "box": 10,
+    "stickerNumber": "18",
+    "stickerShape": "circle",
+    "confidence": 0.85,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8777.JPG",
+      "Images\\Box 10\\IMG_8778.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8779",
+    "box": 10,
+    "stickerNumber": "27",
+    "stickerShape": "circle",
+    "confidence": 0.98,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8779.JPG",
+      "Images\\Box 10\\IMG_8780.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8781",
+    "box": 10,
+    "stickerNumber": "9",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8781.JPG",
+      "Images\\Box 10\\IMG_8782.JPG"
+    ]
+  },
+  {
+    "id": "IMG_8783",
+    "box": 10,
+    "stickerNumber": "19",
+    "stickerShape": "circle",
+    "confidence": 0.95,
+    "needsReview": false,
+    "photos": [
+      "Images\\Box 10\\IMG_8783.JPG",
+      "Images\\Box 10\\IMG_8784.JPG"
+    ]
   }
 ]
