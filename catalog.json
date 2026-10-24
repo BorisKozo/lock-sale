@@ -3534,11 +3534,12 @@
       "Images\\Box 5\\IMG_8371.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Lock",
+    "brand": "Generic",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "Generic Chinese lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8372",
@@ -3554,9 +3555,10 @@
     "format": "Euro",
     "brand": "KESO",
     "model": "",
-    "keys": 0,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8374",
@@ -4653,11 +4655,13 @@
       "Images\\Box 8\\IMG_8518.JPG",
       "Images\\Box 8\\IMG_8519.JPG"
     ],
-    "format": null,
-    "brand": "",
+    "format": "Camlock",
+    "brand": "VANLOCK",
     "model": "",
-    "keys": 0,
-    "comments": ""
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8520",
@@ -4670,12 +4674,13 @@
       "Images\\Box 8\\IMG_8520.JPG",
       "Images\\Box 8\\IMG_8521.JPG"
     ],
-    "format": null,
+    "format": "Camlock",
     "brand": "BiLock",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8522",
@@ -4688,12 +4693,13 @@
       "Images\\Box 8\\IMG_8522.JPG",
       "Images\\Box 8\\IMG_8523.JPG"
     ],
-    "format": null,
+    "format": "Oval",
     "brand": "Bi-Lock",
-    "model": "",
-    "keys": 0,
+    "model": "GEN 2",
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8524",
@@ -4725,12 +4731,13 @@
       "Images\\Box 8\\IMG_8526.JPG",
       "Images\\Box 8\\IMG_8527.JPG"
     ],
-    "format": null,
+    "format": "Mortise Round",
     "brand": "ASSA",
-    "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "model": "Mogul",
+    "keys": 1,
+    "comments": "You can't see it in the picture but its the Mogul prison version which is much larger and stronger than the regular locks.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8528",
@@ -4798,12 +4805,13 @@
       "Images\\Box 8\\IMG_8534.JPG",
       "Images\\Box 8\\IMG_8535.JPG"
     ],
-    "format": null,
+    "format": "Padlock",
     "brand": "Viro",
     "model": "102 (Lucchetto a Barilotto)",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 3,
+    "comments": "Its the one with the trick pin, still in packaging, never opened.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8536",
@@ -4835,12 +4843,13 @@
       "Images\\Box 8\\IMG_8538.JPG",
       "Images\\Box 8\\IMG_8539.JPG"
     ],
-    "format": null,
+    "format": "Camlock",
     "brand": "Medeco",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": false
   },
   {
     "id": "IMG_8540",
@@ -4853,12 +4862,13 @@
       "Images\\Box 8\\IMG_8540.JPG",
       "Images\\Box 8\\IMG_8541.JPG"
     ],
-    "format": null,
+    "format": "Padlock",
     "brand": "Camel",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Camel card lock with original card and 2 3d-printed keys",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8542",
@@ -4871,12 +4881,13 @@
       "Images\\Box 8\\IMG_8542.JPG",
       "Images\\Box 8\\IMG_8543.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Russwin",
+    "format": "Core",
+    "brand": "Russwin",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 2,
+    "comments": "There was something special about those but I forgot what.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8544",
@@ -4907,12 +4918,13 @@
       "Images\\Box 8\\IMG_8546.JPG",
       "Images\\Box 8\\IMG_8547.JPG"
     ],
-    "format": null,
+    "format": "Padlock",
     "brand": "ABUS",
     "model": "Diskus No 24",
-    "keys": 0,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8548",
@@ -4925,13 +4937,14 @@
       "Images\\Box 8\\IMG_8548.JPG",
       "Images\\Box 8\\IMG_8549.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Abus",
+    "format": "Padlock",
+    "brand": "Generic",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess",
-    "readSource": "human-verified"
+    "keys": 2,
+    "comments": "Generic ABUS Discus clone",
+    "brandSource": null,
+    "readSource": "human-verified",
+    "readyForSale": true
   },
   {
     "id": "IMG_8550",
@@ -4962,12 +4975,13 @@
       "Images\\Box 8\\IMG_8552.JPG",
       "Images\\Box 8\\IMG_8553.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Ingersoll",
-    "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "format": "Padlock",
+    "brand": "Ingersoll",
+    "model": "CS712 ",
+    "keys": 2,
+    "comments": "Made for me by Martin from the UK",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8554",
@@ -4998,12 +5012,13 @@
       "Images\\Box 8\\IMG_8556.JPG",
       "Images\\Box 8\\IMG_8557.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Abloy",
-    "model": "",
+    "format": "Core",
+    "brand": "Mul-T-Lock",
+    "model": "Interactive",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8558",
@@ -5021,7 +5036,8 @@
     "model": "234/45",
     "keys": 1,
     "comments": "There is an issue where the key cannot be taken out of the lock but it works completely as you can see in the pictures.",
-    "brandSource": null
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8560",
@@ -5039,7 +5055,8 @@
     "model": "",
     "keys": 1,
     "comments": "Padlock with variable size shackle ",
-    "brandSource": null
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8562",
@@ -5072,12 +5089,13 @@
       "Images\\Box 8\\IMG_8566.JPG"
     ],
     "readSource": "human-verified",
-    "format": null,
-    "brand": "Possibly Russwin",
+    "format": "Core",
+    "brand": "Russwin",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "There was something special about those but I can't remember what ",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8567",
@@ -5626,8 +5644,13 @@
       "Images\\Box 9\\IMG_8636.JPG",
       "Images\\Box 9\\IMG_8637.JPG"
     ],
-    "brand": "",
-    "model": ""
+    "brand": "KABA",
+    "model": "Expert",
+    "format": "Camlock",
+    "keys": 3,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8638",
