@@ -6338,7 +6338,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8810.JPG",
       "Images\\Box 11\\IMG_8811.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "American Lock",
+    "model": "A1100",
+    "keys": 2,
+    "comments": "New in box (the picture is of a similar lock, I didn't want to open the box).",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8812",
@@ -6350,7 +6357,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8812.JPG",
       "Images\\Box 11\\IMG_8813.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "American Lock",
+    "model": "A1100",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8814",
@@ -6362,7 +6376,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8814.JPG",
       "Images\\Box 11\\IMG_8815.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "American Lock",
+    "model": "A1100",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8816",
@@ -6374,7 +6395,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8816.JPG",
       "Images\\Box 11\\IMG_8817.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "American Lock",
+    "model": "A1100",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8818",
@@ -6386,7 +6414,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8818.JPG",
       "Images\\Box 11\\IMG_8819.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Keyosk",
+    "model": "Guard",
+    "keys": 2,
+    "comments": "New in box, if you know you know",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8820",
@@ -6398,7 +6433,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8820.JPG",
       "Images\\Box 11\\IMG_8821.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Keyosk",
+    "model": "Guard",
+    "keys": 2,
+    "comments": "New in box. If you know, you know.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8822",
@@ -6410,7 +6452,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8822.JPG",
       "Images\\Box 11\\IMG_8823.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Tri-Circle",
+    "model": "264",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8824",
@@ -6422,7 +6471,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8824.JPG",
       "Images\\Box 11\\IMG_8825.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Not sure",
+    "model": "10",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8826",
@@ -6434,7 +6490,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8826.JPG",
       "Images\\Box 11\\IMG_8827.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Smith and Locke",
+    "model": "",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8828",
@@ -6446,7 +6509,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8828.JPG",
       "Images\\Box 11\\IMG_8829.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Magnum",
+    "model": "40",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8830",
@@ -6458,7 +6528,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8830.JPG",
       "Images\\Box 11\\IMG_8831.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Not sure",
+    "model": "",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8832",
@@ -6470,7 +6547,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8832.JPG",
       "Images\\Box 11\\IMG_8833.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Not sure",
+    "model": "",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8834",
@@ -6482,7 +6566,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8834.JPG",
       "Images\\Box 11\\IMG_8835.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "Lockout",
+    "keys": 1,
+    "comments": "Its working, not rattle",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8836",
@@ -6494,7 +6585,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8836.JPG",
       "Images\\Box 11\\IMG_8837.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Generic",
+    "model": "40mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8838",
@@ -6506,7 +6604,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8838.JPG",
       "Images\\Box 11\\IMG_8839.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "Lockout",
+    "keys": 2,
+    "comments": "Its working, not rattle",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8840",
@@ -6518,7 +6623,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8840.JPG",
       "Images\\Box 11\\IMG_8841.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Rav Bariah",
+    "model": "30mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8842",
@@ -6530,7 +6642,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8842.JPG",
       "Images\\Box 11\\IMG_8843.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "SHENLinG",
+    "model": "40mm",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8844",
@@ -6542,7 +6661,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8844.JPG",
       "Images\\Box 11\\IMG_8845.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Citafel",
+    "model": "CB-50",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8846",
@@ -6554,7 +6680,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8846.JPG",
       "Images\\Box 11\\IMG_8847.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "No 140",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8848",
@@ -6566,7 +6699,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8848.JPG",
       "Images\\Box 11\\IMG_8849.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "FUBANG",
+    "model": "30mm",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8850",
@@ -6578,7 +6718,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8850.JPG",
       "Images\\Box 11\\IMG_8851.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Dont know",
+    "model": "30mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8852",
@@ -6590,7 +6737,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8852.JPG",
       "Images\\Box 11\\IMG_8853.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Yardeni",
+    "model": "",
+    "keys": 0,
+    "comments": "Its the one with the side keyway",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8854",
@@ -6602,7 +6756,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8854.JPG",
       "Images\\Box 11\\IMG_8855.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Asec",
+    "model": "40mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8856",
@@ -6614,7 +6775,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8856.JPG",
       "Images\\Box 11\\IMG_8857.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "T.C.Hardware",
+    "model": "",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8858",
@@ -6626,7 +6794,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8858.JPG",
       "Images\\Box 11\\IMG_8859.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Sterling",
+    "model": "",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8860",
@@ -6638,7 +6813,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8860.JPG",
       "Images\\Box 11\\IMG_8861.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Yale",
+    "model": "",
+    "keys": 0,
+    "comments": "It works, I picked it.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8862",
@@ -6650,7 +6832,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8862.JPG",
       "Images\\Box 11\\IMG_8863.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Yardeni",
+    "model": "",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8864",
@@ -6662,7 +6851,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8864.JPG",
       "Images\\Box 11\\IMG_8865.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Tri-Circle",
+    "model": "264",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8866",
@@ -6674,7 +6870,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8866.JPG",
       "Images\\Box 11\\IMG_8867.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Squire",
+    "model": "LP8",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8868",
@@ -6686,7 +6889,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8868.JPG",
       "Images\\Box 11\\IMG_8869.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Squire",
+    "model": "26",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8870",
@@ -6698,7 +6908,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8870.JPG",
       "Images\\Box 11\\IMG_8871.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Squire",
+    "model": "LN4",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8872",
@@ -6710,7 +6927,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8872.JPG",
       "Images\\Box 11\\IMG_8873.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "64TI/50",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8874",
@@ -6722,7 +6946,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8874.JPG",
       "Images\\Box 11\\IMG_8875.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Burg Watcher",
+    "model": "Atlantic",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8876",
@@ -6734,7 +6965,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8876.JPG",
       "Images\\Box 11\\IMG_8877.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "72/30",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8878",
@@ -6746,7 +6984,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8878.JPG",
       "Images\\Box 11\\IMG_8879.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "No 150",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8880",
@@ -6758,7 +7003,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8880.JPG",
       "Images\\Box 11\\IMG_8881.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "30mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8882",
@@ -6770,7 +7022,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8882.JPG",
       "Images\\Box 11\\IMG_8883.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Yale",
+    "model": "",
+    "keys": 0,
+    "comments": "I picked it, it works.",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8884",
@@ -6782,7 +7041,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8884.JPG",
       "Images\\Box 11\\IMG_8885.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Tifon (IFAM)",
+    "model": "TF40",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8886",
@@ -6794,7 +7060,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8886.JPG",
       "Images\\Box 11\\IMG_8887.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "No 150",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8888",
@@ -6806,7 +7079,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8888.JPG",
       "Images\\Box 11\\IMG_8889.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "54TI/30",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8890",
@@ -6818,7 +7098,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8890.JPG",
       "Images\\Box 11\\IMG_8891.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "40mm",
+    "keys": 1,
+    "comments": "Silver",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8892",
@@ -6830,7 +7117,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8892.JPG",
       "Images\\Box 11\\IMG_8893.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "PAPIZ",
+    "model": "CR25",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8894",
@@ -6842,7 +7136,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8894.JPG",
       "Images\\Box 11\\IMG_8895.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "65/30",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8896",
@@ -6854,7 +7155,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8896.JPG",
       "Images\\Box 11\\IMG_8897.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "65/30",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8898",
@@ -6866,7 +7174,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8898.JPG",
       "Images\\Box 11\\IMG_8899.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "ABUS",
+    "model": "65/30",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8900",
@@ -6878,7 +7193,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8900.JPG",
       "Images\\Box 11\\IMG_8901.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Kasp",
+    "model": "12525",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8902",
@@ -6890,7 +7212,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8902.JPG",
       "Images\\Box 11\\IMG_8903.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Master",
+    "model": "No3",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8904",
@@ -6902,7 +7231,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8904.JPG",
       "Images\\Box 11\\IMG_8905.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Tifon (IFAM)",
+    "model": "TF30",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8906",
@@ -6914,7 +7250,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8906.JPG",
       "Images\\Box 11\\IMG_8907.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Lockwood",
+    "model": "120N/30",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8908",
@@ -6926,7 +7269,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8908.JPG",
       "Images\\Box 11\\IMG_8909.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Wolfdog",
+    "model": "",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8910",
@@ -6938,7 +7288,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8910.JPG",
       "Images\\Box 11\\IMG_8911.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Wolfdog",
+    "model": "",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8912",
@@ -6950,7 +7307,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8912.JPG",
       "Images\\Box 11\\IMG_8913.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "CHATEAU",
+    "model": "",
+    "keys": 0,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8914",
@@ -6962,7 +7326,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8914.JPG",
       "Images\\Box 11\\IMG_8915.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Yeti",
+    "model": "59",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8916",
@@ -6974,7 +7345,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8916.JPG",
       "Images\\Box 11\\IMG_8917.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Q",
+    "model": "40mm",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8918",
@@ -6986,7 +7364,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8918.JPG",
       "Images\\Box 11\\IMG_8919.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "IFAM",
+    "model": "E-40",
+    "keys": 1,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8920",
@@ -6998,7 +7383,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8920.JPG",
       "Images\\Box 11\\IMG_8921.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Alba",
+    "model": "N50",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8922",
@@ -7010,7 +7402,14 @@
     "photos": [
       "Images\\Box 11\\IMG_8922.JPG",
       "Images\\Box 11\\IMG_8923.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Squire",
+    "model": "LP8",
+    "keys": 2,
+    "comments": "",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8924",
@@ -7022,6 +7421,13 @@
     "photos": [
       "Images\\Box 11\\IMG_8924.JPG",
       "Images\\Box 11\\IMG_8925.JPG"
-    ]
+    ],
+    "format": "Padlock",
+    "brand": "Assorment",
+    "model": "",
+    "keys": 1,
+    "comments": "An assortment of 20mm padlocks",
+    "brandSource": null,
+    "readyForSale": true
   }
 ]
