@@ -58,8 +58,9 @@ interface Lock {
   brandSource?: string;
   keys?: number | null;
   comments?: string;
-  // Internal tracking only — never shown or sent on the published static
-  // site (see READ_ONLY below). Defaults to false until marked done.
+  // Marks a lock as done editing. The published site shows it only as a green
+  // border (no label); editing and filtering are local-only (see READ_ONLY
+  // below). Defaults to false until marked done.
   readyForSale?: boolean;
   [k: string]: unknown;
 }
@@ -315,8 +316,9 @@ interface LockCardProps {
 const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCopyCode, photoIndex }: LockCardProps) {
   const thumb = lock.photos[photoIndex] ?? lock.photos[0];
   const code = lockCode(lock, no);
-  // Internal-only status, never relevant on the published site — see READ_ONLY.
-  const showReady = !READ_ONLY && lock.readyForSale === true;
+  // The green border marks ready-for-sale locks on both sites; the "Ready for
+  // sale" chip is local-only (see READ_ONLY).
+  const showReady = lock.readyForSale === true;
   return (
     <Card sx={{ display: "flex", flexDirection: "column", ...(showReady && { outline: "2px solid", outlineColor: "success.main" }) }}>
       <Box sx={{ position: "relative" }}>
@@ -334,7 +336,7 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
             cursor: "pointer",
           }}
         />
-        {showReady && (
+        {showReady && !READ_ONLY && (
           <Chip
             label="Ready for sale"
             size="small"
@@ -468,8 +470,8 @@ export default function App() {
   const [query, setQuery] = useState(
     () => new URLSearchParams(window.location.search).get("q") ?? "",
   );
-  // Local-only view filter; meaningless on the published site since
-  // readyForSale never appears there — see READ_ONLY.
+  // Local-only view filter — its checkbox is hidden on the published site;
+  // see READ_ONLY.
   const [hideReady, setHideReady] = useState(
     () => new URLSearchParams(window.location.search).get("hideReady") === "1",
   );
@@ -687,9 +689,11 @@ export default function App() {
               sx={{ ml: "auto", mr: 0, "& .MuiFormControlLabel-label": { fontSize: "0.8125rem" } }}
             />
           )}
-          <Typography variant="caption" color="text.secondary" sx={{ ml: READ_ONLY ? "auto" : 0 }}>
-            {READ_ONLY ? "For sale — browse the collection" : "Editing view"}
-          </Typography>
+          {!READ_ONLY && (
+            <Typography variant="caption" color="text.secondary">
+              Editing view
+            </Typography>
+          )}
         </Toolbar>
       </AppBar>
 
