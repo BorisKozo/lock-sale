@@ -48,10 +48,11 @@
     ],
     "format": "Euro",
     "brand": "Mottura",
-    "model": "Don't know",
+    "model": "Champion C38",
     "keys": 1,
     "comments": "",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7807",
@@ -300,10 +301,11 @@
     ],
     "format": "Euro",
     "brand": "Yardeni",
-    "model": "Not sure",
+    "model": "Super XL",
     "keys": 5,
     "comments": "Brand new, never used",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7835",
@@ -318,10 +320,11 @@
     ],
     "format": "Euro",
     "brand": "Fichet",
-    "model": "Unknown",
+    "model": "Thirard Cobra",
     "keys": 1,
     "comments": "",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7837",
@@ -410,10 +413,11 @@
     ],
     "format": "Euro",
     "brand": "Tokoz",
-    "model": "Unknown",
+    "model": "Pro",
     "keys": 5,
     "comments": "Brand new, never used",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7847",
@@ -666,10 +670,11 @@
     ],
     "format": "Euro",
     "brand": "DOM",
-    "model": "Not sure",
+    "model": "I 10",
     "keys": 3,
     "comments": "Its the one where you can open with the outside key even if the inside key is inserted and turned",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7994",
@@ -684,10 +689,11 @@
     ],
     "format": "Euro",
     "brand": "Ruko",
-    "model": "Not sure",
+    "model": "500",
     "keys": 1,
     "comments": "",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_7996",
@@ -811,10 +817,11 @@
     ],
     "format": "Euro",
     "brand": "DOM",
-    "model": "Don't Know",
+    "model": "RS5",
     "keys": 3,
     "comments": "",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_8011",
@@ -939,10 +946,11 @@
     ],
     "format": "Euro",
     "brand": "ASSA",
-    "model": "Don't remember",
+    "model": "Twin Combi",
     "keys": 2,
     "comments": "Its the one with the finger side pins",
-    "readyForSale": true
+    "readyForSale": true,
+    "brandSource": null
   },
   {
     "id": "IMG_8031",
@@ -3460,11 +3468,12 @@
       "Images\\Box 5\\IMG_8363.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly SL",
-    "model": "",
-    "keys": 0,
+    "brand": "SuperLock",
+    "model": "Blocker",
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8364",
@@ -3499,9 +3508,10 @@
     "format": "Euro",
     "brand": "BKS",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8368",
@@ -3684,9 +3694,10 @@
     "format": "Euro",
     "brand": "FAB",
     "model": "",
-    "keys": 0,
+    "keys": 1,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8404",
@@ -4025,11 +4036,12 @@
       "Images\\Box 7\\IMG_8441.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Yale",
+    "brand": "TESA",
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8442",
@@ -4065,7 +4077,8 @@
     "model": "",
     "keys": 0,
     "comments": "",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8446",
@@ -4712,13 +4725,14 @@
       "Images\\Box 8\\IMG_8524.JPG",
       "Images\\Box 8\\IMG_8525.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Abus",
+    "format": "Padlock",
+    "brand": "Rolson",
     "model": "",
-    "keys": 0,
+    "keys": 2,
     "comments": "",
-    "brandSource": "ai-guess",
-    "readSource": "human-verified"
+    "brandSource": null,
+    "readSource": "human-verified",
+    "readyForSale": true
   },
   {
     "id": "IMG_8526",
@@ -4750,12 +4764,13 @@
       "Images\\Box 8\\IMG_8528.JPG",
       "Images\\Box 8\\IMG_8529.JPG"
     ],
-    "format": null,
+    "format": "Padlock",
     "brand": "Wynns Locks",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "keys": 1,
+    "comments": "One of those Chinese smiley face locks",
+    "brandSource": "ai-guess",
+    "readyForSale": true
   },
   {
     "id": "IMG_8530",
@@ -4786,13 +4801,14 @@
       "Images\\Box 8\\IMG_8532.JPG",
       "Images\\Box 8\\IMG_8533.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Master Lock",
+    "format": "Padlock",
+    "brand": "Generic",
     "model": "",
-    "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess",
-    "readSource": "human-verified"
+    "keys": 2,
+    "comments": "Generic Chinese disc detainer lock",
+    "brandSource": null,
+    "readSource": "human-verified",
+    "readyForSale": true
   },
   {
     "id": "IMG_8534",
@@ -4845,11 +4861,11 @@
     ],
     "format": "Camlock",
     "brand": "Medeco",
-    "model": "",
+    "model": "Duracam",
     "keys": 1,
     "comments": "",
     "brandSource": null,
-    "readyForSale": false
+    "readyForSale": true
   },
   {
     "id": "IMG_8540",
@@ -5537,8 +5553,12 @@
       "Images\\Box 9\\IMG_8623.JPG"
     ],
     "brand": "Illinois Lock Co.",
-    "model": "",
-    "brandSource": "ai-guess"
+    "model": "DUO",
+    "brandSource": "ai-guess",
+    "format": null,
+    "keys": 2,
+    "comments": "",
+    "readyForSale": true
   },
   {
     "id": "IMG_8624",
@@ -5581,8 +5601,13 @@
       "Images\\Box 9\\IMG_8628.JPG",
       "Images\\Box 9\\IMG_8629.JPG"
     ],
-    "brand": "",
-    "model": ""
+    "brand": "Generic",
+    "model": "",
+    "format": "Camlock",
+    "keys": 2,
+    "comments": "Generic Chinese sliders cam lock",
+    "brandSource": null,
+    "readyForSale": true
   },
   {
     "id": "IMG_8630",
@@ -5597,7 +5622,11 @@
     ],
     "brand": "Ruko",
     "model": "400",
-    "brandSource": "ai-guess"
+    "brandSource": "ai-guess",
+    "format": "Camlock",
+    "keys": 1,
+    "comments": "",
+    "readyForSale": false
   },
   {
     "id": "IMG_8632",
