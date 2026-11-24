@@ -358,7 +358,7 @@
     "readSource": "human-verified",
     "format": "Euro",
     "brand": "CEI",
-    "model": "Unknown",
+    "model": "Five Colors",
     "keys": 4,
     "comments": "Brand new, never used",
     "readyForSale": true
@@ -784,7 +784,8 @@
     "model": "Redline (or similar)",
     "keys": 5,
     "comments": "Its the one where the external key is different from the internal key because the external key needs to go all the way through the lock to open the internal part.",
-    "readyForSale": true
+    "readyForSale": true,
+    "sold": true
   },
   {
     "id": "IMG_8007",
@@ -798,7 +799,7 @@
       "Images\\Box 3\\IMG_8008.JPG"
     ],
     "format": "Euro",
-    "brand": "GEGE",
+    "brand": "Ge Ge",
     "model": "Don't know",
     "keys": 3,
     "comments": "",
@@ -950,7 +951,8 @@
     "keys": 2,
     "comments": "Its the one with the finger side pins",
     "readyForSale": true,
-    "brandSource": null
+    "brandSource": null,
+    "sold": true
   },
   {
     "id": "IMG_8031",
@@ -1019,7 +1021,7 @@
     ],
     "format": "Euro",
     "brand": "ASSA",
-    "model": "Not sure",
+    "model": "Twin Combi",
     "keys": 2,
     "comments": "Its again the one with the finger pins",
     "readyForSale": true
@@ -1055,7 +1057,7 @@
     ],
     "format": "Euro",
     "brand": "Vachette",
-    "model": "Generic",
+    "model": "HDI",
     "keys": 0,
     "comments": "",
     "readyForSale": true
@@ -1091,7 +1093,7 @@
     ],
     "format": "Euro",
     "brand": "ABUS",
-    "model": "",
+    "model": "C83",
     "keys": 2,
     "comments": "",
     "brandSource": null,
@@ -1226,7 +1228,7 @@
     "readSource": "human-photo1",
     "format": "Euro",
     "brand": "ABUS",
-    "model": "",
+    "model": "D10",
     "keys": 1,
     "comments": "This is a cutaway (I think factory) dimple pin Abus",
     "brandSource": null,
@@ -1264,7 +1266,7 @@
     ],
     "format": "Euro",
     "brand": "Magnum",
-    "model": "",
+    "model": "Pacific",
     "keys": 1,
     "comments": "Combines regular pins and sliders (or finger pins)",
     "brandSource": null,
@@ -1302,7 +1304,7 @@
     ],
     "format": "Euro",
     "brand": "Lince",
-    "model": "",
+    "model": "C4",
     "keys": 1,
     "comments": "I think its the one that has active pins on both sides (top and bottom)",
     "brandSource": null,
@@ -1340,7 +1342,7 @@
     ],
     "format": "Euro",
     "brand": "Winkhaus",
-    "model": "",
+    "model": "XR",
     "keys": 0,
     "comments": "Only one half of the lock",
     "brandSource": null,
@@ -1359,7 +1361,7 @@
     ],
     "format": "Euro",
     "brand": "Ge Ge",
-    "model": "",
+    "model": "Pextra",
     "keys": 1,
     "comments": "I think side pin is passive but not sure",
     "brandSource": null,
@@ -1378,7 +1380,7 @@
     ],
     "format": "Euro",
     "brand": "Medeco",
-    "model": "519",
+    "model": "Biaxial",
     "keys": 1,
     "comments": "Rotating pins",
     "brandSource": null,
@@ -1397,7 +1399,7 @@
     ],
     "format": "Euro",
     "brand": "Lince",
-    "model": "",
+    "model": "C4",
     "keys": 1,
     "comments": "",
     "brandSource": null,
@@ -1415,8 +1417,8 @@
       "Images\\Box 3\\IMG_8096.JPG"
     ],
     "format": "Swiss",
-    "brand": "Possibly Kaba",
-    "model": "",
+    "brand": "Ezcurra",
+    "model": "Sea 23",
     "keys": 1,
     "comments": "This is a sliders lock apparently, I saw a video of it being picked once but I don't remember where. ",
     "brandSource": null,
@@ -1434,8 +1436,8 @@
       "Images\\Box 3\\IMG_8098.JPG"
     ],
     "format": "Euro",
-    "brand": "GE GE",
-    "model": "",
+    "brand": "Ge Ge",
+    "model": "Pextra",
     "keys": 1,
     "comments": "",
     "brandSource": null,
@@ -1758,7 +1760,7 @@
     ],
     "format": "Euro",
     "brand": "CES",
-    "model": "",
+    "model": "810",
     "keys": 1,
     "comments": "",
     "brandSource": null,
@@ -2119,7 +2121,7 @@
     ],
     "format": "Euro",
     "brand": "ISEO",
-    "model": "",
+    "model": "F5",
     "keys": 0,
     "comments": "Half Euro",
     "brandSource": null,
@@ -2138,7 +2140,7 @@
     ],
     "format": "Euro",
     "brand": "ABUS",
-    "model": "Extra Classe",
+    "model": "D10",
     "keys": 0,
     "comments": "",
     "brandSource": null,
@@ -2157,7 +2159,7 @@
     ],
     "format": "Euro",
     "brand": "DOM",
-    "model": "",
+    "model": "SV",
     "keys": 0,
     "comments": "",
     "brandSource": null,
@@ -2195,7 +2197,7 @@
     ],
     "format": "Euro",
     "brand": "ASSA",
-    "model": "",
+    "model": "Combi 1800",
     "keys": 0,
     "comments": "",
     "brandSource": null,
@@ -2251,7 +2253,7 @@
       "Images\\Box 4\\IMG_8204.JPG"
     ],
     "format": "Euro",
-    "brand": "GEGE",
+    "brand": "Ge Ge",
     "model": "",
     "keys": 1,
     "comments": "",
@@ -2404,7 +2406,7 @@
     ],
     "format": "Euro",
     "brand": "CES",
-    "model": "",
+    "model": "WZ",
     "keys": 0,
     "comments": "",
     "brandSource": null,
@@ -2631,7 +2633,7 @@
       "Images\\Box 5\\IMG_8255.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -2722,7 +2724,7 @@
       "Images\\Box 5\\IMG_8265.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -2740,8 +2742,8 @@
       "Images\\Box 5\\IMG_8267.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Kaba",
-    "model": "",
+    "brand": "Mul-T-Lock",
+    "model": "Classic Pro",
     "keys": 0,
     "comments": "",
     "brandSource": "ai-guess"
@@ -2832,7 +2834,7 @@
       "Images\\Box 5\\IMG_8279.JPG"
     ],
     "format": "Euro",
-    "brand": "GE GE",
+    "brand": "Ge Ge",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -2905,7 +2907,7 @@
       "Images\\Box 5\\IMG_8288.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3014,7 +3016,7 @@
       "Images\\Box 5\\IMG_8307.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3068,7 +3070,7 @@
       "Images\\Box 5\\IMG_8315.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3487,7 +3489,7 @@
       "Images\\Box 5\\IMG_8365.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3507,7 +3509,7 @@
     ],
     "format": "Euro",
     "brand": "BKS",
-    "model": "",
+    "model": "88",
     "keys": 1,
     "comments": "",
     "brandSource": "ai-guess",
@@ -3564,7 +3566,7 @@
     ],
     "format": "Euro",
     "brand": "KESO",
-    "model": "",
+    "model": "10RS",
     "keys": 2,
     "comments": "",
     "brandSource": null,
@@ -3583,7 +3585,7 @@
     ],
     "readSource": "human-photo1",
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3674,7 +3676,7 @@
       "Images\\Box 7\\IMG_8401.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3711,7 +3713,7 @@
       "Images\\Box 7\\IMG_8405.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3729,7 +3731,7 @@
       "Images\\Box 7\\IMG_8407.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3765,7 +3767,7 @@
       "Images\\Box 7\\IMG_8411.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3783,7 +3785,7 @@
       "Images\\Box 7\\IMG_8413.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3856,7 +3858,7 @@
       "Images\\Box 7\\IMG_8421.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3910,7 +3912,7 @@
       "Images\\Box 7\\IMG_8427.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -3964,7 +3966,7 @@
       "Images\\Box 7\\IMG_8433.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4000,7 +4002,7 @@
       "Images\\Box 7\\IMG_8437.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4182,7 +4184,7 @@
       "Images\\Box 7\\IMG_8457.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4308,7 +4310,7 @@
       "Images\\Box 7\\IMG_8471.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4344,7 +4346,7 @@
       "Images\\Box 7\\IMG_8475.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4380,7 +4382,7 @@
       "Images\\Box 7\\IMG_8479.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4524,7 +4526,7 @@
       "Images\\Box 7\\IMG_8495.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4578,7 +4580,7 @@
       "Images\\Box 7\\IMG_8501.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4651,7 +4653,7 @@
       "Images\\Box 7\\IMG_8509.JPG"
     ],
     "format": "Euro",
-    "brand": "Possibly Mul-T-Lock",
+    "brand": "Mul-T-Lock",
     "model": "",
     "keys": 0,
     "comments": "",
@@ -4674,7 +4676,8 @@
     "keys": 1,
     "comments": "",
     "brandSource": null,
-    "readyForSale": true
+    "readyForSale": true,
+    "sold": true
   },
   {
     "id": "IMG_8520",
@@ -4783,12 +4786,12 @@
       "Images\\Box 8\\IMG_8530.JPG",
       "Images\\Box 8\\IMG_8531.JPG"
     ],
-    "format": null,
-    "brand": "Possibly Nixonswitch/Zidane",
+    "format": "Padlock",
+    "brand": "Hongzhen",
     "model": "",
     "keys": 0,
-    "comments": "",
-    "brandSource": "ai-guess"
+    "comments": "Alarm padlock (ON/OFF siren switch on the bottom)",
+    "brandSource": null
   },
   {
     "id": "IMG_8532",
@@ -4898,12 +4901,13 @@
       "Images\\Box 8\\IMG_8543.JPG"
     ],
     "format": "Core",
-    "brand": "Russwin",
-    "model": "",
+    "brand": "Corbin Russwin",
+    "model": "Master Ring",
     "keys": 2,
     "comments": "There was something special about those but I forgot what.",
     "brandSource": null,
-    "readyForSale": true
+    "readyForSale": true,
+    "sold": true
   },
   {
     "id": "IMG_8544",
@@ -5107,7 +5111,7 @@
     "readSource": "human-verified",
     "format": "Core",
     "brand": "Russwin",
-    "model": "",
+    "model": "Master Ring",
     "keys": 1,
     "comments": "There was something special about those but I can't remember what ",
     "brandSource": null,
@@ -5558,7 +5562,8 @@
     "format": null,
     "keys": 2,
     "comments": "",
-    "readyForSale": true
+    "readyForSale": true,
+    "sold": true
   },
   {
     "id": "IMG_8624",
