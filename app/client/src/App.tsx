@@ -62,6 +62,8 @@ interface Lock {
   // border (no label); editing and filtering are local-only (see READ_ONLY
   // below). Defaults to false until marked done.
   readyForSale?: boolean;
+  // Already sold: shown as "Sold" locally, hidden entirely on the published site.
+  sold?: boolean;
   [k: string]: unknown;
 }
 
@@ -74,6 +76,7 @@ interface LockEdits {
   comments: string;
   brandSource: string | null;
   readyForSale: boolean;
+  sold: boolean;
 }
 
 function toEdits(lock: Lock): LockEdits {
@@ -85,6 +88,7 @@ function toEdits(lock: Lock): LockEdits {
     comments: lock.comments ?? "",
     brandSource: lock.brandSource ?? null,
     readyForSale: lock.readyForSale === true,
+    sold: lock.sold === true,
   };
 }
 
@@ -101,7 +105,7 @@ function matchesQuery(lock: Lock, no: number, query: string): boolean {
     lock.model,
     lock.comments,
     lock.needsReview ? "Needs review" : "",
-    !READ_ONLY && lock.readyForSale === true ? "Ready for sale" : "",
+    !READ_ONLY ? (lock.sold === true ? "Sold" : lock.readyForSale === true ? "Ready for sale" : "") : "",
   ]
     .join(" ")
     .toLowerCase();
@@ -318,9 +322,19 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
   const code = lockCode(lock, no);
   // The green border marks ready-for-sale locks on both sites; the "Ready for
   // sale" chip is local-only (see READ_ONLY).
-  const showReady = lock.readyForSale === true;
+  // Sold locks (local-only; filtered out of the published site) replace the
+  // ready-for-sale styling with a grey outline and a "Sold" chip.
+  const sold = lock.sold === true;
+  const showReady = !sold && lock.readyForSale === true;
   return (
-    <Card sx={{ display: "flex", flexDirection: "column", ...(showReady && { outline: "2px solid", outlineColor: "success.main" }) }}>
+    <Card
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        ...(showReady && { outline: "2px solid", outlineColor: "success.main" }),
+        ...(sold && { outline: "2px solid", outlineColor: "grey.500" }),
+      }}
+    >
       <Box sx={{ position: "relative" }}>
         <Box
           component="img"
@@ -342,6 +356,13 @@ const LockCard = memo(function LockCard({ lock, no, onPreview, onOpenEdit, onCop
             size="small"
             color="success"
             sx={{ position: "absolute", top: 6, left: 6, fontWeight: 600 }}
+          />
+        )}
+        {sold && !READ_ONLY && (
+          <Chip
+            label="Sold"
+            size="small"
+            sx={{ position: "absolute", top: 6, left: 6, fontWeight: 600, bgcolor: "grey.800", color: "common.white" }}
           />
         )}
         {lock.photos.length > 1 && (
@@ -529,8 +550,13 @@ export default function App() {
   // Pair each lock with its catalog.json row number (1-based) BEFORE filtering,
   // so the number stays stable under search instead of reflecting the filtered
   // position — needed since row numbers are how corrections get referenced.
+  // Sold locks are dropped from the published site AFTER numbering, so the
+  // remaining locks keep their row numbers (and codes).
   const numberedLocks = useMemo(
-    () => locks?.map((lock, i) => ({ lock, no: i + 1 })) ?? null,
+    () =>
+      locks
+        ?.map((lock, i) => ({ lock, no: i + 1 }))
+        .filter(({ lock }) => !(READ_ONLY && lock.sold === true)) ?? null,
     [locks],
   );
 
@@ -547,7 +573,7 @@ export default function App() {
     return numberedLocks.filter(
       ({ lock, no }) =>
         (q === "" || matchesQuery(lock, no, q)) &&
-        (!deferredHideReady || lock.readyForSale !== true),
+        (!deferredHideReady || (lock.readyForSale !== true && lock.sold !== true)),
     );
   }, [numberedLocks, deferredQuery, deferredHideReady]);
 
@@ -646,6 +672,7 @@ export default function App() {
       comments: edits.comments,
       brandSource: edits.brandSource,
       readyForSale: edits.readyForSale,
+      sold: edits.sold,
     };
     try {
       const res = await fetch(`/api/locks/${encodeURIComponent(editing.id)}`, {
@@ -743,7 +770,7 @@ export default function App() {
             />
             <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ mb: 1 }}>
               <Typography variant="caption" color="text.secondary">
-                {filteredLocks!.length} of {locks.length} locks
+                {filteredLocks!.length} of {numberedLocks!.length} locks
               </Typography>
               <ToggleButtonGroup
                 size="small"
@@ -920,6 +947,15 @@ export default function App() {
                     />
                   }
                   label="Ready for sale (done editing this lock)"
+                />
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={edits.sold}
+                      onChange={(e) => setEdits({ ...edits, sold: e.target.checked })}
+                    />
+                  }
+                  label="Sold (hidden on the public site)"
                 />
               </Box>
             )}
